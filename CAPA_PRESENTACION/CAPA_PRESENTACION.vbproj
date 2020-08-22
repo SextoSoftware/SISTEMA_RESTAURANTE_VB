@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBADAB99-B4DB-4A0F-9054-A3B408FA65C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CAPA_PRESENTACION.My.MyApplication</StartupObject>
+    <RootNamespace>CAPA_PRESENTACION</RootNamespace>
+    <AssemblyName>CAPA_PRESENTACION</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CAPA_PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CAPA_PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.10.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.10.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.10.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Basic 2005 Power Packs\3.0\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="barrica_bdDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>barrica_bdDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIAR_SECCION.Designer.vb">
+      <DependentUpon>INICIAR_SECCION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIAR_SECCION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_PRINCIPAL.Designer.vb">
+      <DependentUpon>MENU_PRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Datos.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecargarListView.vb" />
+    <Compile Include="REPORTES\DataSet_Restaurante.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Restaurante.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_BOLETA.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_BOLETA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_BOLETA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_COMANDA.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_COMANDA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_COMANDA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_MENU_DIA.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_MENU_DIA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_MENU_DIA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_ORDEN_COMPRA.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_ORDEN_COMPRA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_ORDEN_COMPRA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_PRODUCTO.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_PRODUCTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_PRODUCTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_STOCK_PRODUCTO.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_STOCK_PRODUCTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_STOCK_PRODUCTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_TOP_PRODUCTOS_VEN.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_TOP_PRODUCTOS_VEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_TOP_PRODUCTOS_VEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_DETALLE_ESTADO.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_VENTAS_DETALLE_ESTADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_DETALLE_ESTADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_VENTAS_FECHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS_DETALLE.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_VENTAS_FECHAS_DETALLE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS_DETALLE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTA_DIA_GRAFICO.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_VENTA_DIA_GRAFICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_VENTA_DIA_GRAFICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_ABASTECER.Designer.vb">
+      <DependentUpon>WFrm_ABASTECER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_ABASTECER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_BuscarProducto.Designer.vb">
+      <DependentUpon>WFrm_BuscarProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_BuscarProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_BuscarProveedor.Designer.vb">
+      <DependentUpon>WFrm_BuscarProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_BuscarProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_Cantidad.Designer.vb">
+      <DependentUpon>WFrm_Cantidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_Cantidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_Cantidad_Notas.Designer.vb">
+      <DependentUpon>WFrm_Cantidad_Notas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_Cantidad_Notas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_CATEGORIA_PLATO.Designer.vb">
+      <DependentUpon>WFrm_CATEGORIA_PLATO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_CATEGORIA_PLATO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_CLIENTE.Designer.vb">
+      <DependentUpon>WFrm_CLIENTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_CLIENTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_COMANDA.Designer.vb">
+      <DependentUpon>WFrm_COMANDA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_COMANDA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_DISEÑO_MESAS.Designer.vb">
+      <DependentUpon>WFrm_DISEÑO_MESAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_DISEÑO_MESAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wfrm_INGREDIENTES.Designer.vb">
+      <DependentUpon>Wfrm_INGREDIENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Wfrm_INGREDIENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_MENU_DIA_LISTADO.Designer.vb">
+      <DependentUpon>WFrm_MENU_DIA_LISTADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_MENU_DIA_LISTADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_MENU_DIA.Designer.vb">
+      <DependentUpon>WFrm_MENU_DIA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_MENU_DIA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_MOZO.Designer.vb">
+      <DependentUpon>WFrm_MOZO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_MOZO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_COMANDAS.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_COMANDAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\WFrm_REPORTE_COMANDAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_REPORTE_BOLETAS.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_BOLETAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_REPORTE_BOLETAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_REPORTE_TOP_PRODUCTO_GRAFICO.Designer.vb">
+      <DependentUpon>WFrm_REPORTE_TOP_PRODUCTO_GRAFICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_REPORTE_TOP_PRODUCTO_GRAFICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_USUARIO.Designer.vb">
+      <DependentUpon>WFrm_USUARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_USUARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_MESA.Designer.vb">
+      <DependentUpon>WFrm_MESA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_MESA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_ORDEN_COMPRA.Designer.vb">
+      <DependentUpon>WFrm_ORDEN_COMPRA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_ORDEN_COMPRA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_PLATO.Designer.vb">
+      <DependentUpon>WFrm_PLATO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_PLATO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_PRODUCTO.Designer.vb">
+      <DependentUpon>WFrm_PRODUCTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_PRODUCTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_PROVEEDOR.Designer.vb">
+      <DependentUpon>WFrm_PROVEEDOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_PROVEEDOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_RESERVACIONvb.Designer.vb">
+      <DependentUpon>WFrm_RESERVACIONvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_RESERVACIONvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WFrm_TIPOPRODCUTO.Designer.vb">
+      <DependentUpon>WFrm_TIPOPRODCUTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WFrm_TIPOPRODCUTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIAR_SECCION.resx">
+      <DependentUpon>INICIAR_SECCION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_PRINCIPAL.resx">
+      <DependentUpon>MENU_PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\Reporte_Productos.rdlc" />
+    <EmbeddedResource Include="REPORTES\Reporte_Producto_Top_Grafico.rdlc" />
+    <EmbeddedResource Include="REPORTES\Reporte_TopProductosVendidos.rdlc" />
+    <EmbeddedResource Include="REPORTES\Reporte_Ventas_Dias_Grafico.rdlc" />
+    <EmbeddedResource Include="REPORTES\Reporte_Ventas_Fechas_Detallado.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_Boleta.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_Boletas.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_Comanda.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_ComandaS.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_MenDia.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_MenuDiaInterno.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_OrdenCompra.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_ProductoStock.rdlc" />
+    <EmbeddedResource Include="REPORTES\Report_Ventas_Fechas.rdlc" />
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_BOLETA.resx">
+      <DependentUpon>WFrm_REPORTE_BOLETA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_COMANDA.resx">
+      <DependentUpon>WFrm_REPORTE_COMANDA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_COMANDAS.resx">
+      <DependentUpon>WFrm_REPORTE_COMANDAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_MENU_DIA.resx">
+      <DependentUpon>WFrm_REPORTE_MENU_DIA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_ORDEN_COMPRA.resx">
+      <DependentUpon>WFrm_REPORTE_ORDEN_COMPRA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_PRODUCTO.resx">
+      <DependentUpon>WFrm_REPORTE_PRODUCTO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_STOCK_PRODUCTO.resx">
+      <DependentUpon>WFrm_REPORTE_STOCK_PRODUCTO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_TOP_PRODUCTOS_VEN.resx">
+      <DependentUpon>WFrm_REPORTE_TOP_PRODUCTOS_VEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\Reporte_TopProductosVendidosFechas.rdlc" />
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_VENTAS_DETALLE_ESTADO.rdlc" />
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_VENTAS_DETALLE_ESTADO.resx">
+      <DependentUpon>WFrm_REPORTE_VENTAS_DETALLE_ESTADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS.resx">
+      <DependentUpon>WFrm_REPORTE_VENTAS_FECHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_VENTAS_FECHAS_DETALLE.resx">
+      <DependentUpon>WFrm_REPORTE_VENTAS_FECHAS_DETALLE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\WFrm_REPORTE_VENTA_DIA_GRAFICO.resx">
+      <DependentUpon>WFrm_REPORTE_VENTA_DIA_GRAFICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_ABASTECER.resx">
+      <DependentUpon>WFrm_ABASTECER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_BuscarProducto.resx">
+      <DependentUpon>WFrm_BuscarProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_BuscarProveedor.resx">
+      <DependentUpon>WFrm_BuscarProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_Cantidad.resx">
+      <DependentUpon>WFrm_Cantidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_Cantidad_Notas.resx">
+      <DependentUpon>WFrm_Cantidad_Notas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_CATEGORIA_PLATO.resx">
+      <DependentUpon>WFrm_CATEGORIA_PLATO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_CLIENTE.resx">
+      <DependentUpon>WFrm_CLIENTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_COMANDA.resx">
+      <DependentUpon>WFrm_COMANDA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_DISEÑO_MESAS.resx">
+      <DependentUpon>WFrm_DISEÑO_MESAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wfrm_INGREDIENTES.resx">
+      <DependentUpon>Wfrm_INGREDIENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_MENU_DIA.resx">
+      <DependentUpon>WFrm_MENU_DIA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_MENU_DIA_LISTADO.resx">
+      <DependentUpon>WFrm_MENU_DIA_LISTADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_MOZO.resx">
+      <DependentUpon>WFrm_MOZO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_REPORTE_BOLETAS.resx">
+      <DependentUpon>WFrm_REPORTE_BOLETAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_REPORTE_TOP_PRODUCTO_GRAFICO.resx">
+      <DependentUpon>WFrm_REPORTE_TOP_PRODUCTO_GRAFICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_USUARIO.resx">
+      <DependentUpon>WFrm_USUARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_MESA.resx">
+      <DependentUpon>WFrm_MESA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_ORDEN_COMPRA.resx">
+      <DependentUpon>WFrm_ORDEN_COMPRA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_PLATO.resx">
+      <DependentUpon>WFrm_PLATO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_PRODUCTO.resx">
+      <DependentUpon>WFrm_PRODUCTO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_PROVEEDOR.resx">
+      <DependentUpon>WFrm_PROVEEDOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_RESERVACIONvb.resx">
+      <DependentUpon>WFrm_RESERVACIONvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFrm_TIPOPRODCUTO.resx">
+      <DependentUpon>WFrm_TIPOPRODCUTO.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="barrica_bdDataSet.xsc">
+      <DependentUpon>barrica_bdDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="barrica_bdDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>barrica_bdDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="barrica_bdDataSet.xss">
+      <DependentUpon>barrica_bdDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="REPORTES\DataSet_Restaurante.xsc">
+      <DependentUpon>DataSet_Restaurante.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTES\DataSet_Restaurante.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Restaurante.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="REPORTES\DataSet_Restaurante.xss">
+      <DependentUpon>DataSet_Restaurante.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\SEGURIDAD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MESA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_ENTIDAD\CAPA_ENTIDAD.vbproj">
+      <Project>{B679B6E1-2753-4664-8BDD-4A8274B459B8}</Project>
+      <Name>CAPA_ENTIDAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAPA_NEGOCIO\CAPA_NEGOCIO.vbproj">
+      <Project>{6EC5C38F-84A0-4E35-AC66-CB6BDF5D5AF1}</Project>
+      <Name>CAPA_NEGOCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife-fork-plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLATO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CATE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TIPO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMPRA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO LISTA 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGINX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logotipo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-mozo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
