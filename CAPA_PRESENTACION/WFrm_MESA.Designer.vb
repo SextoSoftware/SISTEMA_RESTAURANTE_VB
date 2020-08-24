@@ -134,7 +134,7 @@ Partial Class WFrm_Mesa
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Panel1.BackColor = System.Drawing.Color.Maroon
         Me.Panel1.Location = New System.Drawing.Point(12, 10)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(327, 299)
@@ -226,7 +226,7 @@ Partial Class WFrm_Mesa
         Me.ButttonModificar.Name = "ButttonModificar"
         Me.ButttonModificar.Size = New System.Drawing.Size(92, 25)
         Me.ButttonModificar.TabIndex = 30
-        Me.ButttonModificar.Text = "MODIFICAR"
+        Me.ButttonModificar.Text = "ACTUALIZAR"
         '
         'RadioButtonInactivo
         '
@@ -234,7 +234,7 @@ Partial Class WFrm_Mesa
         Me.RadioButtonInactivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonInactivo.Enabled = False
         Me.RadioButtonInactivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonInactivo, True)
         Me.RadioButtonInactivo.Location = New System.Drawing.Point(154, 63)
         Me.RadioButtonInactivo.Name = "RadioButtonInactivo"
@@ -262,7 +262,7 @@ Partial Class WFrm_Mesa
         Me.RadioButtonActivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonActivo.Checked = True
         Me.RadioButtonActivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonActivo, True)
         Me.RadioButtonActivo.Location = New System.Drawing.Point(84, 64)
         Me.RadioButtonActivo.Name = "RadioButtonActivo"
@@ -299,7 +299,7 @@ Partial Class WFrm_Mesa
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(19, 64)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 15)
@@ -311,7 +311,7 @@ Partial Class WFrm_Mesa
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(19, 23)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(61, 15)

@@ -171,7 +171,7 @@ Partial Class WFrm_ORDEN_COMPRA
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(14, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(90, 15)
@@ -239,7 +239,7 @@ Partial Class WFrm_ORDEN_COMPRA
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(4, 11)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(161, 15)
@@ -416,7 +416,7 @@ Partial Class WFrm_ORDEN_COMPRA
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(14, 13)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 15)
@@ -491,7 +491,7 @@ Partial Class WFrm_ORDEN_COMPRA
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Panel1.BackColor = System.Drawing.Color.Maroon
         Me.Panel1.Controls.Add(Me.Dg_Proveedores)
         Me.Panel1.Location = New System.Drawing.Point(7, 69)
         Me.Panel1.Name = "Panel1"
@@ -546,7 +546,7 @@ Partial Class WFrm_ORDEN_COMPRA
         Me.RadioButtonNomComp.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonNomComp.Checked = True
         Me.RadioButtonNomComp.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonNomComp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonNomComp.ForeColor = System.Drawing.Color.Black
         Me.RadioButtonNomComp.Location = New System.Drawing.Point(27, 12)
         Me.RadioButtonNomComp.Name = "RadioButtonNomComp"
         Me.RadioButtonNomComp.Size = New System.Drawing.Size(74, 19)
@@ -580,7 +580,7 @@ Partial Class WFrm_ORDEN_COMPRA
         Me.RadioButtonRuc.AutoSize = True
         Me.RadioButtonRuc.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonRuc.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonRuc.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonRuc.ForeColor = System.Drawing.Color.Black
         Me.RadioButtonRuc.Location = New System.Drawing.Point(28, 38)
         Me.RadioButtonRuc.Name = "RadioButtonRuc"
         Me.RadioButtonRuc.Size = New System.Drawing.Size(52, 19)

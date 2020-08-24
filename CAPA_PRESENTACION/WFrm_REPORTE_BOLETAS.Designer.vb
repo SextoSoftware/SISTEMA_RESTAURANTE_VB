@@ -72,6 +72,7 @@ Partial Class WFrm_REPORTE_BOLETAS
         Me.MinimumSize = New System.Drawing.Size(402, 524)
         Me.Name = "WFrm_REPORTE_BOLETAS"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "REPORTE: BOLETA"
         CType(Me.PA_ReportarBoletasBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

@@ -37,7 +37,7 @@ Partial Class WFrm_Cantidad_Notas
         Me.ButtonX4.BackColor = System.Drawing.Color.White
         Me.ButtonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.ButtonX4.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonX4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
+        'Me.ButtonX4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
         Me.ButtonX4.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right
         Me.ButtonX4.Location = New System.Drawing.Point(24, 38)
         Me.ButtonX4.Name = "ButtonX4"
@@ -63,7 +63,7 @@ Partial Class WFrm_Cantidad_Notas
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(5, 9)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(127, 15)
@@ -75,7 +75,7 @@ Partial Class WFrm_Cantidad_Notas
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(5, 80)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(129, 15)

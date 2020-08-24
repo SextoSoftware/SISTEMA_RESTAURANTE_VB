@@ -1,104 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
-  <DataSources>
-    <DataSource Name="DataSet_Restaurante">
-      <ConnectionProperties>
-        <DataProvider>System.Data.DataSet</DataProvider>
-        <ConnectString>/* Local Connection */</ConnectString>
-      </ConnectionProperties>
-      <rd:DataSourceID>959a6d9f-aa4a-4222-8dd3-8ca2685698e4</rd:DataSourceID>
-    </DataSource>
-  </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet1">
-      <Fields>
-        <Field Name="cantidad_vendida">
-          <DataField>cantidad_vendida</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="IdProducto">
-          <DataField>IdProducto</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Nombre">
-          <DataField>Nombre</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Nombre1">
-          <DataField>Nombre1</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Precio">
-          <DataField>Precio</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="montototal">
-          <DataField>montototal</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Column1">
-          <DataField>Column1</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSet_Restaurante</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
-        <rd:SchemaPath>D:\SISTEMA_RESTAURANTE_SAMARITANA\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
-        <rd:TableName>PA_ReporteTopProductosVendidos</rd:TableName>
-        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
-        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>PA_ReporteTopProductosVendidosTableAdapter</rd:TableAdapterName>
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="DataSet2">
-      <Fields>
-        <Field Name="cantidad_vendida">
-          <DataField>cantidad_vendida</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="IdPlato">
-          <DataField>IdPlato</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Nombre">
-          <DataField>Nombre</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Nombre1">
-          <DataField>Nombre1</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Precio">
-          <DataField>Precio</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="montototal">
-          <DataField>montototal</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Column1">
-          <DataField>Column1</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSet_Restaurante</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
-        <rd:SchemaPath>D:\SISTEMA_RESTAURANTE_SAMARITANA\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
-        <rd:TableName>PA_ReporteTopPlatosVendidos</rd:TableName>
-        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
-        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>PA_ReporteTopPlatosVendidosTableAdapter</rd:TableAdapterName>
-      </rd:DataSetInfo>
-    </DataSet>
-  </DataSets>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
       <Textbox Name="Textbox7">
@@ -113,7 +14,6 @@
                   <FontFamily>Cambria</FontFamily>
                   <FontSize>11pt</FontSize>
                   <FontWeight>Bold</FontWeight>
-                  <Color>Purple</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -147,7 +47,6 @@
                   <FontFamily>Cambria</FontFamily>
                   <FontSize>11pt</FontSize>
                   <FontWeight>Bold</FontWeight>
-                  <Color>Purple</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -209,24 +108,24 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.70092in</Width>
+              <Width>1.78034cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.103in</Width>
+              <Width>5.34162cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.17592in</Width>
+              <Width>2.98684cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.978in</Width>
+              <Width>2.48412cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.19675in</Width>
+              <Width>3.03974cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.3508in</Height>
+              <Height>0.89103cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -257,7 +156,7 @@
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>6pt</PaddingTop>
@@ -295,7 +194,7 @@
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>6pt</PaddingTop>
@@ -333,7 +232,7 @@
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>6pt</PaddingTop>
@@ -356,7 +255,7 @@ PRODUCTO V.</Value>
                               <Style>
                                 <FontFamily>Cambria</FontFamily>
                                 <FontWeight>Bold</FontWeight>
-                                <Color>Red</Color>
+                                <Color>Gold</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -372,7 +271,7 @@ PRODUCTO V.</Value>
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -410,7 +309,7 @@ PRODUCTO V.</Value>
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>6pt</PaddingTop>
@@ -422,7 +321,7 @@ PRODUCTO V.</Value>
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.34039in</Height>
+              <Height>0.86459cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -655,7 +554,6 @@ PRODUCTO V.</Value>
                   <FontFamily>Cambria</FontFamily>
                   <FontSize>11pt</FontSize>
                   <FontWeight>Bold</FontWeight>
-                  <Color>Purple</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -690,7 +588,6 @@ PRODUCTO V.</Value>
                   <FontFamily>Cambria</FontFamily>
                   <FontSize>11pt</FontSize>
                   <FontWeight>Bold</FontWeight>
-                  <Color>Purple</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -752,24 +649,24 @@ PRODUCTO V.</Value>
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.70092in</Width>
+              <Width>1.78034cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.103in</Width>
+              <Width>5.34162cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.16967in</Width>
+              <Width>2.97096cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.98425in</Width>
+              <Width>2.49999cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.19675in</Width>
+              <Width>3.03974cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.34559in</Height>
+              <Height>0.8778cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -799,7 +696,7 @@ PRODUCTO V.</Value>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -836,7 +733,7 @@ PRODUCTO V.</Value>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -873,7 +770,7 @@ PRODUCTO V.</Value>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -895,7 +792,7 @@ PRODUCTO V.</Value>
                               <Style>
                                 <FontFamily>Cambria</FontFamily>
                                 <FontWeight>Bold</FontWeight>
-                                <Color>Red</Color>
+                                <Color>Gold</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -910,7 +807,7 @@ PRODUCTO V.</Value>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -947,7 +844,7 @@ PRODUCTO V.</Value>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -959,7 +856,7 @@ PRODUCTO V.</Value>
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.34559in</Height>
+              <Height>0.8778cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1193,6 +1090,106 @@ PRODUCTO V.</Value>
     <ColumnSpacing>0.13cm</ColumnSpacing>
     <Style />
   </Page>
-  <rd:ReportID>95de669b-8597-4312-856c-f0a48a06307c</rd:ReportID>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSet_Restaurante">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>959a6d9f-aa4a-4222-8dd3-8ca2685698e4</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSet_Restaurante</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="cantidad_vendida">
+          <DataField>cantidad_vendida</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdProducto">
+          <DataField>IdProducto</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nombre1">
+          <DataField>Nombre1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Precio">
+          <DataField>Precio</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="montototal">
+          <DataField>montototal</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Column1">
+          <DataField>Column1</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
+        <rd:SchemaPath>D:\SISTEMA_RESTAURANTE_SAMARITANA\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
+        <rd:TableName>PA_ReporteTopProductosVendidos</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>PA_ReporteTopProductosVendidosTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>DataSet_Restaurante</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="cantidad_vendida">
+          <DataField>cantidad_vendida</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdPlato">
+          <DataField>IdPlato</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nombre1">
+          <DataField>Nombre1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Precio">
+          <DataField>Precio</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="montototal">
+          <DataField>montototal</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Column1">
+          <DataField>Column1</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
+        <rd:SchemaPath>D:\SISTEMA_RESTAURANTE_SAMARITANA\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
+        <rd:TableName>PA_ReporteTopPlatosVendidos</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>PA_ReporteTopPlatosVendidosTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>95de669b-8597-4312-856c-f0a48a06307c</rd:ReportID>
 </Report>

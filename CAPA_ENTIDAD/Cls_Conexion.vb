@@ -3,7 +3,7 @@ Public Class Cls_Conexion
     Public cn As New SqlConnection
     Public Function conectar() As Boolean
         Try
-            cn = New SqlConnection("Data Source=ACERPREDATOR;Initial Catalog=BARRICA2;Integrated Security=True")
+            cn = New SqlConnection("Data Source=ACERPREDATOR;Initial Catalog=SextoSoftware;Integrated Security=True")
             cn.Open()
             Return True
 

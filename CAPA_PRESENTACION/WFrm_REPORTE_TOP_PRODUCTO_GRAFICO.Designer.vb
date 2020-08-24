@@ -164,7 +164,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         Me.MinimumSize = New System.Drawing.Size(1082, 578)
         Me.Name = "WFrm_REPORTE_TOP_PRODUCTO_GRAFICO"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Reporte : Ranking de Productos y Platos"
+        Me.Text = "REPORTE: RANKING DE PRODUCTOS Y PLATOS"
         CType(Me.PA_ReporteTopProductoGraficoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PA_ReporteTopPlatoGraficoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

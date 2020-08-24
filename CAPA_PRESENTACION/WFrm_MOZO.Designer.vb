@@ -234,13 +234,13 @@ Partial Class WFrm_MOZO
         Me.txtDNI.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
         Me.txtDNI.ForeColor = System.Drawing.Color.Black
         Me.txtDNI.Location = New System.Drawing.Point(109, 16)
-        Me.txtDNI.MaxLength = 9
+        Me.txtDNI.MaxLength = 10
         Me.txtDNI.Name = "txtDNI"
         Me.txtDNI.Size = New System.Drawing.Size(118, 23)
         Me.txtDNI.TabIndex = 43
         Me.txtDNI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtDNI.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDNI.WatermarkText = "9 digistos del 0-9"
+        Me.txtDNI.WatermarkText = "10 digistos del 0-9"
         '
         'TextBox1
         '
@@ -274,7 +274,7 @@ Partial Class WFrm_MOZO
         Me.ButttonModificar.Name = "ButttonModificar"
         Me.ButttonModificar.Size = New System.Drawing.Size(92, 28)
         Me.ButttonModificar.TabIndex = 30
-        Me.ButttonModificar.Text = "MODIFICAR"
+        Me.ButttonModificar.Text = "ACTUALIZAR"
         '
         'ButtonRegistrar
         '
@@ -294,7 +294,7 @@ Partial Class WFrm_MOZO
         Me.RadioButtonInactivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonInactivo.Enabled = False
         Me.RadioButtonInactivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.Black
         Me.RadioButtonInactivo.Location = New System.Drawing.Point(584, 116)
         Me.RadioButtonInactivo.Name = "RadioButtonInactivo"
         Me.RadioButtonInactivo.Size = New System.Drawing.Size(84, 19)
@@ -308,7 +308,7 @@ Partial Class WFrm_MOZO
         Me.RadioButtonActivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonActivo.Checked = True
         Me.RadioButtonActivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.Black
         Me.RadioButtonActivo.Location = New System.Drawing.Point(584, 91)
         Me.RadioButtonActivo.Name = "RadioButtonActivo"
         Me.RadioButtonActivo.Size = New System.Drawing.Size(70, 19)
@@ -387,7 +387,7 @@ Partial Class WFrm_MOZO
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(514, 105)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 15)
@@ -399,7 +399,7 @@ Partial Class WFrm_MOZO
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
         Me.Label6.Location = New System.Drawing.Point(6, 100)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(92, 15)
@@ -411,7 +411,7 @@ Partial Class WFrm_MOZO
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(249, 62)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(75, 15)
@@ -423,8 +423,8 @@ Partial Class WFrm_MOZO
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(11, 62)
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(27, 60)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(72, 15)
         Me.Label4.TabIndex = 8
@@ -435,19 +435,19 @@ Partial Class WFrm_MOZO
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(11, 24)
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(77, 21)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 15)
+        Me.Label3.Size = New System.Drawing.Size(22, 15)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = " N° RUT"
+        Me.Label3.Text = "C.I"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(249, 24)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(139, 15)

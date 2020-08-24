@@ -88,7 +88,7 @@ Partial Class WFrm_BuscarProveedor
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._8
+        'Me.PictureBox1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._8
         Me.PictureBox1.Location = New System.Drawing.Point(492, 1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(35, 35)
@@ -120,12 +120,12 @@ Partial Class WFrm_BuscarProveedor
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButton3.ForeColor = System.Drawing.Color.Black
         Me.RadioButton3.Location = New System.Drawing.Point(177, 17)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(118, 19)
+        Me.RadioButton3.Size = New System.Drawing.Size(120, 19)
         Me.RadioButton3.TabIndex = 21
-        Me.RadioButton3.Text = "Numero de Ruc"
+        Me.RadioButton3.Text = "Numero de RUC"
         Me.RadioButton3.UseVisualStyleBackColor = False
         '
         'Dg_Proveedores
@@ -174,7 +174,7 @@ Partial Class WFrm_BuscarProveedor
         Me.RadioButton4.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton4.Checked = True
         Me.RadioButton4.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButton4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButton4.ForeColor = System.Drawing.Color.Black
         Me.RadioButton4.Location = New System.Drawing.Point(23, 17)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(137, 19)

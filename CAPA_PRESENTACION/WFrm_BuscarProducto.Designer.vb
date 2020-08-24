@@ -87,7 +87,7 @@ Partial Class WFrm_BuscarProducto
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._8
+        'Me.PictureBox1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._8
         Me.PictureBox1.Location = New System.Drawing.Point(490, 1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(35, 35)
@@ -119,7 +119,7 @@ Partial Class WFrm_BuscarProducto
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButton3.ForeColor = System.Drawing.Color.Black
         Me.RadioButton3.Location = New System.Drawing.Point(172, 17)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(123, 19)
@@ -173,7 +173,7 @@ Partial Class WFrm_BuscarProducto
         Me.RadioButton4.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton4.Checked = True
         Me.RadioButton4.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButton4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButton4.ForeColor = System.Drawing.Color.Black
         Me.RadioButton4.Location = New System.Drawing.Point(26, 17)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(132, 19)

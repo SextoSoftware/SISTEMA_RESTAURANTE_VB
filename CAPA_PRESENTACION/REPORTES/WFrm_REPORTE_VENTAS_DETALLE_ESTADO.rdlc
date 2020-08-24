@@ -1,126 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
-  <DataSources>
-    <DataSource Name="DataSet_Restaurante">
-      <ConnectionProperties>
-        <DataProvider>System.Data.DataSet</DataProvider>
-        <ConnectString>/* Local Connection */</ConnectString>
-      </ConnectionProperties>
-      <rd:DataSourceID>4942043a-5cbf-442a-a1f5-b6d7e97bead8</rd:DataSourceID>
-    </DataSource>
-  </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet1">
-      <Fields>
-        <Field Name="IdComanda">
-          <DataField>IdComanda</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Fecha">
-          <DataField>Fecha</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
-        </Field>
-        <Field Name="Estado">
-          <DataField>Estado</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Descuento">
-          <DataField>Descuento</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="MontoTotal">
-          <DataField>MontoTotal</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Descripcion">
-          <DataField>Descripcion</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="IdMesa">
-          <DataField>IdMesa</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="IdCliente">
-          <DataField>IdCliente</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="IdTipoDocumento">
-          <DataField>IdTipoDocumento</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="IdMozo">
-          <DataField>IdMozo</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="CLIENTE">
-          <DataField>CLIENTE</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="MOZO">
-          <DataField>MOZO</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Nombre">
-          <DataField>Nombre</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Nombre1">
-          <DataField>Nombre1</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Cantidad">
-          <DataField>Cantidad</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Importe">
-          <DataField>Importe</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Column1">
-          <DataField>Column1</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
-        </Field>
-        <Field Name="Column2">
-          <DataField>Column2</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
-        </Field>
-        <Field Name="Column3">
-          <DataField>Column3</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSet_Restaurante</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\ERIRETO\Desktop\PROYECTO FINAL\SISTEMA\SISTEMA_RESTAURANTE\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
-        <rd:TableName>PA_ReporteVentasDetalladoEstado</rd:TableName>
-        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
-        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>PA_ReporteVentasDetalladoEstadoTableAdapter</rd:TableAdapterName>
-      </rd:DataSetInfo>
-    </DataSet>
-  </DataSets>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
       <Tablix Name="Tablix1">
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.828in</Width>
+              <Width>4.64312cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.43056in</Width>
+              <Width>1.09362cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.953in</Width>
+              <Width>2.42062cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.23622in</Height>
+              <Height>0.6cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -163,6 +60,7 @@
                         <RightBorder>
                           <Style>None</Style>
                         </RightBorder>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -212,6 +110,7 @@
                         <RightBorder>
                           <Style>None</Style>
                         </RightBorder>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -261,6 +160,7 @@
                         <RightBorder>
                           <Style>None</Style>
                         </RightBorder>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -272,7 +172,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.19455in</Height>
+              <Height>0.49416cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -380,7 +280,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.04536in</Height>
+              <Height>0.11521cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -487,7 +387,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.24664in</Height>
+              <Height>0.62647cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -583,7 +483,7 @@
           <TablixMembers>
             <TablixMember>
               <TablixHeader>
-                <Size>0.03125in</Size>
+                <Size>0.07938cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox179">
                     <CanGrow>true</CanGrow>
@@ -633,7 +533,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1.06665in</Size>
+                    <Size>2.70929cm</Size>
                     <CellContents>
                       <Textbox Name="Textbox182">
                         <CanGrow>true</CanGrow>
@@ -675,6 +575,7 @@
                           <RightBorder>
                             <Style>None</Style>
                           </RightBorder>
+                          <BackgroundColor>Brown</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -686,7 +587,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1.95486in</Size>
+                        <Size>4.96534cm</Size>
                         <CellContents>
                           <Textbox Name="Textbox185">
                             <CanGrow>true</CanGrow>
@@ -728,6 +629,7 @@
                               <RightBorder>
                                 <Style>None</Style>
                               </RightBorder>
+                              <BackgroundColor>Brown</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -739,7 +641,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1.97571in</Size>
+                            <Size>5.0183cm</Size>
                             <CellContents>
                               <Textbox Name="Textbox188">
                                 <CanGrow>true</CanGrow>
@@ -781,6 +683,7 @@
                                   <RightBorder>
                                     <Style>None</Style>
                                   </RightBorder>
+                                  <BackgroundColor>Brown</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -792,7 +695,7 @@
                           <TablixMembers>
                             <TablixMember>
                               <TablixHeader>
-                                <Size>0.64397in</Size>
+                                <Size>1.63568cm</Size>
                                 <CellContents>
                                   <Textbox Name="Textbox191">
                                     <CanGrow>true</CanGrow>
@@ -834,6 +737,7 @@
                                       <RightBorder>
                                         <Style>None</Style>
                                       </RightBorder>
+                                      <BackgroundColor>Brown</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -845,7 +749,7 @@
                               <TablixMembers>
                                 <TablixMember>
                                   <TablixHeader>
-                                    <Size>0.73425in</Size>
+                                    <Size>1.86499cm</Size>
                                     <CellContents>
                                       <Textbox Name="Textbox194">
                                         <CanGrow>true</CanGrow>
@@ -889,6 +793,7 @@
                                           <RightBorder>
                                             <Style>None</Style>
                                           </RightBorder>
+                                          <BackgroundColor>Brown</BackgroundColor>
                                           <PaddingLeft>2pt</PaddingLeft>
                                           <PaddingRight>2pt</PaddingRight>
                                           <PaddingTop>2pt</PaddingTop>
@@ -900,7 +805,7 @@
                                   <TablixMembers>
                                     <TablixMember>
                                       <TablixHeader>
-                                        <Size>0.98425in</Size>
+                                        <Size>2.5cm</Size>
                                         <CellContents>
                                           <Textbox Name="Textbox244">
                                             <CanGrow>true</CanGrow>
@@ -941,6 +846,7 @@
                                               <RightBorder>
                                                 <Style>None</Style>
                                               </RightBorder>
+                                              <BackgroundColor>Brown</BackgroundColor>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -980,7 +886,7 @@
                 </SortExpression>
               </SortExpressions>
               <TablixHeader>
-                <Size>0.03125in</Size>
+                <Size>0.07938cm</Size>
                 <CellContents>
                   <Textbox Name="Group1">
                     <CanGrow>true</CanGrow>
@@ -1027,7 +933,7 @@
                     </SortExpression>
                   </SortExpressions>
                   <TablixHeader>
-                    <Size>1.06665in</Size>
+                    <Size>2.70929cm</Size>
                     <CellContents>
                       <Textbox Name="Group2">
                         <CanGrow>true</CanGrow>
@@ -1074,7 +980,7 @@
                         </SortExpression>
                       </SortExpressions>
                       <TablixHeader>
-                        <Size>1.95486in</Size>
+                        <Size>4.96534cm</Size>
                         <CellContents>
                           <Textbox Name="Group3">
                             <CanGrow>true</CanGrow>
@@ -1119,7 +1025,7 @@
                             </SortExpression>
                           </SortExpressions>
                           <TablixHeader>
-                            <Size>1.97571in</Size>
+                            <Size>5.0183cm</Size>
                             <CellContents>
                               <Textbox Name="Group4">
                                 <CanGrow>true</CanGrow>
@@ -1165,7 +1071,7 @@
                                 </SortExpression>
                               </SortExpressions>
                               <TablixHeader>
-                                <Size>0.64397in</Size>
+                                <Size>1.63568cm</Size>
                                 <CellContents>
                                   <Textbox Name="Group5">
                                     <CanGrow>true</CanGrow>
@@ -1210,7 +1116,7 @@
                                     </SortExpression>
                                   </SortExpressions>
                                   <TablixHeader>
-                                    <Size>0.73425in</Size>
+                                    <Size>1.86499cm</Size>
                                     <CellContents>
                                       <Textbox Name="Group6">
                                         <CanGrow>true</CanGrow>
@@ -1259,7 +1165,7 @@
                                             </SortExpression>
                                           </SortExpressions>
                                           <TablixHeader>
-                                            <Size>0.98425in</Size>
+                                            <Size>2.5cm</Size>
                                             <CellContents>
                                               <Textbox Name="Group7">
                                                 <CanGrow>true</CanGrow>
@@ -1318,7 +1224,7 @@
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>0.03125in</Size>
+                <Size>0.07938cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox181">
                     <CanGrow>true</CanGrow>
@@ -1352,7 +1258,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1.06665in</Size>
+                    <Size>2.70929cm</Size>
                     <CellContents>
                       <Textbox Name="Textbox184">
                         <CanGrow>true</CanGrow>
@@ -1386,7 +1292,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1.95486in</Size>
+                        <Size>4.96534cm</Size>
                         <CellContents>
                           <Textbox Name="Textbox187">
                             <CanGrow>true</CanGrow>
@@ -1420,7 +1326,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1.97571in</Size>
+                            <Size>5.0183cm</Size>
                             <CellContents>
                               <Textbox Name="Textbox190">
                                 <CanGrow>true</CanGrow>
@@ -1454,7 +1360,7 @@
                           <TablixMembers>
                             <TablixMember>
                               <TablixHeader>
-                                <Size>0.64397in</Size>
+                                <Size>1.63568cm</Size>
                                 <CellContents>
                                   <Textbox Name="Textbox193">
                                     <CanGrow>true</CanGrow>
@@ -1490,7 +1396,7 @@
                               <TablixMembers>
                                 <TablixMember>
                                   <TablixHeader>
-                                    <Size>0.73425in</Size>
+                                    <Size>1.86499cm</Size>
                                     <CellContents>
                                       <Textbox Name="Textbox196">
                                         <CanGrow>true</CanGrow>
@@ -1531,7 +1437,7 @@
                                   <TablixMembers>
                                     <TablixMember>
                                       <TablixHeader>
-                                        <Size>0.98425in</Size>
+                                        <Size>2.5cm</Size>
                                         <CellContents>
                                           <Textbox Name="Textbox246">
                                             <CanGrow>true</CanGrow>
@@ -1644,12 +1550,37 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>La Florida - Nro 3444 - Chile</Value>
+                  <Value>Ambato</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>Verdana</FontFamily>
+                    <FontFamily>Cambria</FontFamily>
                     <FontSize>8pt</FontSize>
                     <FontWeight>Normal</FontWeight>
+                    <Format>Cambria; 11pt; Normal; Normal; None</Format>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value> - Km 8/2 - </Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Courier New</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Normal</FontWeight>
+                    <Format>Cambria; 11pt; Normal; Normal; None</Format>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>Via Baños</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Cambria</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Normal</FontWeight>
+                    <Format>Cambria; 11pt; Normal; Normal; None</Format>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
@@ -1681,11 +1612,24 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Celular: 9553617535</Value>
+                  <Value>Teléfono: </Value>
                   <Style>
-                    <FontFamily>Verdana</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Courier New</FontFamily>
                     <FontSize>8pt</FontSize>
                     <FontWeight>Normal</FontWeight>
+                    <TextDecoration>None</TextDecoration>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>032488017</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Cambria</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Normal</FontWeight>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
@@ -2030,6 +1974,110 @@
     <ColumnSpacing>0.13cm</ColumnSpacing>
     <Style />
   </Page>
-  <rd:ReportID>582f993e-1046-4856-b9f3-dd6e146eb6fb</rd:ReportID>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSet_Restaurante">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>4942043a-5cbf-442a-a1f5-b6d7e97bead8</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSet_Restaurante</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="IdComanda">
+          <DataField>IdComanda</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Fecha">
+          <DataField>Fecha</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Estado">
+          <DataField>Estado</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Descuento">
+          <DataField>Descuento</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="MontoTotal">
+          <DataField>MontoTotal</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Descripcion">
+          <DataField>Descripcion</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IdMesa">
+          <DataField>IdMesa</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdCliente">
+          <DataField>IdCliente</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdTipoDocumento">
+          <DataField>IdTipoDocumento</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdMozo">
+          <DataField>IdMozo</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CLIENTE">
+          <DataField>CLIENTE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MOZO">
+          <DataField>MOZO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nombre1">
+          <DataField>Nombre1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cantidad">
+          <DataField>Cantidad</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Importe">
+          <DataField>Importe</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Column1">
+          <DataField>Column1</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Column2">
+          <DataField>Column2</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Column3">
+          <DataField>Column3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet_Restaurante</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\ERIRETO\Desktop\PROYECTO FINAL\SISTEMA\SISTEMA_RESTAURANTE\CAPA_PRESENTACION\REPORTES\DataSet_Restaurante.xsd</rd:SchemaPath>
+        <rd:TableName>PA_ReporteVentasDetalladoEstado</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>PA_ReporteVentasDetalladoEstadoTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>582f993e-1046-4856-b9f3-dd6e146eb6fb</rd:ReportID>
 </Report>

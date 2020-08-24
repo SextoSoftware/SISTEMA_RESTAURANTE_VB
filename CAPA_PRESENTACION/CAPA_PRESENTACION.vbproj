@@ -162,8 +162,8 @@
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
@@ -403,9 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="REPORTES\Reporte_Productos.rdlc" />
     <EmbeddedResource Include="REPORTES\Reporte_Producto_Top_Grafico.rdlc" />
@@ -626,16 +626,7 @@
     <None Include="Resources\PLATO.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bebidas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Client-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\PRO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CATE.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TIPO.png" />
@@ -647,19 +638,10 @@
     <None Include="Resources\COMPRA.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ICONO LISTA 2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\MENU.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LOGINX.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logotipo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icono-mozo.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="SqlServerTypes\Loader.cs" />

@@ -938,7 +938,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm50.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm50.FocusCuesEnabled = False
         Me.bm50.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm50.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm50.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm50.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm50.ImageTextSpacing = 4
         Me.bm50.Location = New System.Drawing.Point(852, 377)
@@ -954,7 +954,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm49.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm49.FocusCuesEnabled = False
         Me.bm49.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm49.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm49.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm49.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm49.ImageTextSpacing = 4
         Me.bm49.Location = New System.Drawing.Point(761, 377)
@@ -970,7 +970,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm48.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm48.FocusCuesEnabled = False
         Me.bm48.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm48.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm48.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm48.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm48.ImageTextSpacing = 4
         Me.bm48.Location = New System.Drawing.Point(667, 377)
@@ -986,7 +986,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm47.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm47.FocusCuesEnabled = False
         Me.bm47.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm47.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm47.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm47.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm47.ImageTextSpacing = 4
         Me.bm47.Location = New System.Drawing.Point(572, 377)
@@ -1002,7 +1002,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm46.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm46.FocusCuesEnabled = False
         Me.bm46.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm46.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm46.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm46.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm46.ImageTextSpacing = 4
         Me.bm46.Location = New System.Drawing.Point(479, 377)
@@ -1018,7 +1018,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm45.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm45.FocusCuesEnabled = False
         Me.bm45.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm45.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm45.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm45.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm45.ImageTextSpacing = 4
         Me.bm45.Location = New System.Drawing.Point(384, 377)
@@ -1034,7 +1034,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm44.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm44.FocusCuesEnabled = False
         Me.bm44.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm44.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm44.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm44.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm44.ImageTextSpacing = 4
         Me.bm44.Location = New System.Drawing.Point(289, 377)
@@ -1050,7 +1050,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm43.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm43.FocusCuesEnabled = False
         Me.bm43.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm43.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm43.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm43.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm43.ImageTextSpacing = 4
         Me.bm43.Location = New System.Drawing.Point(193, 377)
@@ -1066,7 +1066,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm42.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm42.FocusCuesEnabled = False
         Me.bm42.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm42.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm42.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm42.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm42.ImageTextSpacing = 4
         Me.bm42.Location = New System.Drawing.Point(98, 377)
@@ -1082,7 +1082,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm41.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm41.FocusCuesEnabled = False
         Me.bm41.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm41.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm41.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm41.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm41.ImageTextSpacing = 4
         Me.bm41.Location = New System.Drawing.Point(4, 377)
@@ -1098,7 +1098,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm40.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm40.FocusCuesEnabled = False
         Me.bm40.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm40.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm40.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm40.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm40.ImageTextSpacing = 4
         Me.bm40.Location = New System.Drawing.Point(852, 286)
@@ -1114,7 +1114,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm39.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm39.FocusCuesEnabled = False
         Me.bm39.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm39.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm39.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm39.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm39.ImageTextSpacing = 4
         Me.bm39.Location = New System.Drawing.Point(761, 286)
@@ -1130,7 +1130,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm38.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm38.FocusCuesEnabled = False
         Me.bm38.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm38.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm38.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm38.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm38.ImageTextSpacing = 4
         Me.bm38.Location = New System.Drawing.Point(667, 286)
@@ -1146,7 +1146,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm37.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm37.FocusCuesEnabled = False
         Me.bm37.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm37.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm37.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm37.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm37.ImageTextSpacing = 4
         Me.bm37.Location = New System.Drawing.Point(572, 286)
@@ -1162,7 +1162,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm36.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm36.FocusCuesEnabled = False
         Me.bm36.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm36.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm36.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm36.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm36.ImageTextSpacing = 4
         Me.bm36.Location = New System.Drawing.Point(479, 286)
@@ -1178,7 +1178,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm35.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm35.FocusCuesEnabled = False
         Me.bm35.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm35.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm35.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm35.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm35.ImageTextSpacing = 4
         Me.bm35.Location = New System.Drawing.Point(384, 286)
@@ -1194,7 +1194,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm34.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm34.FocusCuesEnabled = False
         Me.bm34.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm34.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm34.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm34.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm34.ImageTextSpacing = 4
         Me.bm34.Location = New System.Drawing.Point(289, 286)
@@ -1210,7 +1210,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm33.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm33.FocusCuesEnabled = False
         Me.bm33.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm33.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm33.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm33.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm33.ImageTextSpacing = 4
         Me.bm33.Location = New System.Drawing.Point(193, 286)
@@ -1226,7 +1226,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm32.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm32.FocusCuesEnabled = False
         Me.bm32.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm32.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm32.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm32.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm32.ImageTextSpacing = 4
         Me.bm32.Location = New System.Drawing.Point(98, 286)
@@ -1242,7 +1242,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm31.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm31.FocusCuesEnabled = False
         Me.bm31.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm31.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm31.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm31.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm31.ImageTextSpacing = 4
         Me.bm31.Location = New System.Drawing.Point(4, 286)
@@ -1258,7 +1258,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm30.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm30.FocusCuesEnabled = False
         Me.bm30.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm30.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm30.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm30.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm30.ImageTextSpacing = 4
         Me.bm30.Location = New System.Drawing.Point(851, 195)
@@ -1274,7 +1274,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm29.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm29.FocusCuesEnabled = False
         Me.bm29.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm29.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm29.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm29.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm29.ImageTextSpacing = 4
         Me.bm29.Location = New System.Drawing.Point(760, 195)
@@ -1290,7 +1290,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm28.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm28.FocusCuesEnabled = False
         Me.bm28.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm28.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm28.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm28.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm28.ImageTextSpacing = 4
         Me.bm28.Location = New System.Drawing.Point(666, 195)
@@ -1306,7 +1306,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm27.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm27.FocusCuesEnabled = False
         Me.bm27.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm27.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm27.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm27.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm27.ImageTextSpacing = 4
         Me.bm27.Location = New System.Drawing.Point(571, 195)
@@ -1322,7 +1322,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm26.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm26.FocusCuesEnabled = False
         Me.bm26.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm26.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm26.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm26.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm26.ImageTextSpacing = 4
         Me.bm26.Location = New System.Drawing.Point(478, 195)
@@ -1338,7 +1338,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm25.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm25.FocusCuesEnabled = False
         Me.bm25.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm25.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm25.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm25.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm25.ImageTextSpacing = 4
         Me.bm25.Location = New System.Drawing.Point(383, 195)
@@ -1354,7 +1354,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm24.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm24.FocusCuesEnabled = False
         Me.bm24.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm24.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm24.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm24.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm24.ImageTextSpacing = 4
         Me.bm24.Location = New System.Drawing.Point(288, 195)
@@ -1370,7 +1370,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm23.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm23.FocusCuesEnabled = False
         Me.bm23.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm23.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm23.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm23.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm23.ImageTextSpacing = 4
         Me.bm23.Location = New System.Drawing.Point(192, 195)
@@ -1386,7 +1386,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm22.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm22.FocusCuesEnabled = False
         Me.bm22.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm22.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm22.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm22.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm22.ImageTextSpacing = 4
         Me.bm22.Location = New System.Drawing.Point(97, 195)
@@ -1402,7 +1402,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm21.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm21.FocusCuesEnabled = False
         Me.bm21.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm21.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm21.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm21.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm21.ImageTextSpacing = 4
         Me.bm21.Location = New System.Drawing.Point(3, 195)
@@ -1418,7 +1418,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm14.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm14.FocusCuesEnabled = False
         Me.bm14.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm14.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm14.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm14.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm14.ImageTextSpacing = 4
         Me.bm14.Location = New System.Drawing.Point(287, 103)
@@ -1434,7 +1434,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm7.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm7.FocusCuesEnabled = False
         Me.bm7.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm7.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm7.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm7.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm7.ImageTextSpacing = 4
         Me.bm7.Location = New System.Drawing.Point(568, 11)
@@ -1450,7 +1450,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm20.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm20.FocusCuesEnabled = False
         Me.bm20.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm20.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm20.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm20.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm20.ImageTextSpacing = 4
         Me.bm20.Location = New System.Drawing.Point(850, 103)
@@ -1466,7 +1466,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm19.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm19.FocusCuesEnabled = False
         Me.bm19.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm19.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm19.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm19.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm19.ImageTextSpacing = 4
         Me.bm19.Location = New System.Drawing.Point(758, 103)
@@ -1482,7 +1482,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm18.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm18.FocusCuesEnabled = False
         Me.bm18.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm18.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm18.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm18.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm18.ImageTextSpacing = 4
         Me.bm18.Location = New System.Drawing.Point(664, 103)
@@ -1498,7 +1498,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm17.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm17.FocusCuesEnabled = False
         Me.bm17.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm17.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm17.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm17.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm17.ImageTextSpacing = 4
         Me.bm17.Location = New System.Drawing.Point(571, 103)
@@ -1514,7 +1514,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm16.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm16.FocusCuesEnabled = False
         Me.bm16.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm16.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm16.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm16.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm16.ImageTextSpacing = 4
         Me.bm16.Location = New System.Drawing.Point(478, 103)
@@ -1530,7 +1530,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm15.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm15.FocusCuesEnabled = False
         Me.bm15.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm15.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm15.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm15.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm15.ImageTextSpacing = 4
         Me.bm15.Location = New System.Drawing.Point(382, 103)
@@ -1546,7 +1546,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm13.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm13.FocusCuesEnabled = False
         Me.bm13.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm13.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm13.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm13.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm13.ImageTextSpacing = 4
         Me.bm13.Location = New System.Drawing.Point(193, 103)
@@ -1562,7 +1562,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm12.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm12.FocusCuesEnabled = False
         Me.bm12.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm12.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm12.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm12.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm12.ImageTextSpacing = 4
         Me.bm12.Location = New System.Drawing.Point(100, 103)
@@ -1578,7 +1578,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm11.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm11.FocusCuesEnabled = False
         Me.bm11.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm11.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm11.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm11.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm11.ImageTextSpacing = 4
         Me.bm11.Location = New System.Drawing.Point(3, 103)
@@ -1594,7 +1594,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm10.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm10.FocusCuesEnabled = False
         Me.bm10.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm10.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm10.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm10.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm10.ImageTextSpacing = 4
         Me.bm10.Location = New System.Drawing.Point(849, 11)
@@ -1611,7 +1611,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm9.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm9.FocusCuesEnabled = False
         Me.bm9.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm9.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm9.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm9.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm9.ImageTextSpacing = 4
         Me.bm9.Location = New System.Drawing.Point(756, 11)
@@ -1627,7 +1627,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm8.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm8.FocusCuesEnabled = False
         Me.bm8.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm8.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm8.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm8.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm8.ImageTextSpacing = 4
         Me.bm8.Location = New System.Drawing.Point(661, 11)
@@ -1643,7 +1643,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm4.FocusCuesEnabled = False
         Me.bm4.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm4.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm4.ImageTextSpacing = 4
         Me.bm4.Location = New System.Drawing.Point(287, 11)
@@ -1660,7 +1660,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm6.FocusCuesEnabled = False
         Me.bm6.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm6.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm6.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm6.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm6.ImageTextSpacing = 4
         Me.bm6.Location = New System.Drawing.Point(475, 11)
@@ -1676,7 +1676,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm5.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm5.FocusCuesEnabled = False
         Me.bm5.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm5.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm5.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm5.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm5.ImageTextSpacing = 4
         Me.bm5.Location = New System.Drawing.Point(381, 11)
@@ -1692,7 +1692,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm3.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm3.FocusCuesEnabled = False
         Me.bm3.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm3.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm3.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm3.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm3.ImageTextSpacing = 4
         Me.bm3.Location = New System.Drawing.Point(193, 11)
@@ -1709,7 +1709,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm2.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm2.FocusCuesEnabled = False
         Me.bm2.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm2.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm2.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm2.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm2.ImageTextSpacing = 4
         Me.bm2.Location = New System.Drawing.Point(98, 11)
@@ -1726,7 +1726,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.bm1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb
         Me.bm1.FocusCuesEnabled = False
         Me.bm1.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        'Me.bm1.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
         Me.bm1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
         Me.bm1.ImageTextSpacing = 4
         Me.bm1.Location = New System.Drawing.Point(2, 11)
@@ -1742,7 +1742,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(609, 5)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(126, 15)
@@ -1766,7 +1766,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(782, 6)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(108, 15)

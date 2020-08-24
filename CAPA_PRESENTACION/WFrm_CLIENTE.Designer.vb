@@ -152,9 +152,10 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel1.Name = "TabControlPanel1"
         Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
         Me.TabControlPanel1.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
+        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
+        Me.TabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
         Me.TabControlPanel1.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel1.Style.GradientAngle = 90
@@ -233,18 +234,18 @@ Partial Class WFrm_CLIENTE
         Me.RadioButtonRuc.AutoSize = True
         Me.RadioButtonRuc.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonRuc.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonRuc.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonRuc.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonRuc, True)
         Me.RadioButtonRuc.Location = New System.Drawing.Point(399, 12)
         Me.RadioButtonRuc.Name = "RadioButtonRuc"
-        Me.RadioButtonRuc.Size = New System.Drawing.Size(117, 19)
+        Me.RadioButtonRuc.Size = New System.Drawing.Size(110, 19)
         Me.RadioButtonRuc.TabIndex = 21
-        Me.RadioButtonRuc.Text = "Numero de Rut"
+        Me.RadioButtonRuc.Text = "Numero de C.I"
         Me.RadioButtonRuc.UseVisualStyleBackColor = False
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Panel1.BackColor = System.Drawing.Color.Maroon
         Me.Panel1.Controls.Add(Me.Dg_ClienteNatural)
         Me.Panel1.Location = New System.Drawing.Point(10, 41)
         Me.Panel1.Name = "Panel1"
@@ -268,7 +269,7 @@ Partial Class WFrm_CLIENTE
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
@@ -299,7 +300,7 @@ Partial Class WFrm_CLIENTE
         Me.RadioButtonNomComp.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonNomComp.Checked = True
         Me.RadioButtonNomComp.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonNomComp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonNomComp.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonNomComp, True)
         Me.RadioButtonNomComp.Location = New System.Drawing.Point(242, 12)
         Me.RadioButtonNomComp.Name = "RadioButtonNomComp"
@@ -389,7 +390,7 @@ Partial Class WFrm_CLIENTE
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Highlighter1.SetHighlightOnFocus(Me.DateTimePicker1, True)
         Me.DateTimePicker1.Location = New System.Drawing.Point(307, 53)
-        Me.DateTimePicker1.MaxDate = New Date(1995, 1, 1, 0, 0, 0, 0)
+        Me.DateTimePicker1.MaxDate = New Date(2020, 1, 1, 0, 0, 0, 0)
         Me.DateTimePicker1.MinDate = New Date(1913, 1, 1, 0, 0, 0, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(107, 23)
@@ -401,7 +402,7 @@ Partial Class WFrm_CLIENTE
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(206, 50)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(86, 30)
@@ -414,7 +415,7 @@ Partial Class WFrm_CLIENTE
         Me.RadioButtonInactivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonInactivo.Enabled = False
         Me.RadioButtonInactivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonInactivo.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonInactivo, True)
         Me.RadioButtonInactivo.Location = New System.Drawing.Point(626, 93)
         Me.RadioButtonInactivo.Name = "RadioButtonInactivo"
@@ -429,7 +430,7 @@ Partial Class WFrm_CLIENTE
         Me.RadioButtonActivo.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonActivo.Checked = True
         Me.RadioButtonActivo.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.RadioButtonActivo.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.RadioButtonActivo, True)
         Me.RadioButtonActivo.Location = New System.Drawing.Point(535, 93)
         Me.RadioButtonActivo.Name = "RadioButtonActivo"
@@ -444,7 +445,7 @@ Partial Class WFrm_CLIENTE
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(454, 95)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 15)
@@ -498,7 +499,7 @@ Partial Class WFrm_CLIENTE
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
         Me.Label6.Location = New System.Drawing.Point(432, 55)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(46, 15)
@@ -510,7 +511,7 @@ Partial Class WFrm_CLIENTE
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(9, 97)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(75, 15)
@@ -544,7 +545,7 @@ Partial Class WFrm_CLIENTE
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(9, 58)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(72, 15)
@@ -598,7 +599,7 @@ Partial Class WFrm_CLIENTE
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(443, 13)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(75, 15)
@@ -610,7 +611,7 @@ Partial Class WFrm_CLIENTE
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(190, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(64, 15)
@@ -644,12 +645,12 @@ Partial Class WFrm_CLIENTE
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(9, 13)
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(31, 13)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 15)
+        Me.Label3.Size = New System.Drawing.Size(22, 15)
         Me.Label3.TabIndex = 35
-        Me.Label3.Text = " N° RUT"
+        Me.Label3.Text = "C.I"
         '
         'ButtonNuevo
         '
@@ -676,7 +677,7 @@ Partial Class WFrm_CLIENTE
         Me.ButttonModificar.Name = "ButttonModificar"
         Me.ButttonModificar.Size = New System.Drawing.Size(92, 28)
         Me.ButttonModificar.TabIndex = 33
-        Me.ButttonModificar.Text = "MODIFICAR"
+        Me.ButttonModificar.Text = "ACTUALIZAR"
         '
         'ButtonRegistrar
         '
@@ -694,7 +695,7 @@ Partial Class WFrm_CLIENTE
         'TabItem3
         '
         Me.TabItem3.AttachedControl = Me.TabControlPanel1
-        Me.TabItem3.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
+        'Me.TabItem3.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
         Me.TabItem3.Name = "TabItem3"
         Me.TabItem3.Text = "CLIENTE NATURAL"
         '
@@ -708,9 +709,10 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel2.Name = "TabControlPanel2"
         Me.TabControlPanel2.Padding = New System.Windows.Forms.Padding(1)
         Me.TabControlPanel2.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.White
+        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
+        Me.TabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.TabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
         Me.TabControlPanel2.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel2.Style.GradientAngle = 90
@@ -841,7 +843,7 @@ Partial Class WFrm_CLIENTE
         DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle5.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
@@ -1248,7 +1250,7 @@ Partial Class WFrm_CLIENTE
         'TabItem4
         '
         Me.TabItem4.AttachedControl = Me.TabControlPanel2
-        Me.TabItem4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
+        'Me.TabItem4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
         Me.TabItem4.Name = "TabItem4"
         Me.TabItem4.Text = "CLIENTE JURIDICO"
         Me.TabItem4.Visible = False
