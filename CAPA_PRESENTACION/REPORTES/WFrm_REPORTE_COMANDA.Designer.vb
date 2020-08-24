@@ -24,13 +24,24 @@ Partial Class WFrm_REPORTE_COMANDA
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Me.ReportViewer2 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_COMANDA))
         Me.PA_ReporteComandaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
+        Me.ReportViewer2 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.PA_ReporteComandaTableAdapter = New CAPA_PRESENTACION.DataSet_RestauranteTableAdapters.PA_ReporteComandaTableAdapter()
-        CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PA_ReporteComandaBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'PA_ReporteComandaBindingSource
+        '
+        Me.PA_ReporteComandaBindingSource.DataMember = "PA_ReporteComanda"
+        Me.PA_ReporteComandaBindingSource.DataSource = Me.DataSet_Restaurante
+        '
+        'DataSet_Restaurante
+        '
+        Me.DataSet_Restaurante.DataSetName = "DataSet_Restaurante"
+        Me.DataSet_Restaurante.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'ReportViewer2
         '
@@ -44,16 +55,6 @@ Partial Class WFrm_REPORTE_COMANDA
         Me.ReportViewer2.Size = New System.Drawing.Size(679, 572)
         Me.ReportViewer2.TabIndex = 24
         '
-        'DataSet_Restaurante
-        '
-        Me.DataSet_Restaurante.DataSetName = "DataSet_Restaurante"
-        Me.DataSet_Restaurante.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'PA_ReporteComandaBindingSource
-        '
-        Me.PA_ReporteComandaBindingSource.DataMember = "PA_ReporteComanda"
-        Me.PA_ReporteComandaBindingSource.DataSource = Me.DataSet_Restaurante
-        '
         'PA_ReporteComandaTableAdapter
         '
         Me.PA_ReporteComandaTableAdapter.ClearBeforeFill = True
@@ -65,10 +66,11 @@ Partial Class WFrm_REPORTE_COMANDA
         Me.ClientSize = New System.Drawing.Size(679, 572)
         Me.Controls.Add(Me.ReportViewer2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_REPORTE_COMANDA"
         Me.Text = "WFrm_REPORTE_COMANDA"
-        CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PA_ReporteComandaBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataSet_Restaurante, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

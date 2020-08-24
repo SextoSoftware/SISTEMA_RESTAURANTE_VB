@@ -25,6 +25,7 @@ Partial Class WFrm_CATEGORIA_PLATO
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_CATEGORIA_PLATO))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.txtbusqueda = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -49,12 +50,14 @@ Partial Class WFrm_CATEGORIA_PLATO
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.txtbusqueda)
         Me.GroupPanel2.Controls.Add(Me.Label2)
         Me.GroupPanel2.Controls.Add(Me.Dg_Proveedores)
         Me.GroupPanel2.Controls.Add(Me.Panel1)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(7, 140)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -93,13 +96,16 @@ Partial Class WFrm_CATEGORIA_PLATO
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtbusqueda, True)
         Me.txtbusqueda.Location = New System.Drawing.Point(143, 10)
         Me.txtbusqueda.MaxLength = 30
@@ -175,6 +181,7 @@ Partial Class WFrm_CATEGORIA_PLATO
         'groupPanel1
         '
         Me.groupPanel1.AutoScroll = True
+        Me.groupPanel1.BackColor = System.Drawing.Color.White
         Me.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control
         Me.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.groupPanel1.Controls.Add(Me.TextBox1)
@@ -186,6 +193,7 @@ Partial Class WFrm_CATEGORIA_PLATO
         Me.groupPanel1.Controls.Add(Me.txtnom)
         Me.groupPanel1.Controls.Add(Me.Label7)
         Me.groupPanel1.Controls.Add(Me.Label1)
+        Me.groupPanel1.DisabledBackColor = System.Drawing.Color.Empty
         Me.groupPanel1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupPanel1.Location = New System.Drawing.Point(7, 7)
         Me.groupPanel1.Name = "groupPanel1"
@@ -304,13 +312,16 @@ Partial Class WFrm_CATEGORIA_PLATO
         '
         'txtnom
         '
+        Me.txtnom.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtnom.Border.Class = "TextBoxBorder"
         Me.txtnom.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtnom.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtnom.DisabledBackColor = System.Drawing.Color.White
         Me.txtnom.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtnom.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtnom, True)
         Me.txtnom.Location = New System.Drawing.Point(75, 20)
         Me.txtnom.MaxLength = 20
@@ -354,10 +365,11 @@ Partial Class WFrm_CATEGORIA_PLATO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(375, 429)
+        Me.ClientSize = New System.Drawing.Size(375, 428)
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(391, 467)
         Me.MinimumSize = New System.Drawing.Size(391, 467)
         Me.Name = "WFrm_CATEGORIA_PLATO"

@@ -23,8 +23,9 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ReportDataSource3 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Dim ReportDataSource4 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_TOP_PRODUCTO_GRAFICO))
         Me.PA_ReporteTopProductoGraficoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
         Me.PA_ReporteTopPlatoGraficoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -58,12 +59,12 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         '
         'ReportViewer1
         '
-        ReportDataSource3.Name = "DataSet1"
-        ReportDataSource3.Value = Me.PA_ReporteTopProductoGraficoBindingSource
-        ReportDataSource4.Name = "DataSet2"
-        ReportDataSource4.Value = Me.PA_ReporteTopPlatoGraficoBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource3)
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource4)
+        ReportDataSource1.Name = "DataSet1"
+        ReportDataSource1.Value = Me.PA_ReporteTopProductoGraficoBindingSource
+        ReportDataSource2.Name = "DataSet2"
+        ReportDataSource2.Value = Me.PA_ReporteTopPlatoGraficoBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "CAPA_PRESENTACION.Reporte_Producto_Top_Grafico.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(1, 33)
         Me.ReportViewer1.Name = "ReportViewer1"
@@ -105,6 +106,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         Me.ComboBoxEx1.DisplayMember = "Text"
         Me.ComboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx1.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx1.FormattingEnabled = True
@@ -124,7 +126,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(264, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 13)
+        Me.Label1.Size = New System.Drawing.Size(116, 13)
         Me.Label1.TabIndex = 111
         Me.Label1.Text = "CATEGORIA PLATO"
         '
@@ -133,6 +135,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         Me.ComboBoxEx2.DisplayMember = "Text"
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
@@ -148,7 +151,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1066, 540)
+        Me.ClientSize = New System.Drawing.Size(1066, 539)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBoxEx2)
         Me.Controls.Add(Me.Label3)
@@ -156,6 +159,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTO_GRAFICO
         Me.Controls.Add(Me.ComboBoxEx1)
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(1082, 578)
         Me.MinimumSize = New System.Drawing.Size(1082, 578)
         Me.Name = "WFrm_REPORTE_TOP_PRODUCTO_GRAFICO"

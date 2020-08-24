@@ -22,9 +22,10 @@ Partial Class WFrm_PRODUCTO
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_PRODUCTO))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ComboBoxEx2 = New DevComponents.DotNetBar.Controls.ComboBoxEx()
@@ -34,6 +35,11 @@ Partial Class WFrm_PRODUCTO
         Me.Dg_Proveedores = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.groupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel()
+        Me.ComboBoxEx3 = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.ComboItem1 = New DevComponents.Editors.ComboItem()
+        Me.ComboItem3 = New DevComponents.Editors.ComboItem()
+        Me.ComboItem4 = New DevComponents.Editors.ComboItem()
+        Me.ComboItem5 = New DevComponents.Editors.ComboItem()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.txtstock = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -56,11 +62,6 @@ Partial Class WFrm_PRODUCTO
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Highlighter1 = New DevComponents.DotNetBar.Validator.Highlighter()
-        Me.ComboBoxEx3 = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.ComboItem1 = New DevComponents.Editors.ComboItem()
-        Me.ComboItem3 = New DevComponents.Editors.ComboItem()
-        Me.ComboItem4 = New DevComponents.Editors.ComboItem()
-        Me.ComboItem5 = New DevComponents.Editors.ComboItem()
         Me.GroupPanel2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.Dg_Proveedores, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -136,6 +137,7 @@ Partial Class WFrm_PRODUCTO
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxEx2.Enabled = False
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
@@ -204,37 +206,37 @@ Partial Class WFrm_PRODUCTO
         Me.Dg_Proveedores.AllowUserToDeleteRows = False
         Me.Dg_Proveedores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Dg_Proveedores.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_Proveedores.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_Proveedores.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.Dg_Proveedores.ColumnHeadersHeight = 26
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(110, Byte), Integer))
-        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Dg_Proveedores.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(110, Byte), Integer))
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Dg_Proveedores.DefaultCellStyle = DataGridViewCellStyle2
         Me.Dg_Proveedores.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.Dg_Proveedores.EnableHeadersVisualStyles = False
         Me.Dg_Proveedores.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
         Me.Dg_Proveedores.Location = New System.Drawing.Point(9, 66)
         Me.Dg_Proveedores.Name = "Dg_Proveedores"
         Me.Dg_Proveedores.ReadOnly = True
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_Proveedores.RowHeadersDefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_Proveedores.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.Dg_Proveedores.RowHeadersWidth = 30
         Me.Dg_Proveedores.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Dg_Proveedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -314,6 +316,41 @@ Partial Class WFrm_PRODUCTO
         Me.groupPanel1.TabIndex = 25
         Me.groupPanel1.Text = "DATOS DEL PRODUCTO"
         '
+        'ComboBoxEx3
+        '
+        Me.ComboBoxEx3.DisplayMember = "Text"
+        Me.ComboBoxEx3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.ComboBoxEx3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBoxEx3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBoxEx3.ForeColor = System.Drawing.Color.Black
+        Me.ComboBoxEx3.FormattingEnabled = True
+        Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx3, True)
+        Me.ComboBoxEx3.ItemHeight = 17
+        Me.ComboBoxEx3.Items.AddRange(New Object() {Me.ComboItem1, Me.ComboItem3, Me.ComboItem4, Me.ComboItem5})
+        Me.ComboBoxEx3.Location = New System.Drawing.Point(594, 56)
+        Me.ComboBoxEx3.Name = "ComboBoxEx3"
+        Me.ComboBoxEx3.Size = New System.Drawing.Size(101, 23)
+        Me.ComboBoxEx3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.ComboBoxEx3.TabIndex = 38
+        Me.ComboBoxEx3.WatermarkText = "Seleccione"
+        '
+        'ComboItem1
+        '
+        Me.ComboItem1.Text = "Litros"
+        '
+        'ComboItem3
+        '
+        Me.ComboItem3.Text = "Gramos"
+        '
+        'ComboItem4
+        '
+        Me.ComboItem4.Text = "Kilo"
+        '
+        'ComboItem5
+        '
+        Me.ComboItem5.Text = "CC"
+        '
         'TextBox2
         '
         Me.TextBox2.Enabled = False
@@ -374,6 +411,7 @@ Partial Class WFrm_PRODUCTO
         Me.ComboBoxEx1.DisplayMember = "Text"
         Me.ComboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx1.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx1.FormattingEnabled = True
@@ -627,48 +665,15 @@ Partial Class WFrm_PRODUCTO
         Me.Highlighter1.ContainerControl = Me
         Me.Highlighter1.FocusHighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red
         '
-        'ComboBoxEx3
-        '
-        Me.ComboBoxEx3.DisplayMember = "Text"
-        Me.ComboBoxEx3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.ComboBoxEx3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBoxEx3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBoxEx3.ForeColor = System.Drawing.Color.Black
-        Me.ComboBoxEx3.FormattingEnabled = True
-        Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx3, True)
-        Me.ComboBoxEx3.ItemHeight = 17
-        Me.ComboBoxEx3.Items.AddRange(New Object() {Me.ComboItem1, Me.ComboItem3, Me.ComboItem4, Me.ComboItem5})
-        Me.ComboBoxEx3.Location = New System.Drawing.Point(594, 56)
-        Me.ComboBoxEx3.Name = "ComboBoxEx3"
-        Me.ComboBoxEx3.Size = New System.Drawing.Size(101, 23)
-        Me.ComboBoxEx3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.ComboBoxEx3.TabIndex = 38
-        Me.ComboBoxEx3.WatermarkText = "Seleccione"
-        '
-        'ComboItem1
-        '
-        Me.ComboItem1.Text = "Litros"
-        '
-        'ComboItem3
-        '
-        Me.ComboItem3.Text = "Gramos"
-        '
-        'ComboItem4
-        '
-        Me.ComboItem4.Text = "Kilo"
-        '
-        'ComboItem5
-        '
-        Me.ComboItem5.Text = "CC"
-        '
         'WFrm_PRODUCTO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(837, 562)
+        Me.ClientSize = New System.Drawing.Size(837, 561)
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(853, 600)
         Me.MinimumSize = New System.Drawing.Size(853, 600)

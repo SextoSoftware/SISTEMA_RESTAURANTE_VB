@@ -24,6 +24,7 @@ Partial Class WFrm_REPORTE_BOLETAS
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_BOLETAS))
         Me.PA_ReportarBoletasBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
@@ -51,7 +52,7 @@ Partial Class WFrm_REPORTE_BOLETAS
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "CAPA_PRESENTACION.Report_Boletas.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(386, 486)
+        Me.ReportViewer1.Size = New System.Drawing.Size(386, 485)
         Me.ReportViewer1.TabIndex = 0
         '
         'PA_ReportarBoletasTableAdapter
@@ -62,9 +63,10 @@ Partial Class WFrm_REPORTE_BOLETAS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(386, 486)
+        Me.ClientSize = New System.Drawing.Size(386, 485)
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(402, 524)
         Me.MinimumSize = New System.Drawing.Size(402, 524)

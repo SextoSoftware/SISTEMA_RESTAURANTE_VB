@@ -24,6 +24,7 @@ Partial Class WFrm_REPORTE_BOLETA
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_BOLETA))
         Me.PA_ReportarBoletaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
         Me.ReportViewer2 = New Microsoft.Reporting.WinForms.ReportViewer()
@@ -65,6 +66,7 @@ Partial Class WFrm_REPORTE_BOLETA
         Me.ClientSize = New System.Drawing.Size(616, 500)
         Me.Controls.Add(Me.ReportViewer2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_REPORTE_BOLETA"
         Me.Text = "FORMULARIO REPORTE BOLETA"
         CType(Me.PA_ReportarBoletaBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

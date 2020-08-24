@@ -235,8 +235,8 @@
     End Sub
 
     Private Sub ButtonItem2_Click(sender As System.Object, e As System.EventArgs) Handles ButtonItem2.Click
-      
-        Process.Start("http://localhost:5864/WEB_RESTAURANTE/Default.aspx")
+
+
 
     End Sub
 

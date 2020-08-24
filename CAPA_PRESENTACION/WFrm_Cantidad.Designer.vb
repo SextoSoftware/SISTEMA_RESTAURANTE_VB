@@ -22,6 +22,7 @@ Partial Class WFrm_Cantidad
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_Cantidad))
         Me.Label8 = New System.Windows.Forms.Label()
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.ButtonX4 = New DevComponents.DotNetBar.ButtonX()
@@ -72,11 +73,12 @@ Partial Class WFrm_Cantidad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(190, 81)
+        Me.ClientSize = New System.Drawing.Size(190, 80)
         Me.Controls.Add(Me.ButtonX4)
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Label8)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(206, 119)
         Me.MinimizeBox = False

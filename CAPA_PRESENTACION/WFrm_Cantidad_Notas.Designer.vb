@@ -22,6 +22,7 @@ Partial Class WFrm_Cantidad_Notas
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_Cantidad_Notas))
         Me.ButtonX4 = New DevComponents.DotNetBar.ButtonX()
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -101,6 +102,7 @@ Partial Class WFrm_Cantidad_Notas
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Label8)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "WFrm_Cantidad_Notas"

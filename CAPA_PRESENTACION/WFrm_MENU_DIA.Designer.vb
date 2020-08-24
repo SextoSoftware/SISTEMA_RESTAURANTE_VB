@@ -25,6 +25,7 @@ Partial Class WFrm_MENU_DIA
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_MENU_DIA))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.ComboBoxEx2 = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -62,6 +63,7 @@ Partial Class WFrm_MENU_DIA
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.ComboBoxEx2)
@@ -69,6 +71,7 @@ Partial Class WFrm_MENU_DIA
         Me.GroupPanel2.Controls.Add(Me.RadioButtonNomComp)
         Me.GroupPanel2.Controls.Add(Me.txtbusqueda)
         Me.GroupPanel2.Controls.Add(Me.RadioButtonRuc)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(3, 10)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -111,7 +114,9 @@ Partial Class WFrm_MENU_DIA
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxEx2.Enabled = False
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
         Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx2, True)
         Me.ComboBoxEx2.ItemHeight = 17
@@ -190,13 +195,16 @@ Partial Class WFrm_MENU_DIA
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtbusqueda, True)
         Me.txtbusqueda.Location = New System.Drawing.Point(99, 8)
         Me.txtbusqueda.Name = "txtbusqueda"
@@ -222,6 +230,7 @@ Partial Class WFrm_MENU_DIA
         'GroupPanel4
         '
         Me.GroupPanel4.AutoScroll = True
+        Me.GroupPanel4.BackColor = System.Drawing.Color.White
         Me.GroupPanel4.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel4.Controls.Add(Me.RadioButtonPendiiente)
@@ -239,6 +248,7 @@ Partial Class WFrm_MENU_DIA
         Me.GroupPanel4.Controls.Add(Me.ButtonX1)
         Me.GroupPanel4.Controls.Add(Me.ButtonX3)
         Me.GroupPanel4.Controls.Add(Me.ListView1)
+        Me.GroupPanel4.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel4.Location = New System.Drawing.Point(324, 10)
         Me.GroupPanel4.Name = "GroupPanel4"
         Me.GroupPanel4.Size = New System.Drawing.Size(392, 518)
@@ -373,12 +383,15 @@ Partial Class WFrm_MENU_DIA
         '
         'txtdes
         '
+        Me.txtdes.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtdes.Border.Class = "TextBoxBorder"
         Me.txtdes.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtdes.DisabledBackColor = System.Drawing.Color.White
         Me.txtdes.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtdes.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtdes, True)
         Me.txtdes.Location = New System.Drawing.Point(123, 54)
         Me.txtdes.MaxLength = 50
@@ -412,13 +425,16 @@ Partial Class WFrm_MENU_DIA
         '
         'txtnom
         '
+        Me.txtnom.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtnom.Border.Class = "TextBoxBorder"
         Me.txtnom.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtnom.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtnom.DisabledBackColor = System.Drawing.Color.White
         Me.txtnom.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtnom.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtnom, True)
         Me.txtnom.Location = New System.Drawing.Point(123, 12)
         Me.txtnom.MaxLength = 30
@@ -475,6 +491,7 @@ Partial Class WFrm_MENU_DIA
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
+        Me.ListView1.HideSelection = False
         Me.Highlighter1.SetHighlightOnFocus(Me.ListView1, True)
         Me.ListView1.Location = New System.Drawing.Point(14, 175)
         Me.ListView1.Name = "ListView1"
@@ -515,10 +532,11 @@ Partial Class WFrm_MENU_DIA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(721, 534)
+        Me.ClientSize = New System.Drawing.Size(721, 533)
         Me.Controls.Add(Me.GroupPanel4)
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(737, 572)
         Me.MinimumSize = New System.Drawing.Size(737, 572)

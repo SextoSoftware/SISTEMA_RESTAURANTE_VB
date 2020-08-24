@@ -25,6 +25,7 @@ Partial Class WFrm_Mesa
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_Mesa))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.Dg_Proveedores = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -47,10 +48,12 @@ Partial Class WFrm_Mesa
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.Dg_Proveedores)
         Me.GroupPanel2.Controls.Add(Me.Panel1)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(2, 139)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -140,6 +143,7 @@ Partial Class WFrm_Mesa
         'groupPanel1
         '
         Me.groupPanel1.AutoScroll = True
+        Me.groupPanel1.BackColor = System.Drawing.Color.White
         Me.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control
         Me.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.groupPanel1.Controls.Add(Me.TextBox1)
@@ -151,6 +155,7 @@ Partial Class WFrm_Mesa
         Me.groupPanel1.Controls.Add(Me.txtnom)
         Me.groupPanel1.Controls.Add(Me.Label7)
         Me.groupPanel1.Controls.Add(Me.Label1)
+        Me.groupPanel1.DisabledBackColor = System.Drawing.Color.Empty
         Me.groupPanel1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupPanel1.Location = New System.Drawing.Point(2, 9)
         Me.groupPanel1.Name = "groupPanel1"
@@ -269,13 +274,16 @@ Partial Class WFrm_Mesa
         '
         'txtnom
         '
+        Me.txtnom.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtnom.Border.Class = "TextBoxBorder"
         Me.txtnom.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtnom.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtnom.DisabledBackColor = System.Drawing.Color.White
         Me.txtnom.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtnom.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtnom, True)
         Me.txtnom.Location = New System.Drawing.Point(92, 20)
         Me.txtnom.MaxLength = 30
@@ -319,10 +327,11 @@ Partial Class WFrm_Mesa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(363, 479)
+        Me.ClientSize = New System.Drawing.Size(363, 478)
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(379, 517)
         Me.MinimumSize = New System.Drawing.Size(379, 517)

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MENU_PRINCIPAL
     Inherits DevComponents.DotNetBar.Office2007Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class MENU_PRINCIPAL
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MENU_PRINCIPAL))
@@ -161,7 +161,7 @@ Partial Class MENU_PRINCIPAL
         Me.bubbleBar1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.bubbleBar1.SelectedTab = Me.bubbleBarTab1
         Me.bubbleBar1.SelectedTabColors.BorderColor = System.Drawing.Color.Black
-        Me.bubbleBar1.Size = New System.Drawing.Size(904, 87)
+        Me.bubbleBar1.Size = New System.Drawing.Size(1118, 87)
         Me.bubbleBar1.TabIndex = 2
         Me.bubbleBar1.Tabs.Add(Me.bubbleBarTab1)
         Me.bubbleBar1.Tabs.Add(Me.bubbleBarTab2)
@@ -171,74 +171,76 @@ Partial Class MENU_PRINCIPAL
         '
         'bubbleBarTab1
         '
-        Me.bubbleBarTab1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.bubbleBarTab1.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.bubbleBarTab1.BackColor = System.Drawing.Color.FromArgb(CType(CType(252, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.bubbleBarTab1.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(176, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.bubbleBarTab1.Buttons.AddRange(New DevComponents.DotNetBar.BubbleButton() {Me.BubbleButton27, Me.bubbleButton5, Me.BubbleButton21, Me.BubbleButton22, Me.bubbleButton8, Me.bubbleButton6, Me.bubbleButton9, Me.BubbleButton4, Me.BubbleButton20, Me.bubbleButton1})
         Me.bubbleBarTab1.DarkBorderColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.bubbleBarTab1.LightBorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.bubbleBarTab1.Name = "bubbleBarTab1"
-        Me.bubbleBarTab1.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Yellow
-        Me.bubbleBarTab1.Text = "REGISTRAR"
+        Me.bubbleBarTab1.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Orange
+        Me.bubbleBarTab1.Text = "REGISTROS"
         Me.bubbleBarTab1.TextColor = System.Drawing.Color.Black
         '
         'BubbleButton27
         '
-        Me.BubbleButton27.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.USU
-        Me.BubbleButton27.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.USU
+        Me.BubbleButton27.Image = CType(resources.GetObject("BubbleButton27.Image"), System.Drawing.Image)
+        Me.BubbleButton27.ImageLarge = CType(resources.GetObject("BubbleButton27.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton27.Name = "BubbleButton27"
+        Me.BubbleButton27.TooltipText = "USUARIOS"
         '
         'bubbleButton5
         '
-        Me.bubbleButton5.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.CATE
-        Me.bubbleButton5.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.CATE
+        Me.bubbleButton5.Image = CType(resources.GetObject("bubbleButton5.Image"), System.Drawing.Image)
+        Me.bubbleButton5.ImageLarge = CType(resources.GetObject("bubbleButton5.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton5.Name = "bubbleButton5"
-        Me.bubbleButton5.TooltipText = "CATEGORIA PLATO"
+        Me.bubbleButton5.TooltipText = "CATEGORIAS PLATOS"
         '
         'BubbleButton21
         '
-        Me.BubbleButton21.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.PLATO
-        Me.BubbleButton21.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.PLATO
+        Me.BubbleButton21.Image = CType(resources.GetObject("BubbleButton21.Image"), System.Drawing.Image)
+        Me.BubbleButton21.ImageLarge = CType(resources.GetObject("BubbleButton21.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton21.Name = "BubbleButton21"
         Me.BubbleButton21.TooltipText = "PLATOS"
         '
         'BubbleButton22
         '
-        Me.BubbleButton22.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.TIPO
-        Me.BubbleButton22.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.TIPO
+        Me.BubbleButton22.Image = CType(resources.GetObject("BubbleButton22.Image"), System.Drawing.Image)
+        Me.BubbleButton22.ImageLarge = CType(resources.GetObject("BubbleButton22.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton22.Name = "BubbleButton22"
-        Me.BubbleButton22.TooltipText = "TIPO PRODUCTO"
+        Me.BubbleButton22.TooltipText = "CATEGORIAS PRODUCTO"
         '
         'bubbleButton8
         '
-        Me.bubbleButton8.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.bebidas
-        Me.bubbleButton8.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.bebidas
+        Me.bubbleButton8.Image = CType(resources.GetObject("bubbleButton8.Image"), System.Drawing.Image)
+        Me.bubbleButton8.ImageLarge = CType(resources.GetObject("bubbleButton8.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton8.Name = "bubbleButton8"
         Me.bubbleButton8.TooltipText = "PRODUCTOS"
         '
         'bubbleButton6
         '
-        Me.bubbleButton6.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.PRO
-        Me.bubbleButton6.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.PRO
+        Me.bubbleButton6.Image = CType(resources.GetObject("bubbleButton6.Image"), System.Drawing.Image)
+        Me.bubbleButton6.ImageLarge = CType(resources.GetObject("bubbleButton6.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton6.Name = "bubbleButton6"
         Me.bubbleButton6.TooltipText = "PROVEEDORES"
         '
         'bubbleButton9
         '
-        Me.bubbleButton9.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.Client_icon
-        Me.bubbleButton9.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.Client_icon
+        Me.bubbleButton9.Image = CType(resources.GetObject("bubbleButton9.Image"), System.Drawing.Image)
+        Me.bubbleButton9.ImageLarge = CType(resources.GetObject("bubbleButton9.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton9.Name = "bubbleButton9"
         Me.bubbleButton9.TooltipText = "CLIENTES"
         '
         'BubbleButton4
         '
-        Me.BubbleButton4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.icono_mozo
-        Me.BubbleButton4.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.icono_mozo
+        Me.BubbleButton4.Image = CType(resources.GetObject("BubbleButton4.Image"), System.Drawing.Image)
+        Me.BubbleButton4.ImageLarge = CType(resources.GetObject("BubbleButton4.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton4.Name = "BubbleButton4"
+        Me.BubbleButton4.TooltipText = "MESEROS"
         '
         'BubbleButton20
         '
-        Me.BubbleButton20.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
-        Me.BubbleButton20.ImageLarge = Global.CAPA_PRESENTACION.My.Resources.Resources.mesas
+        Me.BubbleButton20.Image = CType(resources.GetObject("BubbleButton20.Image"), System.Drawing.Image)
+        Me.BubbleButton20.ImageLarge = CType(resources.GetObject("BubbleButton20.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton20.Name = "BubbleButton20"
         Me.BubbleButton20.TooltipText = "MESAS"
         '
@@ -247,53 +249,56 @@ Partial Class MENU_PRINCIPAL
         Me.bubbleButton1.Image = CType(resources.GetObject("bubbleButton1.Image"), System.Drawing.Image)
         Me.bubbleButton1.ImageLarge = CType(resources.GetObject("bubbleButton1.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton1.Name = "bubbleButton1"
-        Me.bubbleButton1.TooltipText = "PANEL DE MESAS"
+        Me.bubbleButton1.TooltipText = "ASIGNAR  MESAS"
         '
         'bubbleBarTab2
         '
-        Me.bubbleBarTab2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.bubbleBarTab2.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.bubbleBarTab2.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.bubbleBarTab2.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(151, Byte), Integer))
         Me.bubbleBarTab2.Buttons.AddRange(New DevComponents.DotNetBar.BubbleButton() {Me.bubbleButton13, Me.bubbleButton12, Me.bubbleButton15, Me.bubbleButton11})
         Me.bubbleBarTab2.DarkBorderColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.bubbleBarTab2.LightBorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.bubbleBarTab2.Name = "bubbleBarTab2"
-        Me.bubbleBarTab2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Yellow
+        Me.bubbleBarTab2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Red
         Me.bubbleBarTab2.Text = "PROCESOS"
         Me.bubbleBarTab2.TextColor = System.Drawing.Color.Black
         '
         'bubbleButton13
         '
-        Me.bubbleButton13.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.MENU
+        Me.bubbleButton13.Image = CType(resources.GetObject("bubbleButton13.Image"), System.Drawing.Image)
+        Me.bubbleButton13.ImageLarge = CType(resources.GetObject("bubbleButton13.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton13.Name = "bubbleButton13"
         Me.bubbleButton13.TooltipText = "CARTA MENU"
         '
         'bubbleButton12
         '
-        Me.bubbleButton12.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.ICONO_LISTA_2
+        Me.bubbleButton12.Image = CType(resources.GetObject("bubbleButton12.Image"), System.Drawing.Image)
         Me.bubbleButton12.Name = "bubbleButton12"
         Me.bubbleButton12.TooltipText = "LISTADO MENU"
         '
         'bubbleButton15
         '
         Me.bubbleButton15.Image = CType(resources.GetObject("bubbleButton15.Image"), System.Drawing.Image)
+        Me.bubbleButton15.ImageLarge = CType(resources.GetObject("bubbleButton15.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton15.Name = "bubbleButton15"
         Me.bubbleButton15.TooltipText = "ABASTECER"
         '
         'bubbleButton11
         '
-        Me.bubbleButton11.Image = Global.CAPA_PRESENTACION.My.Resources.Resources.COMPRA
+        Me.bubbleButton11.Image = CType(resources.GetObject("bubbleButton11.Image"), System.Drawing.Image)
+        Me.bubbleButton11.ImageLarge = CType(resources.GetObject("bubbleButton11.ImageLarge"), System.Drawing.Image)
         Me.bubbleButton11.Name = "bubbleButton11"
         Me.bubbleButton11.TooltipText = "ORDEN DE COMPRA"
         '
         'BubbleBarTab3
         '
-        Me.BubbleBarTab3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.BubbleBarTab3.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.BubbleBarTab3.BackColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.BubbleBarTab3.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.BubbleBarTab3.Buttons.AddRange(New DevComponents.DotNetBar.BubbleButton() {Me.BubbleButton23, Me.BubbleButton3, Me.BubbleButton17, Me.BubbleButton28, Me.BubbleButton29})
         Me.BubbleBarTab3.DarkBorderColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.BubbleBarTab3.LightBorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BubbleBarTab3.Name = "BubbleBarTab3"
-        Me.BubbleBarTab3.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Yellow
+        Me.BubbleBarTab3.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Blue
         Me.BubbleBarTab3.Text = "REPORTES"
         Me.BubbleBarTab3.TextColor = System.Drawing.Color.Black
         '
@@ -316,18 +321,21 @@ Partial Class MENU_PRINCIPAL
         Me.BubbleButton17.Image = CType(resources.GetObject("BubbleButton17.Image"), System.Drawing.Image)
         Me.BubbleButton17.ImageLarge = CType(resources.GetObject("BubbleButton17.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton17.Name = "BubbleButton17"
+        Me.BubbleButton17.TooltipText = "INGRESOS VENTAS"
         '
         'BubbleButton28
         '
         Me.BubbleButton28.Image = CType(resources.GetObject("BubbleButton28.Image"), System.Drawing.Image)
         Me.BubbleButton28.ImageLarge = CType(resources.GetObject("BubbleButton28.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton28.Name = "BubbleButton28"
+        Me.BubbleButton28.TooltipText = "INGRESOS PEDIDOS"
         '
         'BubbleButton29
         '
         Me.BubbleButton29.Image = CType(resources.GetObject("BubbleButton29.Image"), System.Drawing.Image)
         Me.BubbleButton29.ImageLarge = CType(resources.GetObject("BubbleButton29.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton29.Name = "BubbleButton29"
+        Me.BubbleButton29.TooltipText = "ESTADISTICAS PLATOS Y PRODUCTOS"
         '
         'bar1
         '
@@ -341,7 +349,8 @@ Partial Class MENU_PRINCIPAL
         Me.bar1.Location = New System.Drawing.Point(0, 87)
         Me.bar1.Name = "bar1"
         Me.bar1.RoundCorners = False
-        Me.bar1.Size = New System.Drawing.Size(904, 30)
+        Me.bar1.SingleLineColor = System.Drawing.SystemColors.ActiveBorder
+        Me.bar1.Size = New System.Drawing.Size(1118, 30)
         Me.bar1.Stretch = True
         Me.bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2013
         Me.bar1.TabIndex = 26
@@ -353,6 +362,7 @@ Partial Class MENU_PRINCIPAL
         Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Transparent
         Me.DateTimePicker1.Enabled = False
         Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.DateTimePicker1.Location = New System.Drawing.Point(124, 5)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(229, 23)
@@ -362,16 +372,19 @@ Partial Class MENU_PRINCIPAL
         '
         Me.ButtonItem13.Name = "ButtonItem13"
         Me.ButtonItem13.Text = "Black"
+        Me.ButtonItem13.Visible = False
         '
         'buttonBlueScheme
         '
         Me.buttonBlueScheme.Name = "buttonBlueScheme"
-        Me.buttonBlueScheme.Text = "Blue"
+        Me.buttonBlueScheme.Text = "Azul"
+        Me.buttonBlueScheme.Visible = False
         '
         'buttonSilverScheme
         '
         Me.buttonSilverScheme.Name = "buttonSilverScheme"
-        Me.buttonSilverScheme.Text = "Silver"
+        Me.buttonSilverScheme.Text = "Plateado"
+        Me.buttonSilverScheme.Visible = False
         '
         'ControlContainerItem1
         '
@@ -412,7 +425,6 @@ Partial Class MENU_PRINCIPAL
         Me.TextBoxItem1.Name = "TextBoxItem1"
         Me.TextBoxItem1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBoxItem1.Visible = False
-        Me.TextBoxItem1.WatermarkColor = System.Drawing.SystemColors.GrayText
         '
         'ButtonItem1
         '
@@ -424,6 +436,7 @@ Partial Class MENU_PRINCIPAL
         '
         Me.ButtonItem2.Name = "ButtonItem2"
         Me.ButtonItem2.Text = "     Ir a la WEB"
+        Me.ButtonItem2.Visible = False
         '
         'Label1
         '
@@ -470,12 +483,14 @@ Partial Class MENU_PRINCIPAL
         'StyleManager1
         '
         Me.StyleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Metro
-        Me.StyleManager1.MetroColorParameters = New DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(142, Byte), Integer), CType(CType(0, Byte), Integer)))
+        Me.StyleManager1.MetroColorParameters = New DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.DarkRed)
         '
         'BubbleButton19
         '
         Me.BubbleButton19.Image = CType(resources.GetObject("BubbleButton19.Image"), System.Drawing.Image)
+        Me.BubbleButton19.ImageLarge = CType(resources.GetObject("BubbleButton19.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton19.Name = "BubbleButton19"
+        Me.BubbleButton19.TooltipText = "PAPAS"
         '
         'BubbleButton10
         '
@@ -519,46 +534,47 @@ Partial Class MENU_PRINCIPAL
         '
         'expandableSplitter1
         '
-        Me.expandableSplitter1.BackColor = System.Drawing.Color.FromArgb(CType(CType(89, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(214, Byte), Integer))
-        Me.expandableSplitter1.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.expandableSplitter1.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.expandableSplitter1.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
+        Me.expandableSplitter1.BackColor = System.Drawing.Color.DarkRed
+        Me.expandableSplitter1.BackColor2 = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.None
+        Me.expandableSplitter1.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.ExpandableControl = Me.panelEx1
-        Me.expandableSplitter1.ExpandFillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.expandableSplitter1.ExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
+        Me.expandableSplitter1.ExpandFillColor = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.ExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.ExpandLineColor = System.Drawing.SystemColors.ControlText
         Me.expandableSplitter1.ExpandLineColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
         Me.expandableSplitter1.ForeColor = System.Drawing.Color.Black
         Me.expandableSplitter1.GripDarkColor = System.Drawing.SystemColors.ControlText
         Me.expandableSplitter1.GripDarkColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
-        Me.expandableSplitter1.GripLightColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(254, Byte), Integer))
-        Me.expandableSplitter1.GripLightColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
+        Me.expandableSplitter1.GripLightColor = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.GripLightColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.HotBackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(142, Byte), Integer), CType(CType(75, Byte), Integer))
-        Me.expandableSplitter1.HotBackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.expandableSplitter1.HotBackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemPressedBackground2
+        Me.expandableSplitter1.HotBackColor2 = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.HotBackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.HotBackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemPressedBackground
-        Me.expandableSplitter1.HotExpandFillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.expandableSplitter1.HotExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
+        Me.expandableSplitter1.HotExpandFillColor = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.HotExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.HotExpandLineColor = System.Drawing.SystemColors.ControlText
         Me.expandableSplitter1.HotExpandLineColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
-        Me.expandableSplitter1.HotGripDarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.expandableSplitter1.HotGripDarkColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
+        Me.expandableSplitter1.HotGripDarkColor = System.Drawing.Color.Maroon
+        Me.expandableSplitter1.HotGripDarkColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.None
         Me.expandableSplitter1.HotGripLightColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.expandableSplitter1.HotGripLightColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
         Me.expandableSplitter1.Location = New System.Drawing.Point(171, 117)
         Me.expandableSplitter1.Name = "expandableSplitter1"
-        Me.expandableSplitter1.Size = New System.Drawing.Size(8, 426)
+        Me.expandableSplitter1.Size = New System.Drawing.Size(8, 497)
         Me.expandableSplitter1.TabIndex = 34
         Me.expandableSplitter1.TabStop = False
         '
         'panelEx1
         '
+        Me.panelEx1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.panelEx1.Controls.Add(Me.expandablePanel1)
         Me.panelEx1.DisabledBackColor = System.Drawing.Color.Empty
         Me.panelEx1.Dock = System.Windows.Forms.DockStyle.Left
         Me.panelEx1.Location = New System.Drawing.Point(0, 117)
         Me.panelEx1.Name = "panelEx1"
-        Me.panelEx1.Size = New System.Drawing.Size(171, 426)
+        Me.panelEx1.Size = New System.Drawing.Size(171, 497)
         Me.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center
         Me.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
         Me.panelEx1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
@@ -574,7 +590,6 @@ Partial Class MENU_PRINCIPAL
         '
         Me.expandablePanel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control
         Me.expandablePanel1.CollapseDirection = DevComponents.DotNetBar.eCollapseDirection.RightToLeft
         Me.expandablePanel1.Controls.Add(Me.ExpandablePanel6)
         Me.expandablePanel1.Controls.Add(Me.expandablePanel5)
@@ -583,8 +598,7 @@ Partial Class MENU_PRINCIPAL
         Me.expandablePanel1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.expandablePanel1.Location = New System.Drawing.Point(2, -27)
         Me.expandablePanel1.Name = "expandablePanel1"
-        Me.expandablePanel1.Size = New System.Drawing.Size(172, 450)
-        Me.expandablePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
+        Me.expandablePanel1.Size = New System.Drawing.Size(172, 521)
         Me.expandablePanel1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
         Me.expandablePanel1.Style.BackgroundImagePosition = DevComponents.DotNetBar.eBackgroundImagePosition.Tile
         Me.expandablePanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
@@ -592,6 +606,7 @@ Partial Class MENU_PRINCIPAL
         Me.expandablePanel1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
         Me.expandablePanel1.Style.GradientAngle = 90
         Me.expandablePanel1.Style.WordWrap = True
+        Me.expandablePanel1.StyleMouseDown.BackColor1.Color = System.Drawing.Color.Transparent
         Me.expandablePanel1.TabIndex = 1
         Me.expandablePanel1.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
         Me.expandablePanel1.TitleStyle.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
@@ -616,7 +631,6 @@ Partial Class MENU_PRINCIPAL
         Me.ExpandablePanel6.Style.Alignment = System.Drawing.StringAlignment.Center
         Me.ExpandablePanel6.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
         Me.ExpandablePanel6.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
-        Me.ExpandablePanel6.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
         Me.ExpandablePanel6.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
         Me.ExpandablePanel6.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
         Me.ExpandablePanel6.Style.GradientAngle = 90
@@ -667,6 +681,7 @@ Partial Class MENU_PRINCIPAL
         Me.ItemPanel3.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical
         Me.ItemPanel3.Location = New System.Drawing.Point(0, 26)
         Me.ItemPanel3.Name = "ItemPanel3"
+        Me.ItemPanel3.ReserveLeftSpace = False
         Me.ItemPanel3.Size = New System.Drawing.Size(172, 204)
         Me.ItemPanel3.TabIndex = 3
         Me.ItemPanel3.Text = "ItemPanel3"
@@ -674,7 +689,7 @@ Partial Class MENU_PRINCIPAL
         'ButtonItem21
         '
         Me.ButtonItem21.Name = "ButtonItem21"
-        Me.ButtonItem21.Text = "Productos x Tipo"
+        Me.ButtonItem21.Text = "Productos Por Tipo"
         '
         'ButtonItem22
         '
@@ -766,6 +781,7 @@ Partial Class MENU_PRINCIPAL
         Me.itemPanel2.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical
         Me.itemPanel2.Location = New System.Drawing.Point(0, 26)
         Me.itemPanel2.Name = "itemPanel2"
+        Me.itemPanel2.ReserveLeftSpace = False
         Me.itemPanel2.Size = New System.Drawing.Size(172, 96)
         Me.itemPanel2.TabIndex = 3
         Me.itemPanel2.Text = "itemPanel2"
@@ -773,7 +789,7 @@ Partial Class MENU_PRINCIPAL
         'buttonItem6
         '
         Me.buttonItem6.Name = "buttonItem6"
-        Me.buttonItem6.Text = "Panel de Mesas"
+        Me.buttonItem6.Text = "Asignar de Mesas"
         '
         'buttonItem4
         '
@@ -844,6 +860,7 @@ Partial Class MENU_PRINCIPAL
         Me.itemPanel1.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical
         Me.itemPanel1.Location = New System.Drawing.Point(0, 26)
         Me.itemPanel1.Name = "itemPanel1"
+        Me.itemPanel1.ReserveLeftSpace = False
         Me.itemPanel1.Size = New System.Drawing.Size(172, 230)
         Me.itemPanel1.TabIndex = 3
         Me.itemPanel1.Text = "itemPanel1"
@@ -856,12 +873,12 @@ Partial Class MENU_PRINCIPAL
         'ButtonItem11
         '
         Me.ButtonItem11.Name = "ButtonItem11"
-        Me.ButtonItem11.Text = "Registros de Categoria Plato"
+        Me.ButtonItem11.Text = "Registro Categoria Platos"
         '
         'ButtonItem12
         '
         Me.ButtonItem12.Name = "ButtonItem12"
-        Me.ButtonItem12.Text = "Registro de Tipo Producto"
+        Me.ButtonItem12.Text = "Registro Categoría Productos"
         '
         'ButtonItem28
         '
@@ -891,12 +908,12 @@ Partial Class MENU_PRINCIPAL
         'ButtonItem19
         '
         Me.ButtonItem19.Name = "ButtonItem19"
-        Me.ButtonItem19.Text = "Registrao de Mozos"
+        Me.ButtonItem19.Text = "Registro de Meseros"
         '
         'ButtonItem18
         '
         Me.ButtonItem18.Name = "ButtonItem18"
-        Me.ButtonItem18.Text = "Registrao de Mesas"
+        Me.ButtonItem18.Text = "Registro de Mesas"
         '
         'BubbleButton16
         '
@@ -910,6 +927,7 @@ Partial Class MENU_PRINCIPAL
         Me.BubbleButton18.Image = CType(resources.GetObject("BubbleButton18.Image"), System.Drawing.Image)
         Me.BubbleButton18.ImageLarge = CType(resources.GetObject("BubbleButton18.ImageLarge"), System.Drawing.Image)
         Me.BubbleButton18.Name = "BubbleButton18"
+        Me.BubbleButton18.TooltipText = "MESHOCOS"
         '
         'ButtonItem20
         '
@@ -930,15 +948,17 @@ Partial Class MENU_PRINCIPAL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(904, 543)
+        Me.BackColor = System.Drawing.Color.DarkRed
+        Me.ClientSize = New System.Drawing.Size(1118, 614)
         Me.Controls.Add(Me.expandableSplitter1)
         Me.Controls.Add(Me.panelEx1)
         Me.Controls.Add(Me.bar1)
         Me.Controls.Add(Me.bubbleBar1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.Name = "MENU_PRINCIPAL"
-        Me.Text = "VENTANA PRINCIPAL"
+        Me.Text = "GEOMAFER'S"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.bubbleBar1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.bar1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -123,7 +123,7 @@ Partial Class WFrm_REPORTE_VENTAS_FECHAS_DETALLE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(978, 519)
+        Me.ClientSize = New System.Drawing.Size(978, 514)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label2)
@@ -132,6 +132,7 @@ Partial Class WFrm_REPORTE_VENTAS_FECHAS_DETALLE
         Me.Controls.Add(Me.DateTimePicker1)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(994, 553)
         Me.MinimumSize = New System.Drawing.Size(994, 553)

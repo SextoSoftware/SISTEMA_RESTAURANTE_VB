@@ -23,16 +23,16 @@ Partial Class WFrm_COMANDA
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_COMANDA))
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupPanel4 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.txtidmoz = New System.Windows.Forms.TextBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
@@ -62,12 +62,6 @@ Partial Class WFrm_COMANDA
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtmonto = New System.Windows.Forms.TextBox()
         Me.TabControl1 = New DevComponents.DotNetBar.TabControl()
-        Me.TabControlPanel1 = New DevComponents.DotNetBar.TabControlPanel()
-        Me.TextBoxX1 = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.dgplatos = New DevComponents.DotNetBar.Controls.DataGridViewX()
-        Me.TabItem1 = New DevComponents.DotNetBar.TabItem(Me.components)
         Me.txtdescuento = New DevComponents.DotNetBar.TabControlPanel()
         Me.txtbusquedaCliente = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.RadioButtondniRuc = New System.Windows.Forms.RadioButton()
@@ -75,6 +69,12 @@ Partial Class WFrm_COMANDA
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Dgcliente = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.TabItem3 = New DevComponents.DotNetBar.TabItem(Me.components)
+        Me.TabControlPanel1 = New DevComponents.DotNetBar.TabControlPanel()
+        Me.TextBoxX1 = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.dgplatos = New DevComponents.DotNetBar.Controls.DataGridViewX()
+        Me.TabItem1 = New DevComponents.DotNetBar.TabItem(Me.components)
         Me.TabControlPanel2 = New DevComponents.DotNetBar.TabControlPanel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -105,12 +105,12 @@ Partial Class WFrm_COMANDA
         Me.GroupBox1.SuspendLayout()
         CType(Me.TabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
-        Me.TabControlPanel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        CType(Me.dgplatos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.txtdescuento.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.Dgcliente, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControlPanel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        CType(Me.dgplatos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControlPanel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.Dg_productos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -563,8 +563,8 @@ Partial Class WFrm_COMANDA
         '
         Me.TabControl1.BackColor = System.Drawing.Color.Yellow
         Me.TabControl1.CanReorderTabs = True
-        Me.TabControl1.Controls.Add(Me.txtdescuento)
         Me.TabControl1.Controls.Add(Me.TabControlPanel1)
+        Me.TabControl1.Controls.Add(Me.txtdescuento)
         Me.TabControl1.Controls.Add(Me.TabControlPanel2)
         Me.TabControl1.ForeColor = System.Drawing.Color.Black
         Me.TabControl1.Location = New System.Drawing.Point(451, 37)
@@ -578,120 +578,6 @@ Partial Class WFrm_COMANDA
         Me.TabControl1.Tabs.Add(Me.TabItem1)
         Me.TabControl1.Tabs.Add(Me.TabItem2)
         Me.TabControl1.Tabs.Add(Me.TabItem3)
-        '
-        'TabControlPanel1
-        '
-        Me.TabControlPanel1.CanvasColor = System.Drawing.SystemColors.ControlDark
-        Me.TabControlPanel1.Controls.Add(Me.TextBoxX1)
-        Me.TabControlPanel1.Controls.Add(Me.Label8)
-        Me.TabControlPanel1.Controls.Add(Me.Panel2)
-        Me.TabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty
-        Me.TabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabControlPanel1.Location = New System.Drawing.Point(0, 27)
-        Me.TabControlPanel1.Name = "TabControlPanel1"
-        Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
-        Me.TabControlPanel1.Size = New System.Drawing.Size(349, 448)
-        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
-        Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
-        Me.TabControlPanel1.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
-            Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
-        Me.TabControlPanel1.Style.GradientAngle = 90
-        Me.TabControlPanel1.TabIndex = 1
-        Me.TabControlPanel1.TabItem = Me.TabItem1
-        '
-        'TextBoxX1
-        '
-        Me.TextBoxX1.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.TextBoxX1.Border.Class = "TextBoxBorder"
-        Me.TextBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.TextBoxX1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBoxX1.DisabledBackColor = System.Drawing.Color.White
-        Me.TextBoxX1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.TextBoxX1.ForeColor = System.Drawing.Color.Black
-        Me.TextBoxX1.Location = New System.Drawing.Point(131, 6)
-        Me.TextBoxX1.MaxLength = 30
-        Me.TextBoxX1.Name = "TextBoxX1"
-        Me.TextBoxX1.Size = New System.Drawing.Size(174, 23)
-        Me.TextBoxX1.TabIndex = 121
-        Me.TextBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.TextBoxX1.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxX1.WatermarkText = "Nombre de carta de menu"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(20, 10)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(105, 15)
-        Me.Label8.TabIndex = 119
-        Me.Label8.Text = "CARTA DE MENU"
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.DarkMagenta
-        Me.Panel2.Controls.Add(Me.dgplatos)
-        Me.Panel2.Location = New System.Drawing.Point(11, 36)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(329, 407)
-        Me.Panel2.TabIndex = 110
-        '
-        'dgplatos
-        '
-        Me.dgplatos.AllowUserToAddRows = False
-        Me.dgplatos.AllowUserToDeleteRows = False
-        Me.dgplatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.dgplatos.BackgroundColor = System.Drawing.Color.White
-        Me.dgplatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgplatos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle19
-        Me.dgplatos.ColumnHeadersHeight = 26
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle20.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgplatos.DefaultCellStyle = DataGridViewCellStyle20
-        Me.dgplatos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.dgplatos.EnableHeadersVisualStyles = False
-        Me.dgplatos.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.dgplatos.Location = New System.Drawing.Point(3, 2)
-        Me.dgplatos.Name = "dgplatos"
-        Me.dgplatos.ReadOnly = True
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgplatos.RowHeadersDefaultCellStyle = DataGridViewCellStyle21
-        Me.dgplatos.RowHeadersVisible = False
-        Me.dgplatos.RowHeadersWidth = 20
-        Me.dgplatos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.dgplatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgplatos.Size = New System.Drawing.Size(323, 402)
-        Me.dgplatos.TabIndex = 0
-        '
-        'TabItem1
-        '
-        Me.TabItem1.AttachedControl = Me.TabControlPanel1
-        Me.TabItem1.Name = "TabItem1"
-        Me.TabItem1.Text = "LISTADO PLATOS   "
         '
         'txtdescuento
         '
@@ -778,37 +664,37 @@ Partial Class WFrm_COMANDA
         Me.Dgcliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Dgcliente.BackgroundColor = System.Drawing.Color.White
         Me.Dgcliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dgcliente.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dgcliente.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.Dgcliente.ColumnHeadersHeight = 26
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle23.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Dgcliente.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Dgcliente.DefaultCellStyle = DataGridViewCellStyle5
         Me.Dgcliente.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.Dgcliente.EnableHeadersVisualStyles = False
         Me.Dgcliente.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.Dgcliente.Location = New System.Drawing.Point(3, 2)
         Me.Dgcliente.Name = "Dgcliente"
         Me.Dgcliente.ReadOnly = True
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dgcliente.RowHeadersDefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dgcliente.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
         Me.Dgcliente.RowHeadersVisible = False
         Me.Dgcliente.RowHeadersWidth = 20
         Me.Dgcliente.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -822,6 +708,120 @@ Partial Class WFrm_COMANDA
         Me.TabItem3.Name = "TabItem3"
         Me.TabItem3.Text = "LISTADO CLIENTE"
         Me.TabItem3.Visible = False
+        '
+        'TabControlPanel1
+        '
+        Me.TabControlPanel1.CanvasColor = System.Drawing.SystemColors.ControlDark
+        Me.TabControlPanel1.Controls.Add(Me.TextBoxX1)
+        Me.TabControlPanel1.Controls.Add(Me.Label8)
+        Me.TabControlPanel1.Controls.Add(Me.Panel2)
+        Me.TabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty
+        Me.TabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControlPanel1.Location = New System.Drawing.Point(0, 27)
+        Me.TabControlPanel1.Name = "TabControlPanel1"
+        Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
+        Me.TabControlPanel1.Size = New System.Drawing.Size(349, 448)
+        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
+        Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
+        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.TabControlPanel1.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
+            Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
+        Me.TabControlPanel1.Style.GradientAngle = 90
+        Me.TabControlPanel1.TabIndex = 1
+        Me.TabControlPanel1.TabItem = Me.TabItem1
+        '
+        'TextBoxX1
+        '
+        Me.TextBoxX1.BackColor = System.Drawing.Color.White
+        '
+        '
+        '
+        Me.TextBoxX1.Border.Class = "TextBoxBorder"
+        Me.TextBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.TextBoxX1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBoxX1.DisabledBackColor = System.Drawing.Color.White
+        Me.TextBoxX1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX1.ForeColor = System.Drawing.Color.Black
+        Me.TextBoxX1.Location = New System.Drawing.Point(131, 6)
+        Me.TextBoxX1.MaxLength = 30
+        Me.TextBoxX1.Name = "TextBoxX1"
+        Me.TextBoxX1.Size = New System.Drawing.Size(174, 23)
+        Me.TextBoxX1.TabIndex = 121
+        Me.TextBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBoxX1.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxX1.WatermarkText = "Nombre de carta de menu"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(20, 10)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(105, 15)
+        Me.Label8.TabIndex = 119
+        Me.Label8.Text = "CARTA DE MENU"
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Panel2.Controls.Add(Me.dgplatos)
+        Me.Panel2.Location = New System.Drawing.Point(11, 36)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(329, 407)
+        Me.Panel2.TabIndex = 110
+        '
+        'dgplatos
+        '
+        Me.dgplatos.AllowUserToAddRows = False
+        Me.dgplatos.AllowUserToDeleteRows = False
+        Me.dgplatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.dgplatos.BackgroundColor = System.Drawing.Color.White
+        Me.dgplatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgplatos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        Me.dgplatos.ColumnHeadersHeight = 26
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgplatos.DefaultCellStyle = DataGridViewCellStyle2
+        Me.dgplatos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.dgplatos.EnableHeadersVisualStyles = False
+        Me.dgplatos.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.dgplatos.Location = New System.Drawing.Point(3, 2)
+        Me.dgplatos.Name = "dgplatos"
+        Me.dgplatos.ReadOnly = True
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgplatos.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
+        Me.dgplatos.RowHeadersVisible = False
+        Me.dgplatos.RowHeadersWidth = 20
+        Me.dgplatos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dgplatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgplatos.Size = New System.Drawing.Size(323, 402)
+        Me.dgplatos.TabIndex = 0
+        '
+        'TabItem1
+        '
+        Me.TabItem1.AttachedControl = Me.TabControlPanel1
+        Me.TabItem1.Name = "TabItem1"
+        Me.TabItem1.Text = "LISTADO PLATOS   "
         '
         'TabControlPanel2
         '
@@ -871,37 +871,37 @@ Partial Class WFrm_COMANDA
         Me.Dg_productos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Dg_productos.BackgroundColor = System.Drawing.Color.White
         Me.Dg_productos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_productos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_productos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
         Me.Dg_productos.ColumnHeadersHeight = 26
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle26.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Dg_productos.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Dg_productos.DefaultCellStyle = DataGridViewCellStyle8
         Me.Dg_productos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.Dg_productos.EnableHeadersVisualStyles = False
         Me.Dg_productos.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.Dg_productos.Location = New System.Drawing.Point(3, 2)
         Me.Dg_productos.Name = "Dg_productos"
         Me.Dg_productos.ReadOnly = True
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_productos.RowHeadersDefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_productos.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
         Me.Dg_productos.RowHeadersVisible = False
         Me.Dg_productos.RowHeadersWidth = 20
         Me.Dg_productos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -950,6 +950,7 @@ Partial Class WFrm_COMANDA
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxEx2.Enabled = False
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
@@ -1058,6 +1059,7 @@ Partial Class WFrm_COMANDA
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
+        Me.ListView1.HideSelection = False
         Me.Highlighter1.SetHighlightOnFocus(Me.ListView1, True)
         Me.ListView1.HoverSelection = True
         Me.ListView1.Location = New System.Drawing.Point(15, 190)
@@ -1117,9 +1119,10 @@ Partial Class WFrm_COMANDA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(826, 546)
+        Me.ClientSize = New System.Drawing.Size(826, 545)
         Me.Controls.Add(Me.GroupPanel4)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(842, 584)
         Me.MinimumSize = New System.Drawing.Size(842, 584)
@@ -1135,14 +1138,14 @@ Partial Class WFrm_COMANDA
         Me.GroupBox1.PerformLayout()
         CType(Me.TabControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
-        Me.TabControlPanel1.ResumeLayout(False)
-        Me.TabControlPanel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        CType(Me.dgplatos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.txtdescuento.ResumeLayout(False)
         Me.txtdescuento.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         CType(Me.Dgcliente, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControlPanel1.ResumeLayout(False)
+        Me.TabControlPanel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        CType(Me.dgplatos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControlPanel2.ResumeLayout(False)
         Me.TabControlPanel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)

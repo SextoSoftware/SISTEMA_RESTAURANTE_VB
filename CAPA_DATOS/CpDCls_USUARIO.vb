@@ -25,7 +25,7 @@ Public Class CpDCls_USUARIO
         End Try
     End Sub
     Public Function logeo(ByVal n As String, ByVal cl As String, ByVal obj As CAPA_ENTIDAD.CpECls_USUARIO) As Boolean
-        Dim cn As New SqlConnection("Data Source=ACERPREDATOR;Initial Catalog=BARRICA2;Integrated Security=True")
+        Dim cn As New SqlConnection("Data Source=ACERPREDATOR;Initial Catalog=SextoSoftware;Integrated Security=True")
         '0Dim cn As New SqlConnection("Data Source=.;Initial Catalog=RESTAURANTE_SAMARITANA;Integrated Security=True")
         Dim comando As New SqlCommand
         Dim parnombre As New SqlParameter

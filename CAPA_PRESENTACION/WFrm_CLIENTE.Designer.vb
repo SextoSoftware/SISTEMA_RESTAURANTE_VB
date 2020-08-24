@@ -29,6 +29,7 @@ Partial Class WFrm_CLIENTE
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_CLIENTE))
         Me.tabItem1 = New DevComponents.DotNetBar.TabItem(Me.components)
         Me.tabItem2 = New DevComponents.DotNetBar.TabItem(Me.components)
         Me.TabControl1 = New DevComponents.DotNetBar.TabControl()
@@ -151,10 +152,9 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel1.Name = "TabControlPanel1"
         Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
         Me.TabControlPanel1.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
-        Me.TabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
         Me.TabControlPanel1.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel1.Style.GradientAngle = 90
@@ -209,6 +209,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -217,6 +218,7 @@ Partial Class WFrm_CLIENTE
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtbusqueda, True)
         Me.txtbusqueda.Location = New System.Drawing.Point(534, 10)
         Me.txtbusqueda.Name = "txtbusqueda"
@@ -451,6 +453,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtdieNatu
         '
+        Me.txtdieNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -459,6 +462,7 @@ Partial Class WFrm_CLIENTE
         Me.txtdieNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtdieNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txtdieNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtdieNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtdieNatu, True)
         Me.txtdieNatu.Location = New System.Drawing.Point(86, 93)
         Me.txtdieNatu.Name = "txtdieNatu"
@@ -470,6 +474,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtemailNatu
         '
+        Me.txtemailNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -478,6 +483,7 @@ Partial Class WFrm_CLIENTE
         Me.txtemailNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtemailNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txtemailNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtemailNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtemailNatu, True)
         Me.txtemailNatu.Location = New System.Drawing.Point(484, 50)
         Me.txtemailNatu.Name = "txtemailNatu"
@@ -513,6 +519,7 @@ Partial Class WFrm_CLIENTE
         '
         'txttelefonoNatu
         '
+        Me.txttelefonoNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -521,6 +528,7 @@ Partial Class WFrm_CLIENTE
         Me.txttelefonoNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txttelefonoNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txttelefonoNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txttelefonoNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txttelefonoNatu, True)
         Me.txttelefonoNatu.Location = New System.Drawing.Point(85, 53)
         Me.txttelefonoNatu.MaxLength = 10
@@ -545,6 +553,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtApeNatu
         '
+        Me.txtApeNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -553,6 +562,7 @@ Partial Class WFrm_CLIENTE
         Me.txtApeNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtApeNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txtApeNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtApeNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtApeNatu, True)
         Me.txtApeNatu.Location = New System.Drawing.Point(534, 9)
         Me.txtApeNatu.Name = "txtApeNatu"
@@ -564,6 +574,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtNomNatu
         '
+        Me.txtNomNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -572,6 +583,7 @@ Partial Class WFrm_CLIENTE
         Me.txtNomNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtNomNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txtNomNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtNomNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtNomNatu, True)
         Me.txtNomNatu.Location = New System.Drawing.Point(260, 9)
         Me.txtNomNatu.Name = "txtNomNatu"
@@ -607,6 +619,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtDNI
         '
+        Me.txtDNI.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -615,6 +628,7 @@ Partial Class WFrm_CLIENTE
         Me.txtDNI.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtDNI.DisabledBackColor = System.Drawing.Color.White
         Me.txtDNI.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtDNI.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtDNI, True)
         Me.txtDNI.Location = New System.Drawing.Point(65, 10)
         Me.txtDNI.MaxLength = 9
@@ -694,10 +708,9 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel2.Name = "TabControlPanel2"
         Me.TabControlPanel2.Padding = New System.Windows.Forms.Padding(1)
         Me.TabControlPanel2.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
-        Me.TabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
         Me.TabControlPanel2.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel2.Style.GradientAngle = 90
@@ -753,6 +766,7 @@ Partial Class WFrm_CLIENTE
         '
         'TextBoxX1
         '
+        Me.TextBoxX1.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -761,6 +775,7 @@ Partial Class WFrm_CLIENTE
         Me.TextBoxX1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBoxX1.DisabledBackColor = System.Drawing.Color.White
         Me.TextBoxX1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX1.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.TextBoxX1, True)
         Me.TextBoxX1.Location = New System.Drawing.Point(484, 8)
         Me.TextBoxX1.Name = "TextBoxX1"
@@ -992,6 +1007,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtdireJuri
         '
+        Me.txtdireJuri.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1000,6 +1016,7 @@ Partial Class WFrm_CLIENTE
         Me.txtdireJuri.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtdireJuri.DisabledBackColor = System.Drawing.Color.White
         Me.txtdireJuri.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtdireJuri.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtdireJuri, True)
         Me.txtdireJuri.Location = New System.Drawing.Point(86, 95)
         Me.txtdireJuri.Name = "txtdireJuri"
@@ -1011,6 +1028,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtemalJuri
         '
+        Me.txtemalJuri.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1019,6 +1037,7 @@ Partial Class WFrm_CLIENTE
         Me.txtemalJuri.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtemalJuri.DisabledBackColor = System.Drawing.Color.White
         Me.txtemalJuri.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtemalJuri.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtemalJuri, True)
         Me.txtemalJuri.Location = New System.Drawing.Point(484, 54)
         Me.txtemalJuri.Name = "txtemalJuri"
@@ -1054,6 +1073,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtTelefonoJuri
         '
+        Me.txtTelefonoJuri.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1062,6 +1082,7 @@ Partial Class WFrm_CLIENTE
         Me.txtTelefonoJuri.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtTelefonoJuri.DisabledBackColor = System.Drawing.Color.White
         Me.txtTelefonoJuri.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtTelefonoJuri.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtTelefonoJuri, True)
         Me.txtTelefonoJuri.Location = New System.Drawing.Point(84, 54)
         Me.txtTelefonoJuri.MaxLength = 10
@@ -1086,6 +1107,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtnombre
         '
+        Me.txtnombre.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1094,6 +1116,7 @@ Partial Class WFrm_CLIENTE
         Me.txtnombre.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtnombre.DisabledBackColor = System.Drawing.Color.White
         Me.txtnombre.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtnombre.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtnombre, True)
         Me.txtnombre.Location = New System.Drawing.Point(539, 11)
         Me.txtnombre.Name = "txtnombre"
@@ -1105,6 +1128,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtrazonSocial
         '
+        Me.txtrazonSocial.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1113,6 +1137,7 @@ Partial Class WFrm_CLIENTE
         Me.txtrazonSocial.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtrazonSocial.DisabledBackColor = System.Drawing.Color.White
         Me.txtrazonSocial.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtrazonSocial.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtrazonSocial, True)
         Me.txtrazonSocial.Location = New System.Drawing.Point(288, 12)
         Me.txtrazonSocial.Name = "txtrazonSocial"
@@ -1148,6 +1173,7 @@ Partial Class WFrm_CLIENTE
         '
         'txtruc
         '
+        Me.txtruc.BackColor = System.Drawing.Color.White
         '
         '
         '
@@ -1156,6 +1182,7 @@ Partial Class WFrm_CLIENTE
         Me.txtruc.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtruc.DisabledBackColor = System.Drawing.Color.White
         Me.txtruc.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtruc.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtruc, True)
         Me.txtruc.Location = New System.Drawing.Point(65, 12)
         Me.txtruc.MaxLength = 11
@@ -1235,9 +1262,10 @@ Partial Class WFrm_CLIENTE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(869, 562)
+        Me.ClientSize = New System.Drawing.Size(869, 561)
         Me.Controls.Add(Me.TabControl1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(885, 600)
         Me.MinimumSize = New System.Drawing.Size(885, 600)
         Me.Name = "WFrm_CLIENTE"

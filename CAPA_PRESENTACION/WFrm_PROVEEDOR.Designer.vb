@@ -22,9 +22,10 @@ Partial Class WFrm_PROVEEDOR
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_PROVEEDOR))
         Me.groupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ButtonNuevo = New DevComponents.DotNetBar.ButtonX()
@@ -34,6 +35,7 @@ Partial Class WFrm_PROVEEDOR
         Me.RadioButtonActivo = New System.Windows.Forms.RadioButton()
         Me.txtdire = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtemail = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txttelefono = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtruc = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtnomcontac = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtnomcomp = New DevComponents.DotNetBar.Controls.TextBoxX()
@@ -51,12 +53,11 @@ Partial Class WFrm_PROVEEDOR
         Me.RadioButtonNomComp = New System.Windows.Forms.RadioButton()
         Me.Dg_Proveedores = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.RequiredFieldValidator1 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.")
+        Me.RequiredFieldValidator1 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator()
         Me.RegularExpressionValidator1 = New DevComponents.DotNetBar.Validator.RegularExpressionValidator()
         Me.Highlighter1 = New DevComponents.DotNetBar.Validator.Highlighter()
-        Me.RequiredFieldValidator3 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.")
-        Me.RequiredFieldValidator2 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.")
-        Me.txttelefono = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.RequiredFieldValidator3 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator()
+        Me.RequiredFieldValidator2 = New DevComponents.DotNetBar.Validator.RequiredFieldValidator()
         Me.groupPanel1.SuspendLayout()
         Me.GroupPanel2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -246,6 +247,28 @@ Partial Class WFrm_PROVEEDOR
         Me.txtemail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtemail.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtemail.WatermarkText = "Correo electronico para comuniarse"
+        '
+        'txttelefono
+        '
+        Me.txttelefono.BackColor = System.Drawing.Color.White
+        '
+        '
+        '
+        Me.txttelefono.Border.Class = "TextBoxBorder"
+        Me.txttelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txttelefono.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txttelefono.DisabledBackColor = System.Drawing.Color.White
+        Me.txttelefono.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txttelefono.ForeColor = System.Drawing.Color.Black
+        Me.Highlighter1.SetHighlightOnFocus(Me.txttelefono, True)
+        Me.txttelefono.Location = New System.Drawing.Point(279, 59)
+        Me.txttelefono.MaxLength = 8
+        Me.txttelefono.Name = "txttelefono"
+        Me.txttelefono.Size = New System.Drawing.Size(98, 23)
+        Me.txttelefono.TabIndex = 15
+        Me.txttelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txttelefono.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txttelefono.WatermarkText = "8 digistos del 0-9"
         '
         'txtruc
         '
@@ -516,37 +539,37 @@ Partial Class WFrm_PROVEEDOR
         Me.Dg_Proveedores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Dg_Proveedores.BackgroundColor = System.Drawing.Color.White
         Me.Dg_Proveedores.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_Proveedores.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_Proveedores.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.Dg_Proveedores.ColumnHeadersHeight = 26
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Dg_Proveedores.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Dg_Proveedores.DefaultCellStyle = DataGridViewCellStyle2
         Me.Dg_Proveedores.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.Dg_Proveedores.EnableHeadersVisualStyles = False
         Me.Dg_Proveedores.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.Dg_Proveedores.Location = New System.Drawing.Point(12, 66)
         Me.Dg_Proveedores.Name = "Dg_Proveedores"
         Me.Dg_Proveedores.ReadOnly = True
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dg_Proveedores.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dg_Proveedores.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.Dg_Proveedores.RowHeadersWidth = 30
         Me.Dg_Proveedores.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Dg_Proveedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -585,36 +608,15 @@ Partial Class WFrm_PROVEEDOR
         Me.RequiredFieldValidator2.ErrorMessage = "Your error message here."
         Me.RequiredFieldValidator2.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red
         '
-        'txttelefono
-        '
-        Me.txttelefono.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.txttelefono.Border.Class = "TextBoxBorder"
-        Me.txttelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.txttelefono.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txttelefono.DisabledBackColor = System.Drawing.Color.White
-        Me.txttelefono.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.txttelefono.ForeColor = System.Drawing.Color.Black
-        Me.Highlighter1.SetHighlightOnFocus(Me.txttelefono, True)
-        Me.txttelefono.Location = New System.Drawing.Point(279, 59)
-        Me.txttelefono.MaxLength = 8
-        Me.txttelefono.Name = "txttelefono"
-        Me.txttelefono.Size = New System.Drawing.Size(98, 23)
-        Me.txttelefono.TabIndex = 15
-        Me.txttelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.txttelefono.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttelefono.WatermarkText = "8 digistos del 0-9"
-        '
         'WFrm_PROVEEDOR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(822, 493)
+        Me.ClientSize = New System.Drawing.Size(822, 492)
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(838, 531)
         Me.MinimumSize = New System.Drawing.Size(838, 531)

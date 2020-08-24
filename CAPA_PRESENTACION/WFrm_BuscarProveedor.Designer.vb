@@ -25,6 +25,7 @@ Partial Class WFrm_BuscarProveedor
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_BuscarProveedor))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.txtbusqueda = New DevComponents.DotNetBar.Controls.TextBoxX()
@@ -39,6 +40,7 @@ Partial Class WFrm_BuscarProveedor
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.PictureBox1)
@@ -46,6 +48,7 @@ Partial Class WFrm_BuscarProveedor
         Me.GroupPanel2.Controls.Add(Me.RadioButton3)
         Me.GroupPanel2.Controls.Add(Me.Dg_Proveedores)
         Me.GroupPanel2.Controls.Add(Me.RadioButton4)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Location = New System.Drawing.Point(6, 6)
         Me.GroupPanel2.Name = "GroupPanel2"
         Me.GroupPanel2.Size = New System.Drawing.Size(543, 239)
@@ -94,13 +97,16 @@ Partial Class WFrm_BuscarProveedor
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.txtbusqueda.Location = New System.Drawing.Point(311, 15)
         Me.txtbusqueda.Name = "txtbusqueda"
         Me.txtbusqueda.Size = New System.Drawing.Size(136, 23)
@@ -185,6 +191,7 @@ Partial Class WFrm_BuscarProveedor
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "WFrm_BuscarProveedor"

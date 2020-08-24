@@ -23,7 +23,57 @@ Partial Class WFrm_DISEÑO_MESAS
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_DISEÑO_MESAS))
         Me.groupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel()
+        Me.H50 = New System.Windows.Forms.Label()
+        Me.H49 = New System.Windows.Forms.Label()
+        Me.H48 = New System.Windows.Forms.Label()
+        Me.H47 = New System.Windows.Forms.Label()
+        Me.H46 = New System.Windows.Forms.Label()
+        Me.H45 = New System.Windows.Forms.Label()
+        Me.H44 = New System.Windows.Forms.Label()
+        Me.H43 = New System.Windows.Forms.Label()
+        Me.H42 = New System.Windows.Forms.Label()
+        Me.H41 = New System.Windows.Forms.Label()
+        Me.H40 = New System.Windows.Forms.Label()
+        Me.H39 = New System.Windows.Forms.Label()
+        Me.H38 = New System.Windows.Forms.Label()
+        Me.H37 = New System.Windows.Forms.Label()
+        Me.H36 = New System.Windows.Forms.Label()
+        Me.H35 = New System.Windows.Forms.Label()
+        Me.H34 = New System.Windows.Forms.Label()
+        Me.H33 = New System.Windows.Forms.Label()
+        Me.H32 = New System.Windows.Forms.Label()
+        Me.H31 = New System.Windows.Forms.Label()
+        Me.H30 = New System.Windows.Forms.Label()
+        Me.H29 = New System.Windows.Forms.Label()
+        Me.H28 = New System.Windows.Forms.Label()
+        Me.H27 = New System.Windows.Forms.Label()
+        Me.H26 = New System.Windows.Forms.Label()
+        Me.H25 = New System.Windows.Forms.Label()
+        Me.H24 = New System.Windows.Forms.Label()
+        Me.H23 = New System.Windows.Forms.Label()
+        Me.H22 = New System.Windows.Forms.Label()
+        Me.H21 = New System.Windows.Forms.Label()
+        Me.H20 = New System.Windows.Forms.Label()
+        Me.H19 = New System.Windows.Forms.Label()
+        Me.H18 = New System.Windows.Forms.Label()
+        Me.H17 = New System.Windows.Forms.Label()
+        Me.H16 = New System.Windows.Forms.Label()
+        Me.H15 = New System.Windows.Forms.Label()
+        Me.H14 = New System.Windows.Forms.Label()
+        Me.H13 = New System.Windows.Forms.Label()
+        Me.H12 = New System.Windows.Forms.Label()
+        Me.H11 = New System.Windows.Forms.Label()
+        Me.H10 = New System.Windows.Forms.Label()
+        Me.H9 = New System.Windows.Forms.Label()
+        Me.H8 = New System.Windows.Forms.Label()
+        Me.H7 = New System.Windows.Forms.Label()
+        Me.H6 = New System.Windows.Forms.Label()
+        Me.H5 = New System.Windows.Forms.Label()
+        Me.H4 = New System.Windows.Forms.Label()
+        Me.H3 = New System.Windows.Forms.Label()
+        Me.H2 = New System.Windows.Forms.Label()
         Me.H1 = New System.Windows.Forms.Label()
         Me.bm50 = New DevComponents.DotNetBar.ButtonX()
         Me.bm49 = New DevComponents.DotNetBar.ButtonX()
@@ -84,55 +134,6 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.H2 = New System.Windows.Forms.Label()
-        Me.H3 = New System.Windows.Forms.Label()
-        Me.H4 = New System.Windows.Forms.Label()
-        Me.H5 = New System.Windows.Forms.Label()
-        Me.H6 = New System.Windows.Forms.Label()
-        Me.H7 = New System.Windows.Forms.Label()
-        Me.H8 = New System.Windows.Forms.Label()
-        Me.H9 = New System.Windows.Forms.Label()
-        Me.H10 = New System.Windows.Forms.Label()
-        Me.H11 = New System.Windows.Forms.Label()
-        Me.H12 = New System.Windows.Forms.Label()
-        Me.H13 = New System.Windows.Forms.Label()
-        Me.H14 = New System.Windows.Forms.Label()
-        Me.H15 = New System.Windows.Forms.Label()
-        Me.H16 = New System.Windows.Forms.Label()
-        Me.H17 = New System.Windows.Forms.Label()
-        Me.H18 = New System.Windows.Forms.Label()
-        Me.H19 = New System.Windows.Forms.Label()
-        Me.H20 = New System.Windows.Forms.Label()
-        Me.H21 = New System.Windows.Forms.Label()
-        Me.H22 = New System.Windows.Forms.Label()
-        Me.H23 = New System.Windows.Forms.Label()
-        Me.H24 = New System.Windows.Forms.Label()
-        Me.H25 = New System.Windows.Forms.Label()
-        Me.H26 = New System.Windows.Forms.Label()
-        Me.H27 = New System.Windows.Forms.Label()
-        Me.H28 = New System.Windows.Forms.Label()
-        Me.H29 = New System.Windows.Forms.Label()
-        Me.H30 = New System.Windows.Forms.Label()
-        Me.H31 = New System.Windows.Forms.Label()
-        Me.H32 = New System.Windows.Forms.Label()
-        Me.H33 = New System.Windows.Forms.Label()
-        Me.H34 = New System.Windows.Forms.Label()
-        Me.H35 = New System.Windows.Forms.Label()
-        Me.H36 = New System.Windows.Forms.Label()
-        Me.H37 = New System.Windows.Forms.Label()
-        Me.H38 = New System.Windows.Forms.Label()
-        Me.H39 = New System.Windows.Forms.Label()
-        Me.H40 = New System.Windows.Forms.Label()
-        Me.H41 = New System.Windows.Forms.Label()
-        Me.H42 = New System.Windows.Forms.Label()
-        Me.H43 = New System.Windows.Forms.Label()
-        Me.H44 = New System.Windows.Forms.Label()
-        Me.H45 = New System.Windows.Forms.Label()
-        Me.H46 = New System.Windows.Forms.Label()
-        Me.H47 = New System.Windows.Forms.Label()
-        Me.H48 = New System.Windows.Forms.Label()
-        Me.H49 = New System.Windows.Forms.Label()
-        Me.H50 = New System.Windows.Forms.Label()
         Me.groupPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -280,6 +281,643 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.groupPanel1.TabIndex = 26
         Me.groupPanel1.Text = "PANEL DE MESAS"
+        '
+        'H50
+        '
+        Me.H50.AutoSize = True
+        Me.H50.BackColor = System.Drawing.Color.Transparent
+        Me.H50.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H50.ForeColor = System.Drawing.Color.Red
+        Me.H50.Location = New System.Drawing.Point(855, 450)
+        Me.H50.Name = "H50"
+        Me.H50.Size = New System.Drawing.Size(22, 13)
+        Me.H50.TabIndex = 150
+        Me.H50.Text = "H1"
+        Me.H50.Visible = False
+        '
+        'H49
+        '
+        Me.H49.AutoSize = True
+        Me.H49.BackColor = System.Drawing.Color.Transparent
+        Me.H49.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H49.ForeColor = System.Drawing.Color.Red
+        Me.H49.Location = New System.Drawing.Point(762, 450)
+        Me.H49.Name = "H49"
+        Me.H49.Size = New System.Drawing.Size(22, 13)
+        Me.H49.TabIndex = 149
+        Me.H49.Text = "H1"
+        Me.H49.Visible = False
+        '
+        'H48
+        '
+        Me.H48.AutoSize = True
+        Me.H48.BackColor = System.Drawing.Color.Transparent
+        Me.H48.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H48.ForeColor = System.Drawing.Color.Red
+        Me.H48.Location = New System.Drawing.Point(670, 450)
+        Me.H48.Name = "H48"
+        Me.H48.Size = New System.Drawing.Size(22, 13)
+        Me.H48.TabIndex = 148
+        Me.H48.Text = "H1"
+        Me.H48.Visible = False
+        '
+        'H47
+        '
+        Me.H47.AutoSize = True
+        Me.H47.BackColor = System.Drawing.Color.Transparent
+        Me.H47.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H47.ForeColor = System.Drawing.Color.Red
+        Me.H47.Location = New System.Drawing.Point(575, 450)
+        Me.H47.Name = "H47"
+        Me.H47.Size = New System.Drawing.Size(22, 13)
+        Me.H47.TabIndex = 147
+        Me.H47.Text = "H1"
+        Me.H47.Visible = False
+        '
+        'H46
+        '
+        Me.H46.AutoSize = True
+        Me.H46.BackColor = System.Drawing.Color.Transparent
+        Me.H46.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H46.ForeColor = System.Drawing.Color.Red
+        Me.H46.Location = New System.Drawing.Point(482, 450)
+        Me.H46.Name = "H46"
+        Me.H46.Size = New System.Drawing.Size(22, 13)
+        Me.H46.TabIndex = 146
+        Me.H46.Text = "H1"
+        Me.H46.Visible = False
+        '
+        'H45
+        '
+        Me.H45.AutoSize = True
+        Me.H45.BackColor = System.Drawing.Color.Transparent
+        Me.H45.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H45.ForeColor = System.Drawing.Color.Red
+        Me.H45.Location = New System.Drawing.Point(385, 450)
+        Me.H45.Name = "H45"
+        Me.H45.Size = New System.Drawing.Size(22, 13)
+        Me.H45.TabIndex = 145
+        Me.H45.Text = "H1"
+        Me.H45.Visible = False
+        '
+        'H44
+        '
+        Me.H44.AutoSize = True
+        Me.H44.BackColor = System.Drawing.Color.Transparent
+        Me.H44.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H44.ForeColor = System.Drawing.Color.Red
+        Me.H44.Location = New System.Drawing.Point(292, 450)
+        Me.H44.Name = "H44"
+        Me.H44.Size = New System.Drawing.Size(22, 13)
+        Me.H44.TabIndex = 144
+        Me.H44.Text = "H1"
+        Me.H44.Visible = False
+        '
+        'H43
+        '
+        Me.H43.AutoSize = True
+        Me.H43.BackColor = System.Drawing.Color.Transparent
+        Me.H43.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H43.ForeColor = System.Drawing.Color.Red
+        Me.H43.Location = New System.Drawing.Point(196, 450)
+        Me.H43.Name = "H43"
+        Me.H43.Size = New System.Drawing.Size(22, 13)
+        Me.H43.TabIndex = 143
+        Me.H43.Text = "H1"
+        Me.H43.Visible = False
+        '
+        'H42
+        '
+        Me.H42.AutoSize = True
+        Me.H42.BackColor = System.Drawing.Color.Transparent
+        Me.H42.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H42.ForeColor = System.Drawing.Color.Red
+        Me.H42.Location = New System.Drawing.Point(101, 450)
+        Me.H42.Name = "H42"
+        Me.H42.Size = New System.Drawing.Size(22, 13)
+        Me.H42.TabIndex = 142
+        Me.H42.Text = "H1"
+        Me.H42.Visible = False
+        '
+        'H41
+        '
+        Me.H41.AutoSize = True
+        Me.H41.BackColor = System.Drawing.Color.Transparent
+        Me.H41.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H41.ForeColor = System.Drawing.Color.Red
+        Me.H41.Location = New System.Drawing.Point(6, 450)
+        Me.H41.Name = "H41"
+        Me.H41.Size = New System.Drawing.Size(22, 13)
+        Me.H41.TabIndex = 141
+        Me.H41.Text = "H1"
+        Me.H41.Visible = False
+        '
+        'H40
+        '
+        Me.H40.AutoSize = True
+        Me.H40.BackColor = System.Drawing.Color.Transparent
+        Me.H40.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H40.ForeColor = System.Drawing.Color.Red
+        Me.H40.Location = New System.Drawing.Point(852, 359)
+        Me.H40.Name = "H40"
+        Me.H40.Size = New System.Drawing.Size(22, 13)
+        Me.H40.TabIndex = 140
+        Me.H40.Text = "H1"
+        Me.H40.Visible = False
+        '
+        'H39
+        '
+        Me.H39.AutoSize = True
+        Me.H39.BackColor = System.Drawing.Color.Transparent
+        Me.H39.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H39.ForeColor = System.Drawing.Color.Red
+        Me.H39.Location = New System.Drawing.Point(761, 359)
+        Me.H39.Name = "H39"
+        Me.H39.Size = New System.Drawing.Size(22, 13)
+        Me.H39.TabIndex = 139
+        Me.H39.Text = "H1"
+        Me.H39.Visible = False
+        '
+        'H38
+        '
+        Me.H38.AutoSize = True
+        Me.H38.BackColor = System.Drawing.Color.Transparent
+        Me.H38.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H38.ForeColor = System.Drawing.Color.Red
+        Me.H38.Location = New System.Drawing.Point(670, 359)
+        Me.H38.Name = "H38"
+        Me.H38.Size = New System.Drawing.Size(22, 13)
+        Me.H38.TabIndex = 138
+        Me.H38.Text = "H1"
+        Me.H38.Visible = False
+        '
+        'H37
+        '
+        Me.H37.AutoSize = True
+        Me.H37.BackColor = System.Drawing.Color.Transparent
+        Me.H37.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H37.ForeColor = System.Drawing.Color.Red
+        Me.H37.Location = New System.Drawing.Point(575, 359)
+        Me.H37.Name = "H37"
+        Me.H37.Size = New System.Drawing.Size(22, 13)
+        Me.H37.TabIndex = 137
+        Me.H37.Text = "H1"
+        Me.H37.Visible = False
+        '
+        'H36
+        '
+        Me.H36.AutoSize = True
+        Me.H36.BackColor = System.Drawing.Color.Transparent
+        Me.H36.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H36.ForeColor = System.Drawing.Color.Red
+        Me.H36.Location = New System.Drawing.Point(481, 359)
+        Me.H36.Name = "H36"
+        Me.H36.Size = New System.Drawing.Size(22, 13)
+        Me.H36.TabIndex = 136
+        Me.H36.Text = "H1"
+        Me.H36.Visible = False
+        '
+        'H35
+        '
+        Me.H35.AutoSize = True
+        Me.H35.BackColor = System.Drawing.Color.Transparent
+        Me.H35.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H35.ForeColor = System.Drawing.Color.Red
+        Me.H35.Location = New System.Drawing.Point(387, 359)
+        Me.H35.Name = "H35"
+        Me.H35.Size = New System.Drawing.Size(22, 13)
+        Me.H35.TabIndex = 135
+        Me.H35.Text = "H1"
+        Me.H35.Visible = False
+        '
+        'H34
+        '
+        Me.H34.AutoSize = True
+        Me.H34.BackColor = System.Drawing.Color.Transparent
+        Me.H34.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H34.ForeColor = System.Drawing.Color.Red
+        Me.H34.Location = New System.Drawing.Point(292, 359)
+        Me.H34.Name = "H34"
+        Me.H34.Size = New System.Drawing.Size(22, 13)
+        Me.H34.TabIndex = 134
+        Me.H34.Text = "H1"
+        Me.H34.Visible = False
+        '
+        'H33
+        '
+        Me.H33.AutoSize = True
+        Me.H33.BackColor = System.Drawing.Color.Transparent
+        Me.H33.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H33.ForeColor = System.Drawing.Color.Red
+        Me.H33.Location = New System.Drawing.Point(196, 359)
+        Me.H33.Name = "H33"
+        Me.H33.Size = New System.Drawing.Size(22, 13)
+        Me.H33.TabIndex = 133
+        Me.H33.Text = "H1"
+        Me.H33.Visible = False
+        '
+        'H32
+        '
+        Me.H32.AutoSize = True
+        Me.H32.BackColor = System.Drawing.Color.Transparent
+        Me.H32.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H32.ForeColor = System.Drawing.Color.Red
+        Me.H32.Location = New System.Drawing.Point(101, 359)
+        Me.H32.Name = "H32"
+        Me.H32.Size = New System.Drawing.Size(22, 13)
+        Me.H32.TabIndex = 132
+        Me.H32.Text = "H1"
+        Me.H32.Visible = False
+        '
+        'H31
+        '
+        Me.H31.AutoSize = True
+        Me.H31.BackColor = System.Drawing.Color.Transparent
+        Me.H31.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H31.ForeColor = System.Drawing.Color.Red
+        Me.H31.Location = New System.Drawing.Point(6, 359)
+        Me.H31.Name = "H31"
+        Me.H31.Size = New System.Drawing.Size(22, 13)
+        Me.H31.TabIndex = 131
+        Me.H31.Text = "H1"
+        Me.H31.Visible = False
+        '
+        'H30
+        '
+        Me.H30.AutoSize = True
+        Me.H30.BackColor = System.Drawing.Color.Transparent
+        Me.H30.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H30.ForeColor = System.Drawing.Color.Red
+        Me.H30.Location = New System.Drawing.Point(852, 268)
+        Me.H30.Name = "H30"
+        Me.H30.Size = New System.Drawing.Size(22, 13)
+        Me.H30.TabIndex = 130
+        Me.H30.Text = "H1"
+        Me.H30.Visible = False
+        '
+        'H29
+        '
+        Me.H29.AutoSize = True
+        Me.H29.BackColor = System.Drawing.Color.Transparent
+        Me.H29.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H29.ForeColor = System.Drawing.Color.Red
+        Me.H29.Location = New System.Drawing.Point(761, 268)
+        Me.H29.Name = "H29"
+        Me.H29.Size = New System.Drawing.Size(22, 13)
+        Me.H29.TabIndex = 129
+        Me.H29.Text = "H1"
+        Me.H29.Visible = False
+        '
+        'H28
+        '
+        Me.H28.AutoSize = True
+        Me.H28.BackColor = System.Drawing.Color.Transparent
+        Me.H28.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H28.ForeColor = System.Drawing.Color.Red
+        Me.H28.Location = New System.Drawing.Point(669, 268)
+        Me.H28.Name = "H28"
+        Me.H28.Size = New System.Drawing.Size(22, 13)
+        Me.H28.TabIndex = 128
+        Me.H28.Text = "H1"
+        Me.H28.Visible = False
+        '
+        'H27
+        '
+        Me.H27.AutoSize = True
+        Me.H27.BackColor = System.Drawing.Color.Transparent
+        Me.H27.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H27.ForeColor = System.Drawing.Color.Red
+        Me.H27.Location = New System.Drawing.Point(574, 268)
+        Me.H27.Name = "H27"
+        Me.H27.Size = New System.Drawing.Size(22, 13)
+        Me.H27.TabIndex = 127
+        Me.H27.Text = "H1"
+        Me.H27.Visible = False
+        '
+        'H26
+        '
+        Me.H26.AutoSize = True
+        Me.H26.BackColor = System.Drawing.Color.Transparent
+        Me.H26.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H26.ForeColor = System.Drawing.Color.Red
+        Me.H26.Location = New System.Drawing.Point(481, 268)
+        Me.H26.Name = "H26"
+        Me.H26.Size = New System.Drawing.Size(22, 13)
+        Me.H26.TabIndex = 126
+        Me.H26.Text = "H1"
+        Me.H26.Visible = False
+        '
+        'H25
+        '
+        Me.H25.AutoSize = True
+        Me.H25.BackColor = System.Drawing.Color.Transparent
+        Me.H25.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H25.ForeColor = System.Drawing.Color.Red
+        Me.H25.Location = New System.Drawing.Point(386, 268)
+        Me.H25.Name = "H25"
+        Me.H25.Size = New System.Drawing.Size(22, 13)
+        Me.H25.TabIndex = 125
+        Me.H25.Text = "H1"
+        Me.H25.Visible = False
+        '
+        'H24
+        '
+        Me.H24.AutoSize = True
+        Me.H24.BackColor = System.Drawing.Color.Transparent
+        Me.H24.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H24.ForeColor = System.Drawing.Color.Red
+        Me.H24.Location = New System.Drawing.Point(290, 268)
+        Me.H24.Name = "H24"
+        Me.H24.Size = New System.Drawing.Size(22, 13)
+        Me.H24.TabIndex = 124
+        Me.H24.Text = "H1"
+        Me.H24.Visible = False
+        '
+        'H23
+        '
+        Me.H23.AutoSize = True
+        Me.H23.BackColor = System.Drawing.Color.Transparent
+        Me.H23.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H23.ForeColor = System.Drawing.Color.Red
+        Me.H23.Location = New System.Drawing.Point(196, 268)
+        Me.H23.Name = "H23"
+        Me.H23.Size = New System.Drawing.Size(22, 13)
+        Me.H23.TabIndex = 123
+        Me.H23.Text = "H1"
+        Me.H23.Visible = False
+        '
+        'H22
+        '
+        Me.H22.AutoSize = True
+        Me.H22.BackColor = System.Drawing.Color.Transparent
+        Me.H22.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H22.ForeColor = System.Drawing.Color.Red
+        Me.H22.Location = New System.Drawing.Point(101, 268)
+        Me.H22.Name = "H22"
+        Me.H22.Size = New System.Drawing.Size(22, 13)
+        Me.H22.TabIndex = 122
+        Me.H22.Text = "H1"
+        Me.H22.Visible = False
+        '
+        'H21
+        '
+        Me.H21.AutoSize = True
+        Me.H21.BackColor = System.Drawing.Color.Transparent
+        Me.H21.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H21.ForeColor = System.Drawing.Color.Red
+        Me.H21.Location = New System.Drawing.Point(6, 268)
+        Me.H21.Name = "H21"
+        Me.H21.Size = New System.Drawing.Size(22, 13)
+        Me.H21.TabIndex = 121
+        Me.H21.Text = "H1"
+        Me.H21.Visible = False
+        '
+        'H20
+        '
+        Me.H20.AutoSize = True
+        Me.H20.BackColor = System.Drawing.Color.Transparent
+        Me.H20.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H20.ForeColor = System.Drawing.Color.Red
+        Me.H20.Location = New System.Drawing.Point(852, 176)
+        Me.H20.Name = "H20"
+        Me.H20.Size = New System.Drawing.Size(22, 13)
+        Me.H20.TabIndex = 120
+        Me.H20.Text = "H1"
+        Me.H20.Visible = False
+        '
+        'H19
+        '
+        Me.H19.AutoSize = True
+        Me.H19.BackColor = System.Drawing.Color.Transparent
+        Me.H19.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H19.ForeColor = System.Drawing.Color.Red
+        Me.H19.Location = New System.Drawing.Point(761, 176)
+        Me.H19.Name = "H19"
+        Me.H19.Size = New System.Drawing.Size(22, 13)
+        Me.H19.TabIndex = 119
+        Me.H19.Text = "H1"
+        Me.H19.Visible = False
+        '
+        'H18
+        '
+        Me.H18.AutoSize = True
+        Me.H18.BackColor = System.Drawing.Color.Transparent
+        Me.H18.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H18.ForeColor = System.Drawing.Color.Red
+        Me.H18.Location = New System.Drawing.Point(667, 176)
+        Me.H18.Name = "H18"
+        Me.H18.Size = New System.Drawing.Size(22, 13)
+        Me.H18.TabIndex = 118
+        Me.H18.Text = "H1"
+        Me.H18.Visible = False
+        '
+        'H17
+        '
+        Me.H17.AutoSize = True
+        Me.H17.BackColor = System.Drawing.Color.Transparent
+        Me.H17.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H17.ForeColor = System.Drawing.Color.Red
+        Me.H17.Location = New System.Drawing.Point(574, 176)
+        Me.H17.Name = "H17"
+        Me.H17.Size = New System.Drawing.Size(22, 13)
+        Me.H17.TabIndex = 117
+        Me.H17.Text = "H1"
+        Me.H17.Visible = False
+        '
+        'H16
+        '
+        Me.H16.AutoSize = True
+        Me.H16.BackColor = System.Drawing.Color.Transparent
+        Me.H16.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H16.ForeColor = System.Drawing.Color.Red
+        Me.H16.Location = New System.Drawing.Point(481, 176)
+        Me.H16.Name = "H16"
+        Me.H16.Size = New System.Drawing.Size(22, 13)
+        Me.H16.TabIndex = 116
+        Me.H16.Text = "H1"
+        Me.H16.Visible = False
+        '
+        'H15
+        '
+        Me.H15.AutoSize = True
+        Me.H15.BackColor = System.Drawing.Color.Transparent
+        Me.H15.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H15.ForeColor = System.Drawing.Color.Red
+        Me.H15.Location = New System.Drawing.Point(385, 176)
+        Me.H15.Name = "H15"
+        Me.H15.Size = New System.Drawing.Size(22, 13)
+        Me.H15.TabIndex = 115
+        Me.H15.Text = "H1"
+        Me.H15.Visible = False
+        '
+        'H14
+        '
+        Me.H14.AutoSize = True
+        Me.H14.BackColor = System.Drawing.Color.Transparent
+        Me.H14.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H14.ForeColor = System.Drawing.Color.Red
+        Me.H14.Location = New System.Drawing.Point(290, 176)
+        Me.H14.Name = "H14"
+        Me.H14.Size = New System.Drawing.Size(22, 13)
+        Me.H14.TabIndex = 114
+        Me.H14.Text = "H1"
+        Me.H14.Visible = False
+        '
+        'H13
+        '
+        Me.H13.AutoSize = True
+        Me.H13.BackColor = System.Drawing.Color.Transparent
+        Me.H13.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H13.ForeColor = System.Drawing.Color.Red
+        Me.H13.Location = New System.Drawing.Point(196, 176)
+        Me.H13.Name = "H13"
+        Me.H13.Size = New System.Drawing.Size(22, 13)
+        Me.H13.TabIndex = 113
+        Me.H13.Text = "H1"
+        Me.H13.Visible = False
+        '
+        'H12
+        '
+        Me.H12.AutoSize = True
+        Me.H12.BackColor = System.Drawing.Color.Transparent
+        Me.H12.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H12.ForeColor = System.Drawing.Color.Red
+        Me.H12.Location = New System.Drawing.Point(101, 176)
+        Me.H12.Name = "H12"
+        Me.H12.Size = New System.Drawing.Size(22, 13)
+        Me.H12.TabIndex = 112
+        Me.H12.Text = "H1"
+        Me.H12.Visible = False
+        '
+        'H11
+        '
+        Me.H11.AutoSize = True
+        Me.H11.BackColor = System.Drawing.Color.Transparent
+        Me.H11.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H11.ForeColor = System.Drawing.Color.Red
+        Me.H11.Location = New System.Drawing.Point(3, 176)
+        Me.H11.Name = "H11"
+        Me.H11.Size = New System.Drawing.Size(22, 13)
+        Me.H11.TabIndex = 111
+        Me.H11.Text = "H1"
+        Me.H11.Visible = False
+        '
+        'H10
+        '
+        Me.H10.AutoSize = True
+        Me.H10.BackColor = System.Drawing.Color.Transparent
+        Me.H10.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H10.ForeColor = System.Drawing.Color.Red
+        Me.H10.Location = New System.Drawing.Point(852, 84)
+        Me.H10.Name = "H10"
+        Me.H10.Size = New System.Drawing.Size(22, 13)
+        Me.H10.TabIndex = 110
+        Me.H10.Text = "H1"
+        Me.H10.Visible = False
+        '
+        'H9
+        '
+        Me.H9.AutoSize = True
+        Me.H9.BackColor = System.Drawing.Color.Transparent
+        Me.H9.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H9.ForeColor = System.Drawing.Color.Red
+        Me.H9.Location = New System.Drawing.Point(759, 84)
+        Me.H9.Name = "H9"
+        Me.H9.Size = New System.Drawing.Size(22, 13)
+        Me.H9.TabIndex = 109
+        Me.H9.Text = "H1"
+        Me.H9.Visible = False
+        '
+        'H8
+        '
+        Me.H8.AutoSize = True
+        Me.H8.BackColor = System.Drawing.Color.Transparent
+        Me.H8.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H8.ForeColor = System.Drawing.Color.Red
+        Me.H8.Location = New System.Drawing.Point(664, 84)
+        Me.H8.Name = "H8"
+        Me.H8.Size = New System.Drawing.Size(22, 13)
+        Me.H8.TabIndex = 108
+        Me.H8.Text = "H1"
+        Me.H8.Visible = False
+        '
+        'H7
+        '
+        Me.H7.AutoSize = True
+        Me.H7.BackColor = System.Drawing.Color.Transparent
+        Me.H7.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H7.ForeColor = System.Drawing.Color.Red
+        Me.H7.Location = New System.Drawing.Point(571, 84)
+        Me.H7.Name = "H7"
+        Me.H7.Size = New System.Drawing.Size(22, 13)
+        Me.H7.TabIndex = 107
+        Me.H7.Text = "H1"
+        Me.H7.Visible = False
+        '
+        'H6
+        '
+        Me.H6.AutoSize = True
+        Me.H6.BackColor = System.Drawing.Color.Transparent
+        Me.H6.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H6.ForeColor = System.Drawing.Color.Red
+        Me.H6.Location = New System.Drawing.Point(478, 84)
+        Me.H6.Name = "H6"
+        Me.H6.Size = New System.Drawing.Size(22, 13)
+        Me.H6.TabIndex = 106
+        Me.H6.Text = "H1"
+        Me.H6.Visible = False
+        '
+        'H5
+        '
+        Me.H5.AutoSize = True
+        Me.H5.BackColor = System.Drawing.Color.Transparent
+        Me.H5.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H5.ForeColor = System.Drawing.Color.Red
+        Me.H5.Location = New System.Drawing.Point(384, 84)
+        Me.H5.Name = "H5"
+        Me.H5.Size = New System.Drawing.Size(22, 13)
+        Me.H5.TabIndex = 105
+        Me.H5.Text = "H1"
+        Me.H5.Visible = False
+        '
+        'H4
+        '
+        Me.H4.AutoSize = True
+        Me.H4.BackColor = System.Drawing.Color.Transparent
+        Me.H4.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H4.ForeColor = System.Drawing.Color.Red
+        Me.H4.Location = New System.Drawing.Point(290, 84)
+        Me.H4.Name = "H4"
+        Me.H4.Size = New System.Drawing.Size(22, 13)
+        Me.H4.TabIndex = 104
+        Me.H4.Text = "H1"
+        Me.H4.Visible = False
+        '
+        'H3
+        '
+        Me.H3.AutoSize = True
+        Me.H3.BackColor = System.Drawing.Color.Transparent
+        Me.H3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H3.ForeColor = System.Drawing.Color.Red
+        Me.H3.Location = New System.Drawing.Point(194, 84)
+        Me.H3.Name = "H3"
+        Me.H3.Size = New System.Drawing.Size(22, 13)
+        Me.H3.TabIndex = 103
+        Me.H3.Text = "H1"
+        Me.H3.Visible = False
+        '
+        'H2
+        '
+        Me.H2.AutoSize = True
+        Me.H2.BackColor = System.Drawing.Color.Transparent
+        Me.H2.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.H2.ForeColor = System.Drawing.Color.Red
+        Me.H2.Location = New System.Drawing.Point(101, 84)
+        Me.H2.Name = "H2"
+        Me.H2.Size = New System.Drawing.Size(22, 13)
+        Me.H2.TabIndex = 102
+        Me.H2.Text = "H1"
+        Me.H2.Visible = False
         '
         'H1
         '
@@ -1190,643 +1828,6 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.DataGridView1.TabIndex = 74
         Me.DataGridView1.Visible = False
         '
-        'H2
-        '
-        Me.H2.AutoSize = True
-        Me.H2.BackColor = System.Drawing.Color.Transparent
-        Me.H2.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H2.ForeColor = System.Drawing.Color.Red
-        Me.H2.Location = New System.Drawing.Point(101, 84)
-        Me.H2.Name = "H2"
-        Me.H2.Size = New System.Drawing.Size(22, 13)
-        Me.H2.TabIndex = 102
-        Me.H2.Text = "H1"
-        Me.H2.Visible = False
-        '
-        'H3
-        '
-        Me.H3.AutoSize = True
-        Me.H3.BackColor = System.Drawing.Color.Transparent
-        Me.H3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H3.ForeColor = System.Drawing.Color.Red
-        Me.H3.Location = New System.Drawing.Point(194, 84)
-        Me.H3.Name = "H3"
-        Me.H3.Size = New System.Drawing.Size(22, 13)
-        Me.H3.TabIndex = 103
-        Me.H3.Text = "H1"
-        Me.H3.Visible = False
-        '
-        'H4
-        '
-        Me.H4.AutoSize = True
-        Me.H4.BackColor = System.Drawing.Color.Transparent
-        Me.H4.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H4.ForeColor = System.Drawing.Color.Red
-        Me.H4.Location = New System.Drawing.Point(290, 84)
-        Me.H4.Name = "H4"
-        Me.H4.Size = New System.Drawing.Size(22, 13)
-        Me.H4.TabIndex = 104
-        Me.H4.Text = "H1"
-        Me.H4.Visible = False
-        '
-        'H5
-        '
-        Me.H5.AutoSize = True
-        Me.H5.BackColor = System.Drawing.Color.Transparent
-        Me.H5.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H5.ForeColor = System.Drawing.Color.Red
-        Me.H5.Location = New System.Drawing.Point(384, 84)
-        Me.H5.Name = "H5"
-        Me.H5.Size = New System.Drawing.Size(22, 13)
-        Me.H5.TabIndex = 105
-        Me.H5.Text = "H1"
-        Me.H5.Visible = False
-        '
-        'H6
-        '
-        Me.H6.AutoSize = True
-        Me.H6.BackColor = System.Drawing.Color.Transparent
-        Me.H6.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H6.ForeColor = System.Drawing.Color.Red
-        Me.H6.Location = New System.Drawing.Point(478, 84)
-        Me.H6.Name = "H6"
-        Me.H6.Size = New System.Drawing.Size(22, 13)
-        Me.H6.TabIndex = 106
-        Me.H6.Text = "H1"
-        Me.H6.Visible = False
-        '
-        'H7
-        '
-        Me.H7.AutoSize = True
-        Me.H7.BackColor = System.Drawing.Color.Transparent
-        Me.H7.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H7.ForeColor = System.Drawing.Color.Red
-        Me.H7.Location = New System.Drawing.Point(571, 84)
-        Me.H7.Name = "H7"
-        Me.H7.Size = New System.Drawing.Size(22, 13)
-        Me.H7.TabIndex = 107
-        Me.H7.Text = "H1"
-        Me.H7.Visible = False
-        '
-        'H8
-        '
-        Me.H8.AutoSize = True
-        Me.H8.BackColor = System.Drawing.Color.Transparent
-        Me.H8.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H8.ForeColor = System.Drawing.Color.Red
-        Me.H8.Location = New System.Drawing.Point(664, 84)
-        Me.H8.Name = "H8"
-        Me.H8.Size = New System.Drawing.Size(22, 13)
-        Me.H8.TabIndex = 108
-        Me.H8.Text = "H1"
-        Me.H8.Visible = False
-        '
-        'H9
-        '
-        Me.H9.AutoSize = True
-        Me.H9.BackColor = System.Drawing.Color.Transparent
-        Me.H9.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H9.ForeColor = System.Drawing.Color.Red
-        Me.H9.Location = New System.Drawing.Point(759, 84)
-        Me.H9.Name = "H9"
-        Me.H9.Size = New System.Drawing.Size(22, 13)
-        Me.H9.TabIndex = 109
-        Me.H9.Text = "H1"
-        Me.H9.Visible = False
-        '
-        'H10
-        '
-        Me.H10.AutoSize = True
-        Me.H10.BackColor = System.Drawing.Color.Transparent
-        Me.H10.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H10.ForeColor = System.Drawing.Color.Red
-        Me.H10.Location = New System.Drawing.Point(852, 84)
-        Me.H10.Name = "H10"
-        Me.H10.Size = New System.Drawing.Size(22, 13)
-        Me.H10.TabIndex = 110
-        Me.H10.Text = "H1"
-        Me.H10.Visible = False
-        '
-        'H11
-        '
-        Me.H11.AutoSize = True
-        Me.H11.BackColor = System.Drawing.Color.Transparent
-        Me.H11.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H11.ForeColor = System.Drawing.Color.Red
-        Me.H11.Location = New System.Drawing.Point(3, 176)
-        Me.H11.Name = "H11"
-        Me.H11.Size = New System.Drawing.Size(22, 13)
-        Me.H11.TabIndex = 111
-        Me.H11.Text = "H1"
-        Me.H11.Visible = False
-        '
-        'H12
-        '
-        Me.H12.AutoSize = True
-        Me.H12.BackColor = System.Drawing.Color.Transparent
-        Me.H12.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H12.ForeColor = System.Drawing.Color.Red
-        Me.H12.Location = New System.Drawing.Point(101, 176)
-        Me.H12.Name = "H12"
-        Me.H12.Size = New System.Drawing.Size(22, 13)
-        Me.H12.TabIndex = 112
-        Me.H12.Text = "H1"
-        Me.H12.Visible = False
-        '
-        'H13
-        '
-        Me.H13.AutoSize = True
-        Me.H13.BackColor = System.Drawing.Color.Transparent
-        Me.H13.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H13.ForeColor = System.Drawing.Color.Red
-        Me.H13.Location = New System.Drawing.Point(196, 176)
-        Me.H13.Name = "H13"
-        Me.H13.Size = New System.Drawing.Size(22, 13)
-        Me.H13.TabIndex = 113
-        Me.H13.Text = "H1"
-        Me.H13.Visible = False
-        '
-        'H14
-        '
-        Me.H14.AutoSize = True
-        Me.H14.BackColor = System.Drawing.Color.Transparent
-        Me.H14.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H14.ForeColor = System.Drawing.Color.Red
-        Me.H14.Location = New System.Drawing.Point(290, 176)
-        Me.H14.Name = "H14"
-        Me.H14.Size = New System.Drawing.Size(22, 13)
-        Me.H14.TabIndex = 114
-        Me.H14.Text = "H1"
-        Me.H14.Visible = False
-        '
-        'H15
-        '
-        Me.H15.AutoSize = True
-        Me.H15.BackColor = System.Drawing.Color.Transparent
-        Me.H15.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H15.ForeColor = System.Drawing.Color.Red
-        Me.H15.Location = New System.Drawing.Point(385, 176)
-        Me.H15.Name = "H15"
-        Me.H15.Size = New System.Drawing.Size(22, 13)
-        Me.H15.TabIndex = 115
-        Me.H15.Text = "H1"
-        Me.H15.Visible = False
-        '
-        'H16
-        '
-        Me.H16.AutoSize = True
-        Me.H16.BackColor = System.Drawing.Color.Transparent
-        Me.H16.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H16.ForeColor = System.Drawing.Color.Red
-        Me.H16.Location = New System.Drawing.Point(481, 176)
-        Me.H16.Name = "H16"
-        Me.H16.Size = New System.Drawing.Size(22, 13)
-        Me.H16.TabIndex = 116
-        Me.H16.Text = "H1"
-        Me.H16.Visible = False
-        '
-        'H17
-        '
-        Me.H17.AutoSize = True
-        Me.H17.BackColor = System.Drawing.Color.Transparent
-        Me.H17.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H17.ForeColor = System.Drawing.Color.Red
-        Me.H17.Location = New System.Drawing.Point(574, 176)
-        Me.H17.Name = "H17"
-        Me.H17.Size = New System.Drawing.Size(22, 13)
-        Me.H17.TabIndex = 117
-        Me.H17.Text = "H1"
-        Me.H17.Visible = False
-        '
-        'H18
-        '
-        Me.H18.AutoSize = True
-        Me.H18.BackColor = System.Drawing.Color.Transparent
-        Me.H18.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H18.ForeColor = System.Drawing.Color.Red
-        Me.H18.Location = New System.Drawing.Point(667, 176)
-        Me.H18.Name = "H18"
-        Me.H18.Size = New System.Drawing.Size(22, 13)
-        Me.H18.TabIndex = 118
-        Me.H18.Text = "H1"
-        Me.H18.Visible = False
-        '
-        'H19
-        '
-        Me.H19.AutoSize = True
-        Me.H19.BackColor = System.Drawing.Color.Transparent
-        Me.H19.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H19.ForeColor = System.Drawing.Color.Red
-        Me.H19.Location = New System.Drawing.Point(761, 176)
-        Me.H19.Name = "H19"
-        Me.H19.Size = New System.Drawing.Size(22, 13)
-        Me.H19.TabIndex = 119
-        Me.H19.Text = "H1"
-        Me.H19.Visible = False
-        '
-        'H20
-        '
-        Me.H20.AutoSize = True
-        Me.H20.BackColor = System.Drawing.Color.Transparent
-        Me.H20.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H20.ForeColor = System.Drawing.Color.Red
-        Me.H20.Location = New System.Drawing.Point(852, 176)
-        Me.H20.Name = "H20"
-        Me.H20.Size = New System.Drawing.Size(22, 13)
-        Me.H20.TabIndex = 120
-        Me.H20.Text = "H1"
-        Me.H20.Visible = False
-        '
-        'H21
-        '
-        Me.H21.AutoSize = True
-        Me.H21.BackColor = System.Drawing.Color.Transparent
-        Me.H21.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H21.ForeColor = System.Drawing.Color.Red
-        Me.H21.Location = New System.Drawing.Point(6, 268)
-        Me.H21.Name = "H21"
-        Me.H21.Size = New System.Drawing.Size(22, 13)
-        Me.H21.TabIndex = 121
-        Me.H21.Text = "H1"
-        Me.H21.Visible = False
-        '
-        'H22
-        '
-        Me.H22.AutoSize = True
-        Me.H22.BackColor = System.Drawing.Color.Transparent
-        Me.H22.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H22.ForeColor = System.Drawing.Color.Red
-        Me.H22.Location = New System.Drawing.Point(101, 268)
-        Me.H22.Name = "H22"
-        Me.H22.Size = New System.Drawing.Size(22, 13)
-        Me.H22.TabIndex = 122
-        Me.H22.Text = "H1"
-        Me.H22.Visible = False
-        '
-        'H23
-        '
-        Me.H23.AutoSize = True
-        Me.H23.BackColor = System.Drawing.Color.Transparent
-        Me.H23.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H23.ForeColor = System.Drawing.Color.Red
-        Me.H23.Location = New System.Drawing.Point(196, 268)
-        Me.H23.Name = "H23"
-        Me.H23.Size = New System.Drawing.Size(22, 13)
-        Me.H23.TabIndex = 123
-        Me.H23.Text = "H1"
-        Me.H23.Visible = False
-        '
-        'H24
-        '
-        Me.H24.AutoSize = True
-        Me.H24.BackColor = System.Drawing.Color.Transparent
-        Me.H24.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H24.ForeColor = System.Drawing.Color.Red
-        Me.H24.Location = New System.Drawing.Point(290, 268)
-        Me.H24.Name = "H24"
-        Me.H24.Size = New System.Drawing.Size(22, 13)
-        Me.H24.TabIndex = 124
-        Me.H24.Text = "H1"
-        Me.H24.Visible = False
-        '
-        'H25
-        '
-        Me.H25.AutoSize = True
-        Me.H25.BackColor = System.Drawing.Color.Transparent
-        Me.H25.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H25.ForeColor = System.Drawing.Color.Red
-        Me.H25.Location = New System.Drawing.Point(386, 268)
-        Me.H25.Name = "H25"
-        Me.H25.Size = New System.Drawing.Size(22, 13)
-        Me.H25.TabIndex = 125
-        Me.H25.Text = "H1"
-        Me.H25.Visible = False
-        '
-        'H26
-        '
-        Me.H26.AutoSize = True
-        Me.H26.BackColor = System.Drawing.Color.Transparent
-        Me.H26.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H26.ForeColor = System.Drawing.Color.Red
-        Me.H26.Location = New System.Drawing.Point(481, 268)
-        Me.H26.Name = "H26"
-        Me.H26.Size = New System.Drawing.Size(22, 13)
-        Me.H26.TabIndex = 126
-        Me.H26.Text = "H1"
-        Me.H26.Visible = False
-        '
-        'H27
-        '
-        Me.H27.AutoSize = True
-        Me.H27.BackColor = System.Drawing.Color.Transparent
-        Me.H27.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H27.ForeColor = System.Drawing.Color.Red
-        Me.H27.Location = New System.Drawing.Point(574, 268)
-        Me.H27.Name = "H27"
-        Me.H27.Size = New System.Drawing.Size(22, 13)
-        Me.H27.TabIndex = 127
-        Me.H27.Text = "H1"
-        Me.H27.Visible = False
-        '
-        'H28
-        '
-        Me.H28.AutoSize = True
-        Me.H28.BackColor = System.Drawing.Color.Transparent
-        Me.H28.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H28.ForeColor = System.Drawing.Color.Red
-        Me.H28.Location = New System.Drawing.Point(669, 268)
-        Me.H28.Name = "H28"
-        Me.H28.Size = New System.Drawing.Size(22, 13)
-        Me.H28.TabIndex = 128
-        Me.H28.Text = "H1"
-        Me.H28.Visible = False
-        '
-        'H29
-        '
-        Me.H29.AutoSize = True
-        Me.H29.BackColor = System.Drawing.Color.Transparent
-        Me.H29.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H29.ForeColor = System.Drawing.Color.Red
-        Me.H29.Location = New System.Drawing.Point(761, 268)
-        Me.H29.Name = "H29"
-        Me.H29.Size = New System.Drawing.Size(22, 13)
-        Me.H29.TabIndex = 129
-        Me.H29.Text = "H1"
-        Me.H29.Visible = False
-        '
-        'H30
-        '
-        Me.H30.AutoSize = True
-        Me.H30.BackColor = System.Drawing.Color.Transparent
-        Me.H30.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H30.ForeColor = System.Drawing.Color.Red
-        Me.H30.Location = New System.Drawing.Point(852, 268)
-        Me.H30.Name = "H30"
-        Me.H30.Size = New System.Drawing.Size(22, 13)
-        Me.H30.TabIndex = 130
-        Me.H30.Text = "H1"
-        Me.H30.Visible = False
-        '
-        'H31
-        '
-        Me.H31.AutoSize = True
-        Me.H31.BackColor = System.Drawing.Color.Transparent
-        Me.H31.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H31.ForeColor = System.Drawing.Color.Red
-        Me.H31.Location = New System.Drawing.Point(6, 359)
-        Me.H31.Name = "H31"
-        Me.H31.Size = New System.Drawing.Size(22, 13)
-        Me.H31.TabIndex = 131
-        Me.H31.Text = "H1"
-        Me.H31.Visible = False
-        '
-        'H32
-        '
-        Me.H32.AutoSize = True
-        Me.H32.BackColor = System.Drawing.Color.Transparent
-        Me.H32.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H32.ForeColor = System.Drawing.Color.Red
-        Me.H32.Location = New System.Drawing.Point(101, 359)
-        Me.H32.Name = "H32"
-        Me.H32.Size = New System.Drawing.Size(22, 13)
-        Me.H32.TabIndex = 132
-        Me.H32.Text = "H1"
-        Me.H32.Visible = False
-        '
-        'H33
-        '
-        Me.H33.AutoSize = True
-        Me.H33.BackColor = System.Drawing.Color.Transparent
-        Me.H33.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H33.ForeColor = System.Drawing.Color.Red
-        Me.H33.Location = New System.Drawing.Point(196, 359)
-        Me.H33.Name = "H33"
-        Me.H33.Size = New System.Drawing.Size(22, 13)
-        Me.H33.TabIndex = 133
-        Me.H33.Text = "H1"
-        Me.H33.Visible = False
-        '
-        'H34
-        '
-        Me.H34.AutoSize = True
-        Me.H34.BackColor = System.Drawing.Color.Transparent
-        Me.H34.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H34.ForeColor = System.Drawing.Color.Red
-        Me.H34.Location = New System.Drawing.Point(292, 359)
-        Me.H34.Name = "H34"
-        Me.H34.Size = New System.Drawing.Size(22, 13)
-        Me.H34.TabIndex = 134
-        Me.H34.Text = "H1"
-        Me.H34.Visible = False
-        '
-        'H35
-        '
-        Me.H35.AutoSize = True
-        Me.H35.BackColor = System.Drawing.Color.Transparent
-        Me.H35.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H35.ForeColor = System.Drawing.Color.Red
-        Me.H35.Location = New System.Drawing.Point(387, 359)
-        Me.H35.Name = "H35"
-        Me.H35.Size = New System.Drawing.Size(22, 13)
-        Me.H35.TabIndex = 135
-        Me.H35.Text = "H1"
-        Me.H35.Visible = False
-        '
-        'H36
-        '
-        Me.H36.AutoSize = True
-        Me.H36.BackColor = System.Drawing.Color.Transparent
-        Me.H36.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H36.ForeColor = System.Drawing.Color.Red
-        Me.H36.Location = New System.Drawing.Point(481, 359)
-        Me.H36.Name = "H36"
-        Me.H36.Size = New System.Drawing.Size(22, 13)
-        Me.H36.TabIndex = 136
-        Me.H36.Text = "H1"
-        Me.H36.Visible = False
-        '
-        'H37
-        '
-        Me.H37.AutoSize = True
-        Me.H37.BackColor = System.Drawing.Color.Transparent
-        Me.H37.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H37.ForeColor = System.Drawing.Color.Red
-        Me.H37.Location = New System.Drawing.Point(575, 359)
-        Me.H37.Name = "H37"
-        Me.H37.Size = New System.Drawing.Size(22, 13)
-        Me.H37.TabIndex = 137
-        Me.H37.Text = "H1"
-        Me.H37.Visible = False
-        '
-        'H38
-        '
-        Me.H38.AutoSize = True
-        Me.H38.BackColor = System.Drawing.Color.Transparent
-        Me.H38.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H38.ForeColor = System.Drawing.Color.Red
-        Me.H38.Location = New System.Drawing.Point(670, 359)
-        Me.H38.Name = "H38"
-        Me.H38.Size = New System.Drawing.Size(22, 13)
-        Me.H38.TabIndex = 138
-        Me.H38.Text = "H1"
-        Me.H38.Visible = False
-        '
-        'H39
-        '
-        Me.H39.AutoSize = True
-        Me.H39.BackColor = System.Drawing.Color.Transparent
-        Me.H39.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H39.ForeColor = System.Drawing.Color.Red
-        Me.H39.Location = New System.Drawing.Point(761, 359)
-        Me.H39.Name = "H39"
-        Me.H39.Size = New System.Drawing.Size(22, 13)
-        Me.H39.TabIndex = 139
-        Me.H39.Text = "H1"
-        Me.H39.Visible = False
-        '
-        'H40
-        '
-        Me.H40.AutoSize = True
-        Me.H40.BackColor = System.Drawing.Color.Transparent
-        Me.H40.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H40.ForeColor = System.Drawing.Color.Red
-        Me.H40.Location = New System.Drawing.Point(852, 359)
-        Me.H40.Name = "H40"
-        Me.H40.Size = New System.Drawing.Size(22, 13)
-        Me.H40.TabIndex = 140
-        Me.H40.Text = "H1"
-        Me.H40.Visible = False
-        '
-        'H41
-        '
-        Me.H41.AutoSize = True
-        Me.H41.BackColor = System.Drawing.Color.Transparent
-        Me.H41.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H41.ForeColor = System.Drawing.Color.Red
-        Me.H41.Location = New System.Drawing.Point(6, 450)
-        Me.H41.Name = "H41"
-        Me.H41.Size = New System.Drawing.Size(22, 13)
-        Me.H41.TabIndex = 141
-        Me.H41.Text = "H1"
-        Me.H41.Visible = False
-        '
-        'H42
-        '
-        Me.H42.AutoSize = True
-        Me.H42.BackColor = System.Drawing.Color.Transparent
-        Me.H42.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H42.ForeColor = System.Drawing.Color.Red
-        Me.H42.Location = New System.Drawing.Point(101, 450)
-        Me.H42.Name = "H42"
-        Me.H42.Size = New System.Drawing.Size(22, 13)
-        Me.H42.TabIndex = 142
-        Me.H42.Text = "H1"
-        Me.H42.Visible = False
-        '
-        'H43
-        '
-        Me.H43.AutoSize = True
-        Me.H43.BackColor = System.Drawing.Color.Transparent
-        Me.H43.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H43.ForeColor = System.Drawing.Color.Red
-        Me.H43.Location = New System.Drawing.Point(196, 450)
-        Me.H43.Name = "H43"
-        Me.H43.Size = New System.Drawing.Size(22, 13)
-        Me.H43.TabIndex = 143
-        Me.H43.Text = "H1"
-        Me.H43.Visible = False
-        '
-        'H44
-        '
-        Me.H44.AutoSize = True
-        Me.H44.BackColor = System.Drawing.Color.Transparent
-        Me.H44.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H44.ForeColor = System.Drawing.Color.Red
-        Me.H44.Location = New System.Drawing.Point(292, 450)
-        Me.H44.Name = "H44"
-        Me.H44.Size = New System.Drawing.Size(22, 13)
-        Me.H44.TabIndex = 144
-        Me.H44.Text = "H1"
-        Me.H44.Visible = False
-        '
-        'H45
-        '
-        Me.H45.AutoSize = True
-        Me.H45.BackColor = System.Drawing.Color.Transparent
-        Me.H45.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H45.ForeColor = System.Drawing.Color.Red
-        Me.H45.Location = New System.Drawing.Point(385, 450)
-        Me.H45.Name = "H45"
-        Me.H45.Size = New System.Drawing.Size(22, 13)
-        Me.H45.TabIndex = 145
-        Me.H45.Text = "H1"
-        Me.H45.Visible = False
-        '
-        'H46
-        '
-        Me.H46.AutoSize = True
-        Me.H46.BackColor = System.Drawing.Color.Transparent
-        Me.H46.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H46.ForeColor = System.Drawing.Color.Red
-        Me.H46.Location = New System.Drawing.Point(482, 450)
-        Me.H46.Name = "H46"
-        Me.H46.Size = New System.Drawing.Size(22, 13)
-        Me.H46.TabIndex = 146
-        Me.H46.Text = "H1"
-        Me.H46.Visible = False
-        '
-        'H47
-        '
-        Me.H47.AutoSize = True
-        Me.H47.BackColor = System.Drawing.Color.Transparent
-        Me.H47.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H47.ForeColor = System.Drawing.Color.Red
-        Me.H47.Location = New System.Drawing.Point(575, 450)
-        Me.H47.Name = "H47"
-        Me.H47.Size = New System.Drawing.Size(22, 13)
-        Me.H47.TabIndex = 147
-        Me.H47.Text = "H1"
-        Me.H47.Visible = False
-        '
-        'H48
-        '
-        Me.H48.AutoSize = True
-        Me.H48.BackColor = System.Drawing.Color.Transparent
-        Me.H48.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H48.ForeColor = System.Drawing.Color.Red
-        Me.H48.Location = New System.Drawing.Point(670, 450)
-        Me.H48.Name = "H48"
-        Me.H48.Size = New System.Drawing.Size(22, 13)
-        Me.H48.TabIndex = 148
-        Me.H48.Text = "H1"
-        Me.H48.Visible = False
-        '
-        'H49
-        '
-        Me.H49.AutoSize = True
-        Me.H49.BackColor = System.Drawing.Color.Transparent
-        Me.H49.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H49.ForeColor = System.Drawing.Color.Red
-        Me.H49.Location = New System.Drawing.Point(762, 450)
-        Me.H49.Name = "H49"
-        Me.H49.Size = New System.Drawing.Size(22, 13)
-        Me.H49.TabIndex = 149
-        Me.H49.Text = "H1"
-        Me.H49.Visible = False
-        '
-        'H50
-        '
-        Me.H50.AutoSize = True
-        Me.H50.BackColor = System.Drawing.Color.Transparent
-        Me.H50.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.H50.ForeColor = System.Drawing.Color.Red
-        Me.H50.Location = New System.Drawing.Point(855, 450)
-        Me.H50.Name = "H50"
-        Me.H50.Size = New System.Drawing.Size(22, 13)
-        Me.H50.TabIndex = 150
-        Me.H50.Text = "H1"
-        Me.H50.Visible = False
-        '
         'WFrm_DISEÑO_MESAS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1841,6 +1842,7 @@ Partial Class WFrm_DISEÑO_MESAS
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(970, 600)
         Me.MinimumSize = New System.Drawing.Size(970, 546)

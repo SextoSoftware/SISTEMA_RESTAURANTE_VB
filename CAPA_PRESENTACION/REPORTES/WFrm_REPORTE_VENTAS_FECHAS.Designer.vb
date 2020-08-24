@@ -131,6 +131,7 @@ Partial Class WFrm_REPORTE_VENTAS_FECHAS
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.ReportViewer2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_REPORTE_VENTAS_FECHAS"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FORMULARIO DE VENTAS POR FECHAS"

@@ -24,6 +24,7 @@ Partial Class WFrm_REPORTE_PRODUCTO
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_PRODUCTO))
         Me.PA_ReporteProductosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
@@ -65,6 +66,7 @@ Partial Class WFrm_REPORTE_PRODUCTO
         Me.ComboBoxEx1.DisplayMember = "Text"
         Me.ComboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxEx1.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx1.FormattingEnabled = True
@@ -102,12 +104,13 @@ Partial Class WFrm_REPORTE_PRODUCTO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(724, 434)
+        Me.ClientSize = New System.Drawing.Size(724, 433)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBoxEx1)
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(740, 472)
         Me.MinimumSize = New System.Drawing.Size(740, 472)
         Me.Name = "WFrm_REPORTE_PRODUCTO"

@@ -25,6 +25,7 @@ Partial Class WFrm_MENU_DIA_LISTADO
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_MENU_DIA_LISTADO))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.ButtonRegistrar = New DevComponents.DotNetBar.ButtonX()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -39,12 +40,14 @@ Partial Class WFrm_MENU_DIA_LISTADO
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.ButtonRegistrar)
         Me.GroupPanel2.Controls.Add(Me.Label1)
         Me.GroupPanel2.Controls.Add(Me.Panel1)
         Me.GroupPanel2.Controls.Add(Me.txtbusqueda)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(7, 7)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -158,13 +161,16 @@ Partial Class WFrm_MENU_DIA_LISTADO
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.txtbusqueda.Location = New System.Drawing.Point(262, 10)
         Me.txtbusqueda.Name = "txtbusqueda"
         Me.txtbusqueda.Size = New System.Drawing.Size(126, 23)
@@ -177,9 +183,10 @@ Partial Class WFrm_MENU_DIA_LISTADO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 499)
+        Me.ClientSize = New System.Drawing.Size(643, 498)
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(659, 537)
         Me.MinimumSize = New System.Drawing.Size(659, 537)

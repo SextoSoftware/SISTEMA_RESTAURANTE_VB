@@ -101,13 +101,16 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTOS_VEN
         '
         'txtNomNatu
         '
+        Me.txtNomNatu.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtNomNatu.Border.Class = "TextBoxBorder"
         Me.txtNomNatu.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtNomNatu.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtNomNatu.DisabledBackColor = System.Drawing.Color.White
         Me.txtNomNatu.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtNomNatu.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtNomNatu, True)
         Me.txtNomNatu.Location = New System.Drawing.Point(198, 11)
         Me.txtNomNatu.Name = "txtNomNatu"
@@ -255,6 +258,7 @@ Partial Class WFrm_REPORTE_TOP_PRODUCTOS_VEN
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ReportViewer2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_REPORTE_TOP_PRODUCTOS_VEN"
         Me.Text = "FORMULARIO REPORTE DE  TOP DE PRODUCTOS - PLATOS MAS VENDIDOS"
         CType(Me.PA_ReporteTopProductosVendidosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

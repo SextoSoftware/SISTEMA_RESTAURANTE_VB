@@ -25,6 +25,7 @@ Partial Class WFrm_PLATO
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_PLATO))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ComboBoxEx2 = New DevComponents.DotNetBar.Controls.ComboBoxEx()
@@ -60,11 +61,13 @@ Partial Class WFrm_PLATO
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.GroupBox1)
         Me.GroupPanel2.Controls.Add(Me.Dg_Proveedores)
         Me.GroupPanel2.Controls.Add(Me.Panel1)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(4, 152)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -124,7 +127,9 @@ Partial Class WFrm_PLATO
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxEx2.Enabled = False
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
         Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx2, True)
         Me.ComboBoxEx2.ItemHeight = 17
@@ -137,13 +142,16 @@ Partial Class WFrm_PLATO
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtbusqueda, True)
         Me.txtbusqueda.Location = New System.Drawing.Point(133, 25)
         Me.txtbusqueda.Name = "txtbusqueda"
@@ -236,6 +244,7 @@ Partial Class WFrm_PLATO
         'groupPanel1
         '
         Me.groupPanel1.AutoScroll = True
+        Me.groupPanel1.BackColor = System.Drawing.Color.White
         Me.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control
         Me.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.groupPanel1.Controls.Add(Me.TextBox2)
@@ -254,6 +263,7 @@ Partial Class WFrm_PLATO
         Me.groupPanel1.Controls.Add(Me.Label5)
         Me.groupPanel1.Controls.Add(Me.Label2)
         Me.groupPanel1.Controls.Add(Me.Label1)
+        Me.groupPanel1.DisabledBackColor = System.Drawing.Color.Empty
         Me.groupPanel1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupPanel1.Location = New System.Drawing.Point(2, 7)
         Me.groupPanel1.Name = "groupPanel1"
@@ -316,7 +326,9 @@ Partial Class WFrm_PLATO
         Me.ComboBoxEx1.DisplayMember = "Text"
         Me.ComboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBoxEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBoxEx1.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx1.FormattingEnabled = True
         Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx1, True)
         Me.ComboBoxEx1.ItemHeight = 17
@@ -409,12 +421,15 @@ Partial Class WFrm_PLATO
         '
         'txtdes
         '
+        Me.txtdes.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtdes.Border.Class = "TextBoxBorder"
         Me.txtdes.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtdes.DisabledBackColor = System.Drawing.Color.White
         Me.txtdes.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtdes.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtdes, True)
         Me.txtdes.Location = New System.Drawing.Point(105, 68)
         Me.txtdes.MaxLength = 50
@@ -427,13 +442,16 @@ Partial Class WFrm_PLATO
         '
         'txtprecio
         '
+        Me.txtprecio.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtprecio.Border.Class = "TextBoxBorder"
         Me.txtprecio.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtprecio.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtprecio.DisabledBackColor = System.Drawing.Color.White
         Me.txtprecio.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtprecio.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtprecio, True)
         Me.txtprecio.Location = New System.Drawing.Point(594, 20)
         Me.txtprecio.MaxLength = 11
@@ -446,13 +464,16 @@ Partial Class WFrm_PLATO
         '
         'txtnom
         '
+        Me.txtnom.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtnom.Border.Class = "TextBoxBorder"
         Me.txtnom.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtnom.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtnom.DisabledBackColor = System.Drawing.Color.White
         Me.txtnom.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtnom.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtnom, True)
         Me.txtnom.Location = New System.Drawing.Point(93, 20)
         Me.txtnom.MaxLength = 30
@@ -520,10 +541,11 @@ Partial Class WFrm_PLATO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(825, 541)
+        Me.ClientSize = New System.Drawing.Size(825, 540)
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(841, 579)
         Me.MinimumSize = New System.Drawing.Size(841, 579)
         Me.Name = "WFrm_PLATO"

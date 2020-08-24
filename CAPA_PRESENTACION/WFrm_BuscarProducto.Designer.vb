@@ -25,6 +25,7 @@ Partial Class WFrm_BuscarProducto
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_BuscarProducto))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBoxX7 = New DevComponents.DotNetBar.Controls.TextBoxX()
@@ -39,6 +40,7 @@ Partial Class WFrm_BuscarProducto
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.PictureBox1)
@@ -46,6 +48,7 @@ Partial Class WFrm_BuscarProducto
         Me.GroupPanel2.Controls.Add(Me.RadioButton3)
         Me.GroupPanel2.Controls.Add(Me.Dg_Producto)
         Me.GroupPanel2.Controls.Add(Me.RadioButton4)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Location = New System.Drawing.Point(8, 12)
         Me.GroupPanel2.Name = "GroupPanel2"
         Me.GroupPanel2.Size = New System.Drawing.Size(553, 247)
@@ -93,13 +96,16 @@ Partial Class WFrm_BuscarProducto
         '
         'TextBoxX7
         '
+        Me.TextBoxX7.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.TextBoxX7.Border.Class = "TextBoxBorder"
         Me.TextBoxX7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.TextBoxX7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBoxX7.DisabledBackColor = System.Drawing.Color.White
         Me.TextBoxX7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX7.ForeColor = System.Drawing.Color.Black
         Me.TextBoxX7.Location = New System.Drawing.Point(314, 15)
         Me.TextBoxX7.Name = "TextBoxX7"
         Me.TextBoxX7.Size = New System.Drawing.Size(136, 23)
@@ -185,6 +191,7 @@ Partial Class WFrm_BuscarProducto
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_BuscarProducto"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "WFrm_BuscarProducto"

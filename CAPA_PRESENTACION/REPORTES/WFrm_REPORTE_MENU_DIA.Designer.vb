@@ -25,6 +25,7 @@ Partial Class WFrm_REPORTE_MENU_DIA
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_MENU_DIA))
         Me.PA_Reporte_MenuDiaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DataSet_Restaurante = New CAPA_PRESENTACION.DataSet_Restaurante()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
@@ -119,13 +120,14 @@ Partial Class WFrm_REPORTE_MENU_DIA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(519, 567)
+        Me.ClientSize = New System.Drawing.Size(519, 566)
         Me.Controls.Add(Me.ReportViewer2)
         Me.Controls.Add(Me.RadioButtonInactivo)
         Me.Controls.Add(Me.RadioButtonActivo)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(535, 605)
         Me.MinimumSize = New System.Drawing.Size(535, 605)

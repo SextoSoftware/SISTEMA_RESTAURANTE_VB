@@ -154,7 +154,7 @@ Partial Class WFrm_REPORTE_VENTAS_DETALLE_ESTADO
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(686, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(64, 13)
+        Me.Label1.Size = New System.Drawing.Size(63, 13)
         Me.Label1.TabIndex = 108
         Me.Label1.Text = "ESTADO :"
         '
@@ -162,7 +162,7 @@ Partial Class WFrm_REPORTE_VENTAS_DETALLE_ESTADO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1050, 544)
+        Me.ClientSize = New System.Drawing.Size(1050, 539)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Label1)
@@ -174,6 +174,7 @@ Partial Class WFrm_REPORTE_VENTAS_DETALLE_ESTADO
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(1066, 578)
         Me.MinimumSize = New System.Drawing.Size(1066, 578)

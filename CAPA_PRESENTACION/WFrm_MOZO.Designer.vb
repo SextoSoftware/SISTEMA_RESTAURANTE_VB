@@ -25,6 +25,7 @@ Partial Class WFrm_MOZO
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_MOZO))
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.Dg_Proveedores = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.groupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel()
@@ -461,6 +462,7 @@ Partial Class WFrm_MOZO
         Me.Controls.Add(Me.GroupPanel2)
         Me.Controls.Add(Me.groupPanel1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "WFrm_MOZO"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

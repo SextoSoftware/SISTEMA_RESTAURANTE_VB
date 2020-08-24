@@ -53,6 +53,7 @@ Partial Class WFrm_RESERVACIONvb
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.RadioButton1)
@@ -159,14 +160,17 @@ Partial Class WFrm_RESERVACIONvb
         '
         'TextBoxX1
         '
+        Me.TextBoxX1.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.TextBoxX1.Border.Class = "TextBoxBorder"
         Me.TextBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.TextBoxX1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBoxX1.DisabledBackColor = System.Drawing.Color.White
         Me.TextBoxX1.Enabled = False
         Me.TextBoxX1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX1.ForeColor = System.Drawing.Color.Black
         Me.TextBoxX1.Location = New System.Drawing.Point(525, 137)
         Me.TextBoxX1.MaxLength = 11
         Me.TextBoxX1.Name = "TextBoxX1"
@@ -236,14 +240,17 @@ Partial Class WFrm_RESERVACIONvb
         '
         'txtdato
         '
+        Me.txtdato.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtdato.Border.Class = "TextBoxBorder"
         Me.txtdato.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtdato.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtdato.DisabledBackColor = System.Drawing.Color.White
         Me.txtdato.Enabled = False
         Me.txtdato.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtdato.ForeColor = System.Drawing.Color.Black
         Me.txtdato.Location = New System.Drawing.Point(272, 12)
         Me.txtdato.MaxLength = 11
         Me.txtdato.Name = "txtdato"
@@ -437,6 +444,7 @@ Partial Class WFrm_RESERVACIONvb
         Me.Controls.Add(Me.ButtonX3)
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_RESERVACIONvb"
         Me.Text = "WFrm_RESERVACIONvb"
         Me.GroupPanel2.ResumeLayout(False)

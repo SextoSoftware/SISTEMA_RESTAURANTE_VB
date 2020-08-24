@@ -24,13 +24,24 @@ Partial Class WFrm_REPORTE_ORDEN_COMPRA
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.barrica_bdDataSet = New CAPA_PRESENTACION.barrica_bdDataSet()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WFrm_REPORTE_ORDEN_COMPRA))
         Me.PA_ReporteOrdenCompraBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.barrica_bdDataSet = New CAPA_PRESENTACION.barrica_bdDataSet()
+        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.PA_ReporteOrdenCompraTableAdapter = New CAPA_PRESENTACION.barrica_bdDataSetTableAdapters.PA_ReporteOrdenCompraTableAdapter()
-        CType(Me.barrica_bdDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PA_ReporteOrdenCompraBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.barrica_bdDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'PA_ReporteOrdenCompraBindingSource
+        '
+        Me.PA_ReporteOrdenCompraBindingSource.DataMember = "PA_ReporteOrdenCompra"
+        Me.PA_ReporteOrdenCompraBindingSource.DataSource = Me.barrica_bdDataSet
+        '
+        'barrica_bdDataSet
+        '
+        Me.barrica_bdDataSet.DataSetName = "barrica_bdDataSet"
+        Me.barrica_bdDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'ReportViewer1
         '
@@ -44,16 +55,6 @@ Partial Class WFrm_REPORTE_ORDEN_COMPRA
         Me.ReportViewer1.Size = New System.Drawing.Size(641, 532)
         Me.ReportViewer1.TabIndex = 0
         '
-        'barrica_bdDataSet
-        '
-        Me.barrica_bdDataSet.DataSetName = "barrica_bdDataSet"
-        Me.barrica_bdDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'PA_ReporteOrdenCompraBindingSource
-        '
-        Me.PA_ReporteOrdenCompraBindingSource.DataMember = "PA_ReporteOrdenCompra"
-        Me.PA_ReporteOrdenCompraBindingSource.DataSource = Me.barrica_bdDataSet
-        '
         'PA_ReporteOrdenCompraTableAdapter
         '
         Me.PA_ReporteOrdenCompraTableAdapter.ClearBeforeFill = True
@@ -65,10 +66,11 @@ Partial Class WFrm_REPORTE_ORDEN_COMPRA
         Me.ClientSize = New System.Drawing.Size(641, 532)
         Me.Controls.Add(Me.ReportViewer1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WFrm_REPORTE_ORDEN_COMPRA"
         Me.Text = "FORMULARIO REPORTE ORDEN DE COMPRA"
-        CType(Me.barrica_bdDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PA_ReporteOrdenCompraBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.barrica_bdDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

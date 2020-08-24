@@ -66,6 +66,7 @@ Partial Class WFrm_ABASTECER
         'GroupPanel4
         '
         Me.GroupPanel4.AutoScroll = True
+        Me.GroupPanel4.BackColor = System.Drawing.Color.White
         Me.GroupPanel4.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel4.Controls.Add(Me.GroupPanel1)
@@ -79,6 +80,7 @@ Partial Class WFrm_ABASTECER
         Me.GroupPanel4.Controls.Add(Me.ButtonX1)
         Me.GroupPanel4.Controls.Add(Me.ButtonX3)
         Me.GroupPanel4.Controls.Add(Me.ListView1)
+        Me.GroupPanel4.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel4.Location = New System.Drawing.Point(281, 7)
         Me.GroupPanel4.Name = "GroupPanel4"
         Me.GroupPanel4.Size = New System.Drawing.Size(383, 518)
@@ -125,6 +127,7 @@ Partial Class WFrm_ABASTECER
         Me.GroupPanel1.Controls.Add(Me.TextBoxX1)
         Me.GroupPanel1.Controls.Add(Me.Label3)
         Me.GroupPanel1.Controls.Add(Me.TextBoxX3)
+        Me.GroupPanel1.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel1.DrawTitleBox = False
         Me.GroupPanel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel1.Location = New System.Drawing.Point(12, 35)
@@ -195,14 +198,17 @@ Partial Class WFrm_ABASTECER
         '
         'TextBoxX1
         '
+        Me.TextBoxX1.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.TextBoxX1.Border.Class = "TextBoxBorder"
         Me.TextBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.TextBoxX1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBoxX1.DisabledBackColor = System.Drawing.Color.White
         Me.TextBoxX1.Enabled = False
         Me.TextBoxX1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX1.ForeColor = System.Drawing.Color.Black
         Me.TextBoxX1.Location = New System.Drawing.Point(6, 30)
         Me.TextBoxX1.Name = "TextBoxX1"
         Me.TextBoxX1.Size = New System.Drawing.Size(162, 23)
@@ -225,14 +231,17 @@ Partial Class WFrm_ABASTECER
         '
         'TextBoxX3
         '
+        Me.TextBoxX3.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.TextBoxX3.Border.Class = "TextBoxBorder"
         Me.TextBoxX3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.TextBoxX3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBoxX3.DisabledBackColor = System.Drawing.Color.White
         Me.TextBoxX3.Enabled = False
         Me.TextBoxX3.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.TextBoxX3.ForeColor = System.Drawing.Color.Black
         Me.TextBoxX3.Location = New System.Drawing.Point(174, 30)
         Me.TextBoxX3.MaxLength = 11
         Me.TextBoxX3.Name = "TextBoxX3"
@@ -366,6 +375,7 @@ Partial Class WFrm_ABASTECER
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
+        Me.ListView1.HideSelection = False
         Me.Highlighter1.SetHighlightOnFocus(Me.ListView1, True)
         Me.ListView1.Location = New System.Drawing.Point(9, 174)
         Me.ListView1.Name = "ListView1"
@@ -394,6 +404,7 @@ Partial Class WFrm_ABASTECER
         'GroupPanel2
         '
         Me.GroupPanel2.AutoScroll = True
+        Me.GroupPanel2.BackColor = System.Drawing.Color.White
         Me.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel2.Controls.Add(Me.ComboBoxEx2)
@@ -401,6 +412,7 @@ Partial Class WFrm_ABASTECER
         Me.GroupPanel2.Controls.Add(Me.RadioButtonNomComp)
         Me.GroupPanel2.Controls.Add(Me.txtbusqueda)
         Me.GroupPanel2.Controls.Add(Me.RadioButtonRuc)
+        Me.GroupPanel2.DisabledBackColor = System.Drawing.Color.Empty
         Me.GroupPanel2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupPanel2.Location = New System.Drawing.Point(4, 7)
         Me.GroupPanel2.Name = "GroupPanel2"
@@ -443,7 +455,9 @@ Partial Class WFrm_ABASTECER
         Me.ComboBoxEx2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.ComboBoxEx2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxEx2.Enabled = False
+        Me.ComboBoxEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBoxEx2.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBoxEx2.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxEx2.FormattingEnabled = True
         Me.Highlighter1.SetHighlightOnFocus(Me.ComboBoxEx2, True)
         Me.ComboBoxEx2.ItemHeight = 17
@@ -523,13 +537,16 @@ Partial Class WFrm_ABASTECER
         '
         'txtbusqueda
         '
+        Me.txtbusqueda.BackColor = System.Drawing.Color.White
         '
         '
         '
         Me.txtbusqueda.Border.Class = "TextBoxBorder"
         Me.txtbusqueda.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtbusqueda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbusqueda.DisabledBackColor = System.Drawing.Color.White
         Me.txtbusqueda.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.txtbusqueda.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtbusqueda, True)
         Me.txtbusqueda.Location = New System.Drawing.Point(99, 8)
         Me.txtbusqueda.Name = "txtbusqueda"
@@ -562,10 +579,11 @@ Partial Class WFrm_ABASTECER
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(669, 530)
+        Me.ClientSize = New System.Drawing.Size(669, 529)
         Me.Controls.Add(Me.GroupPanel4)
         Me.Controls.Add(Me.GroupPanel2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(685, 568)
         Me.MinimumSize = New System.Drawing.Size(685, 568)
         Me.Name = "WFrm_ABASTECER"
