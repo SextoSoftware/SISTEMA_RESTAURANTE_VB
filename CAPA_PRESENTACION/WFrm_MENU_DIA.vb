@@ -18,10 +18,10 @@ Public Class WFrm_MENU_DIA
     Public Sub limpiar_textos()
         Me.txtnom.Text = ""
         Me.txtdes.Text = ""
-        Me.RadioButtonActivo.Checked = False
+        Me.RadioButtonActivo.Checked = True
         Me.txtbusqueda.Text = ""
         Me.TextBox1.Text = ""
-        Me.RadioButtonInactivo.Enabled = False
+        Me.RadioButtonInactivo.Enabled = True
         Me.RadioButtonPendiiente.Enabled = True
         ButtonRegistrar.Enabled = True
         Me.ButttonModificar.Enabled = False

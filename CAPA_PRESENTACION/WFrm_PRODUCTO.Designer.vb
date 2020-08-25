@@ -520,7 +520,7 @@ Partial Class WFrm_PRODUCTO
         Me.txtdes.TabIndex = 4
         Me.txtdes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtdes.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtdes.WatermarkText = "Descripcion alternativa o comentarios del producto "
+        Me.txtdes.WatermarkText = "Descripción alternativa o comentarios del producto "
         '
         'txtcanmedi
         '
@@ -586,7 +586,7 @@ Partial Class WFrm_PRODUCTO
         Me.txtnom.TabIndex = 1
         Me.txtnom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtnom.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnom.WatermarkText = "Identificacion del producto"
+        Me.txtnom.WatermarkText = "Identificación del producto"
         '
         'Label7
         '

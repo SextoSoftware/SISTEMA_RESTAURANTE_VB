@@ -294,7 +294,7 @@
                               <Style>
                                 <FontFamily>Cambria</FontFamily>
                                 <FontWeight>Bold</FontWeight>
-                                <Format>0 'CLP';(0 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -531,8 +531,8 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>2.53153cm</Top>
         <Left>0.38771cm</Left>
-        <Height>2.09012cm</Height>
-        <Width>12.69528cm</Width>
+        <Height>2.09011cm</Height>
+        <Width>12.69526cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>

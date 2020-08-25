@@ -191,6 +191,7 @@
                                 <FontFamily>Cambria</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
+                                <Color>Gold</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -206,7 +207,7 @@
                           <Style>Solid</Style>
                           <Width>2pt</Width>
                         </Border>
-                        <BackgroundColor>Khaki</BackgroundColor>
+                        <BackgroundColor>Brown</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -428,7 +429,7 @@
         <Top>1.19916cm</Top>
         <Left>0.47625cm</Left>
         <Height>1.46459cm</Height>
-        <Width>23.86416cm</Width>
+        <Width>23.86417cm</Width>
         <Style>
           <Border>
             <Style>None</Style>

@@ -379,7 +379,7 @@
                                 <FontFamily>Cambria</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
-                                <Format>0 'CLP';(0 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -529,7 +529,7 @@
                                 <FontFamily>Cambria</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
-                                <Format>0 'CLP';(0 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$'))</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -707,7 +707,7 @@
                       <FontFamily>Cambria</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0 'CLP';(0 'CLP')</Format>
+                      <Format>0.00 '$';(0.00 '$')</Format>
                     </Style>
                   </TextRun>
                   <TextRun>
@@ -716,7 +716,7 @@
                       <FontFamily>Cambria</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0 'CLP';(0 'CLP')</Format>
+                      <Format>0.00 '$';(0.00 '$')</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>

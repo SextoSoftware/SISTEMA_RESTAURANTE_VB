@@ -107,6 +107,12 @@
         My.Forms.WFrm_MENU_DIA_LISTADO.Show()
     End Sub
 
+    Public Sub AbrirVentanaMozo()
+        My.Forms.WFrm_MOZO.MdiParent = Me
+
+        My.Forms.WFrm_MOZO.Show()
+    End Sub
+
     Private Sub buttonSilverScheme_Click(sender As System.Object, e As System.EventArgs) Handles buttonSilverScheme.Click
         Me.Office2007ColorTable = DevComponents.DotNetBar.Rendering.eOffice2007ColorScheme.Silver
 
@@ -139,8 +145,7 @@
         End If
         If ComboBoxItem1.SelectedIndex = 2 Then
             Close()
-
-            My.Forms.INICIAR_SECCION.Show()
+            My.Forms.Login.Show()
             Me.Hide()
         End If
         bar1.Enabled = True
@@ -347,7 +352,9 @@
     End Sub
 
     Private Sub buttonItem4_Click(sender As System.Object, e As System.EventArgs) Handles buttonItem4.Click
-        AbrirVentanaListadoMenuDia()
+        My.Forms.WFrm_MENU_DIA.MdiParent = Me
+
+        My.Forms.WFrm_MENU_DIA.Show()
     End Sub
 
     Private Sub buttonItem5_Click(sender As System.Object, e As System.EventArgs) Handles buttonItem5.Click
@@ -404,10 +411,6 @@
         My.Forms.WFrm_REPORTE_VENTAS_FECHAS_DETALLE.Show()
     End Sub
 
-   
-
-  
-
     Private Sub BubbleButton28_Click(sender As System.Object, e As DevComponents.DotNetBar.ClickEventArgs) Handles BubbleButton28.Click
         My.Forms.WFrm_REPORTE_VENTAS_DETALLE_ESTADO.MdiParent = Me
 
@@ -426,7 +429,7 @@
         My.Forms.WFrm_USUARIO.Show()
     End Sub
 
-    Private Sub ButtonItem19_Click_1(sender As System.Object, e As System.EventArgs) Handles ButtonItem19.Click
+    Public Sub ButtonItem19_Click_1(sender As System.Object, e As System.EventArgs) Handles ButtonItem19.Click
         My.Forms.WFrm_MOZO.Close()
         My.Forms.WFrm_MOZO.MdiParent = Me
         My.Forms.WFrm_MOZO.Show()

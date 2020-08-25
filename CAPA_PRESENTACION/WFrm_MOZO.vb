@@ -144,4 +144,15 @@ Public Class WFrm_MOZO
     Private Sub txtnomcomp_TextChanged(sender As System.Object, e As System.EventArgs) Handles txtnomcomp.TextChanged
 
     End Sub
+
+    Private Sub Dg_Proveedores_DataBindingComplete(sender As Object, e As DataGridViewBindingCompleteEventArgs) Handles Dg_Proveedores.DataBindingComplete
+        Dim i As Integer
+        For i = 0 To Dg_Proveedores.Rows.Count - 2
+
+            If Dg_Proveedores.Item(6, i).Value() = 0 Then
+                Dg_Proveedores.Rows(i).DefaultCellStyle.BackColor = Color.Black
+                Dg_Proveedores.Rows(i).DefaultCellStyle.ForeColor = Color.White
+            End If
+        Next
+    End Sub
 End Class

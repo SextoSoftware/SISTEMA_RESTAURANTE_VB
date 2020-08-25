@@ -61,7 +61,7 @@ Public Class WFrm_PLATO
     End Sub
 
     Private Sub txtprecio_KeyPress(sender As Object, e As System.Windows.Forms.KeyPressEventArgs) Handles txtprecio.KeyPress
-        If e.KeyChar = "." Then
+        If e.KeyChar = "," Then
             e.Handled = False
             Exit Sub
         End If

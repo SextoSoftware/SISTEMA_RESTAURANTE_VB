@@ -255,7 +255,7 @@
                               <Style>
                                 <FontFamily>Verdana</FontFamily>
                                 <FontSize>7pt</FontSize>
-                                <Format>0.00 'CLP';(0.00 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -444,7 +444,7 @@
                                 <FontFamily>Verdana</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <FontWeight>Normal</FontWeight>
-                                <Format>0.00 'CLP';(0.00 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                                 <TextDecoration>None</TextDecoration>
                                 <Color>#000000</Color>
                               </Style>
@@ -466,6 +466,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -1493,7 +1494,7 @@
         <Top>0.0525cm</Top>
         <Left>0.24711cm</Left>
         <Height>1.83584cm</Height>
-        <Width>26.93035cm</Width>
+        <Width>26.93034cm</Width>
         <Style>
           <Border>
             <Style>None</Style>

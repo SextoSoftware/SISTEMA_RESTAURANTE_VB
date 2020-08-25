@@ -699,7 +699,7 @@ Public Class WFrm_COMANDA
             Button9.Enabled = True
         Else
             txtdescuentos.Enabled = False
-            txtdescuentos.Text = "0.0"
+            txtdescuentos.Text = "0,0"
             Button9.PerformClick()
 
             Button9.Enabled = False
@@ -707,7 +707,7 @@ Public Class WFrm_COMANDA
     End Sub
 
     Private Sub TextBox11_KeyPress(sender As Object, e As System.Windows.Forms.KeyPressEventArgs) Handles txtdescuentos.KeyPress
-        If e.KeyChar = "." Then
+        If e.KeyChar = "," Then
             e.Handled = False
             Exit Sub
         End If
@@ -788,6 +788,10 @@ Public Class WFrm_COMANDA
         Next
     End Sub
 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        MENU_PRINCIPAL.AbrirVentanaMozo()
+    End Sub
+
     Private Sub TextBoxX2_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles TextBoxX2.KeyDown
         Select Case e.KeyData
 
@@ -818,8 +822,8 @@ Public Class WFrm_COMANDA
     End Sub
 
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
-        ' My.Forms.WFrm_BuscarProveedor.MdiParent = Me
+        'My.Forms.WFrm_MOZO.MdiParent = Me
 
-        My.Forms.WFrm_BuscarProveedor.Show()
+        'My.Forms.WFrm_MOZO.Show()
     End Sub
 End Class

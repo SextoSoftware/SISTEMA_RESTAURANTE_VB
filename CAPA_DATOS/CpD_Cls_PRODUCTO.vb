@@ -79,12 +79,12 @@ Public Class CpD_Cls_PRODUCTO
             dapprov.UpdateCommand = cn.CreateCommand
             dapprov.UpdateCommand.CommandText = "PA_EditarProducto"
             dapprov.UpdateCommand.CommandType = CommandType.StoredProcedure
-            dapprov.UpdateCommand.Parameters.AddWithValue("@id", obj.idproducto)
-            dapprov.UpdateCommand.Parameters.AddWithValue("@nom", obj.Nombre)
+            dapprov.UpdateCommand.Parameters.AddWithValue("@ID", obj.idproducto)
+            dapprov.UpdateCommand.Parameters.AddWithValue("@Nom", obj.Nombre)
             dapprov.UpdateCommand.Parameters.AddWithValue("@des", obj.descripcion)
             dapprov.UpdateCommand.Parameters.AddWithValue("@precio", obj.precio)
-            dapprov.UpdateCommand.Parameters.AddWithValue("@medida", obj.medida)
-            dapprov.UpdateCommand.Parameters.AddWithValue("@cantunidad", obj.cantiunidad)
+            dapprov.UpdateCommand.Parameters.AddWithValue("@Medida", obj.medida)
+            dapprov.UpdateCommand.Parameters.AddWithValue("@cantUnidad", obj.cantiunidad)
             dapprov.UpdateCommand.Parameters.AddWithValue("@stock", obj.stock)
             dapprov.UpdateCommand.Parameters.AddWithValue("@esta", obj.Estado)
             dapprov.UpdateCommand.Parameters.AddWithValue("@idtipo", obj.idtipo)

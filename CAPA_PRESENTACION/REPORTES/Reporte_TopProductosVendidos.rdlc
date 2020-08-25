@@ -483,7 +483,7 @@ PRODUCTO V.</Value>
                                 <FontFamily>Cambria</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
-                                <Format>#,0.00 '$';(#,0.00 '$')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -1018,6 +1018,7 @@ PRODUCTO V.</Value>
                                 <FontFamily>Cambria</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -1067,7 +1068,7 @@ PRODUCTO V.</Value>
         <Top>1.41084cm</Top>
         <Left>16.78084cm</Left>
         <Height>1.7556cm</Height>
-        <Width>15.63266cm</Width>
+        <Width>15.63265cm</Width>
         <ZIndex>7</ZIndex>
         <Style>
           <Border>

@@ -595,7 +595,7 @@
                               <Style>
                                 <FontFamily>Verdana</FontFamily>
                                 <FontSize>8pt</FontSize>
-                                <Format>0.00 'CLP';(0.00 'CLP')</Format>
+                                <Format>0.00 '$';(0.00 '$')</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -903,7 +903,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Nombre de la Empresa</Value>
+                  <Value>GEOMAFER'S</Value>
                   <Style>
                     <FontFamily>Verdana</FontFamily>
                     <FontSize>9pt</FontSize>

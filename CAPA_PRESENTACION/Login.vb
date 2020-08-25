@@ -26,7 +26,7 @@ Public Class Login
                 My.Forms.MENU_PRINCIPAL.Show()
                 Me.Hide()
             End If
-            If objentidade.NomTipo = "MESERO         " Then
+            If objentidade.NomTipo = "MESERO" Then
                 MsgBox("*** BIENVENIDO AL SISTEMA " + Me.textBoxX1.Text + " ***", MsgBoxStyle.Information, "MESERO/A")
                 ' GuardaNombre = "BIENVENIDO CLIENTE " + TextBox1.Text
                 My.Forms.MENU_PRINCIPAL.Show()

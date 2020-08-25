@@ -100,7 +100,6 @@ Partial Class WFrm_MOZO
         Me.Dg_Proveedores.AllowUserToAddRows = False
         Me.Dg_Proveedores.AllowUserToDeleteRows = False
         Me.Dg_Proveedores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.Dg_Proveedores.BackgroundColor = System.Drawing.SystemColors.Control
         Me.Dg_Proveedores.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
@@ -219,7 +218,7 @@ Partial Class WFrm_MOZO
         Me.txttelefonoNatu.TabIndex = 44
         Me.txttelefonoNatu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txttelefonoNatu.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttelefonoNatu.WatermarkText = "10 digistos del 0-9"
+        Me.txttelefonoNatu.WatermarkText = "10 dígitos del 0-9"
         '
         'txtDNI
         '
@@ -240,7 +239,7 @@ Partial Class WFrm_MOZO
         Me.txtDNI.TabIndex = 43
         Me.txtDNI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtDNI.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDNI.WatermarkText = "10 digistos del 0-9"
+        Me.txtDNI.WatermarkText = "10 dígitos del 0-9"
         '
         'TextBox1
         '
@@ -336,7 +335,7 @@ Partial Class WFrm_MOZO
         Me.txtdire.TabIndex = 17
         Me.txtdire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtdire.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtdire.WatermarkText = "Lugar de direecion de vivienda"
+        Me.txtdire.WatermarkText = "Lugar de direeción de vivienda"
         '
         'txtemail
         '
@@ -466,7 +465,7 @@ Partial Class WFrm_MOZO
         Me.MaximizeBox = False
         Me.Name = "WFrm_MOZO"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FORMULARIO MOZO"
+        Me.Text = "FORMULARIO MESERO"
         Me.GroupPanel2.ResumeLayout(False)
         CType(Me.Dg_Proveedores, System.ComponentModel.ISupportInitialize).EndInit()
         Me.groupPanel1.ResumeLayout(False)

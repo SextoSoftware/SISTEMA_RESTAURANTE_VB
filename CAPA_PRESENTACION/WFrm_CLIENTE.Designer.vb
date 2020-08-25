@@ -148,14 +148,13 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel1.Controls.Add(Me.GroupPanel2)
         Me.TabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty
         Me.TabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabControlPanel1.Location = New System.Drawing.Point(0, 43)
+        Me.TabControlPanel1.Location = New System.Drawing.Point(0, 27)
         Me.TabControlPanel1.Name = "TabControlPanel1"
         Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
-        Me.TabControlPanel1.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
-        Me.TabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.TabControlPanel1.Size = New System.Drawing.Size(880, 534)
+        Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.TabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
         Me.TabControlPanel1.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel1.Style.GradientAngle = 90
@@ -538,7 +537,7 @@ Partial Class WFrm_CLIENTE
         Me.txttelefonoNatu.TabIndex = 42
         Me.txttelefonoNatu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txttelefonoNatu.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttelefonoNatu.WatermarkText = "10 digistos del 0-9"
+        Me.txttelefonoNatu.WatermarkText = "10 dígitos del 0-9"
         '
         'Label4
         '
@@ -632,13 +631,13 @@ Partial Class WFrm_CLIENTE
         Me.txtDNI.ForeColor = System.Drawing.Color.Black
         Me.Highlighter1.SetHighlightOnFocus(Me.txtDNI, True)
         Me.txtDNI.Location = New System.Drawing.Point(65, 10)
-        Me.txtDNI.MaxLength = 9
+        Me.txtDNI.MaxLength = 10
         Me.txtDNI.Name = "txtDNI"
         Me.txtDNI.Size = New System.Drawing.Size(118, 23)
         Me.txtDNI.TabIndex = 36
         Me.txtDNI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtDNI.WatermarkFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDNI.WatermarkText = "9 digistos del 0-9"
+        Me.txtDNI.WatermarkText = "10 dígitos del 0-9"
         '
         'Label3
         '
@@ -695,7 +694,6 @@ Partial Class WFrm_CLIENTE
         'TabItem3
         '
         Me.TabItem3.AttachedControl = Me.TabControlPanel1
-        'Me.TabItem3.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
         Me.TabItem3.Name = "TabItem3"
         Me.TabItem3.Text = "CLIENTE NATURAL"
         '
@@ -709,10 +707,9 @@ Partial Class WFrm_CLIENTE
         Me.TabControlPanel2.Name = "TabControlPanel2"
         Me.TabControlPanel2.Padding = New System.Windows.Forms.Padding(1)
         Me.TabControlPanel2.Size = New System.Drawing.Size(880, 518)
-        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer), CType(CType(253, Byte), Integer))
-        Me.TabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
-        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.TabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(211, Byte), Integer))
         Me.TabControlPanel2.Style.BorderSide = CType(((DevComponents.DotNetBar.eBorderSide.Left Or DevComponents.DotNetBar.eBorderSide.Right) _
             Or DevComponents.DotNetBar.eBorderSide.Bottom), DevComponents.DotNetBar.eBorderSide)
         Me.TabControlPanel2.Style.GradientAngle = 90
@@ -1250,7 +1247,6 @@ Partial Class WFrm_CLIENTE
         'TabItem4
         '
         Me.TabItem4.AttachedControl = Me.TabControlPanel2
-        'Me.TabItem4.Image = Global.CAPA_PRESENTACION.My.Resources.Resources._1
         Me.TabItem4.Name = "TabItem4"
         Me.TabItem4.Text = "CLIENTE JURIDICO"
         Me.TabItem4.Visible = False
@@ -1268,6 +1264,7 @@ Partial Class WFrm_CLIENTE
         Me.Controls.Add(Me.TabControl1)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(885, 600)
         Me.MinimumSize = New System.Drawing.Size(885, 600)
         Me.Name = "WFrm_CLIENTE"

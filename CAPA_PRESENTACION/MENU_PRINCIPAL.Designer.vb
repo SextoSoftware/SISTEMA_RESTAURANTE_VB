@@ -429,7 +429,7 @@ Partial Class MENU_PRINCIPAL
         'ButtonItem1
         '
         Me.ButtonItem1.Name = "ButtonItem1"
-        Me.ButtonItem1.Text = "OK"
+        Me.ButtonItem1.Text = "CONFIRMAR"
         Me.ButtonItem1.Visible = False
         '
         'ButtonItem2
